@@ -168,3 +168,49 @@ class OBSCaptureStatus(BaseModel):
     width: int | None = None
     height: int | None = None
     fps: float | None = None
+
+
+# --- Vision Engine schemas ---
+
+
+class VisionEngineAction(str, Enum):
+    START = "start"
+    STOP = "stop"
+
+
+class VisionEngineRequest(BaseModel):
+    action: VisionEngineAction
+
+
+class VisionStatus(BaseModel):
+    running: bool
+    scene_state: str = "idle"
+    scene_confidence: float = 0.0
+    fps: float = 0.0
+    total_frames: int = 0
+    detected_pokemon: list[str] = Field(default_factory=list)
+    detected_moves: list[str] = Field(default_factory=list)
+    detected_abilities: list[str] = Field(default_factory=list)
+    components: dict = Field(default_factory=dict)
+
+
+class VisionDetection(BaseModel):
+    name: str
+    confidence: float
+    bbox: list[int] = Field(default_factory=list)
+    source: str = ""
+
+
+class VisionAnalysisResult(BaseModel):
+    scene_state: str
+    detections: list[VisionDetection] = Field(default_factory=list)
+    text_analysis: dict = Field(default_factory=dict)
+    hp_values: dict[str, float | None] = Field(default_factory=dict)
+
+
+class SceneStateResponse(BaseModel):
+    current_state: str
+    confidence: float
+    entered_at: float
+    frame_count: int
+    history: list[dict] = Field(default_factory=list)

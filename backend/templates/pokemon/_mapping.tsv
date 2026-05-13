@@ -1,0 +1,214 @@
+filename	name	dex	cls	col	row
+フシギバナ.png	No.0003 フシギバナ	0003	sprite-poke-ui_PokeIcon_02_0003_00_0	13	17
+リザードン.png	No.0006 リザードン	0006	sprite-poke-ui_PokeIcon_02_0006_00_0	11	17
+カメックス.png	No.0009 カメックス	0009	sprite-poke-ui_PokeIcon_02_0009_00_0	8	17
+スピアー.png	No.0015 スピアー	0015	sprite-poke-ui_PokeIcon_02_0015_00_0	6	17
+ピジョット.png	No.0018 ピジョット	0018	sprite-poke-ui_PokeIcon_02_0018_00_0	4	17
+アーボック.png	No.0024 アーボック	0024	sprite-poke-ui_PokeIcon_02_0024_00_0	2	17
+ピカチュウ.png	No.0025 ピカチュウ	0025	sprite-poke-ui_PokeIcon_02_0025_00_0	1	17
+ライチュウ.png	No.0026 ライチュウ	0026	sprite-poke-ui_PokeIcon_02_0026_00_0	0	17
+ライチュウ_アローラのすがた.png	No.0026 ライチュウ (アローラのすがた)	0026	sprite-poke-ui_PokeIcon_02_0026_01_0	17	16
+ピクシー.png	No.0036 ピクシー	0036	sprite-poke-ui_PokeIcon_02_0036_00_0	17	15
+キュウコン.png	No.0038 キュウコン	0038	sprite-poke-ui_PokeIcon_02_0038_00_0	17	13
+キュウコン_アローラのすがた.png	No.0038 キュウコン (アローラのすがた)	0038	sprite-poke-ui_PokeIcon_02_0038_01_0	17	12
+ウインディ.png	No.0059 ウインディ	0059	sprite-poke-ui_PokeIcon_02_0059_00_0	17	11
+ウインディ_ヒスイのすがた.png	No.0059 ウインディ (ヒスイのすがた)	0059	sprite-poke-ui_PokeIcon_02_0059_01_0	17	10
+フーディン.png	No.0065 フーディン	0065	sprite-poke-ui_PokeIcon_02_0065_00_0	17	9
+カイリキー.png	No.0068 カイリキー	0068	sprite-poke-ui_PokeIcon_02_0068_00_0	17	7
+ウツボット.png	No.0071 ウツボット	0071	sprite-poke-ui_PokeIcon_02_0071_00_0	17	6
+ヤドラン.png	No.0080 ヤドラン	0080	sprite-poke-ui_PokeIcon_02_0080_00_0	17	4
+ヤドラン_ガラルのすがた.png	No.0080 ヤドラン (ガラルのすがた)	0080	sprite-poke-ui_PokeIcon_02_0080_02_0	17	2
+ゲンガー.png	No.0094 ゲンガー	0094	sprite-poke-ui_PokeIcon_02_0094_00_0	17	1
+ガルーラ.png	No.0115 ガルーラ	0115	sprite-poke-ui_PokeIcon_02_0115_00_0	16	16
+スターミー.png	No.0121 スターミー	0121	sprite-poke-ui_PokeIcon_02_0121_00_0	14	16
+カイロス.png	No.0127 カイロス	0127	sprite-poke-ui_PokeIcon_02_0127_00_0	12	16
+ケンタロス.png	No.0128 ケンタロス	0128	sprite-poke-ui_PokeIcon_02_0128_00_0	10	16
+ケンタロス_パルデアのすがた_コンバットしゅ.png	No.0128 ケンタロス (パルデアのすがた・コンバットしゅ)	0128	sprite-poke-ui_PokeIcon_02_0128_01_0	9	16
+ケンタロス_パルデアのすがた_ブレイズしゅ.png	No.0128 ケンタロス (パルデアのすがた・ブレイズしゅ)	0128	sprite-poke-ui_PokeIcon_02_0128_02_0	8	16
+ケンタロス_パルデアのすがた_ウォーターしゅ.png	No.0128 ケンタロス (パルデアのすがた・ウォーターしゅ)	0128	sprite-poke-ui_PokeIcon_02_0128_03_0	7	16
+ギャラドス.png	No.0130 ギャラドス	0130	sprite-poke-ui_PokeIcon_02_0130_00_0	6	16
+メタモン.png	No.0132 メタモン	0132	sprite-poke-ui_PokeIcon_02_0132_00_0	4	16
+シャワーズ.png	No.0134 シャワーズ	0134	sprite-poke-ui_PokeIcon_02_0134_00_0	3	16
+サンダース.png	No.0135 サンダース	0135	sprite-poke-ui_PokeIcon_02_0135_00_0	2	16
+ブースター.png	No.0136 ブースター	0136	sprite-poke-ui_PokeIcon_02_0136_00_0	1	16
+プテラ.png	No.0142 プテラ	0142	sprite-poke-ui_PokeIcon_02_0142_00_0	0	16
+カビゴン.png	No.0143 カビゴン	0143	sprite-poke-ui_PokeIcon_02_0143_00_0	16	14
+カイリュー.png	No.0149 カイリュー	0149	sprite-poke-ui_PokeIcon_02_0149_00_0	16	13
+メガニウム.png	No.0154 メガニウム	0154	sprite-poke-ui_PokeIcon_02_0154_00_0	16	11
+バクフーン.png	No.0157 バクフーン	0157	sprite-poke-ui_PokeIcon_02_0157_00_0	16	9
+バクフーン_ヒスイのすがた.png	No.0157 バクフーン (ヒスイのすがた)	0157	sprite-poke-ui_PokeIcon_02_0157_01_0	16	8
+オーダイル.png	No.0160 オーダイル	0160	sprite-poke-ui_PokeIcon_02_0160_00_0	16	7
+アリアドス.png	No.0168 アリアドス	0168	sprite-poke-ui_PokeIcon_02_0168_00_0	16	5
+デンリュウ.png	No.0181 デンリュウ	0181	sprite-poke-ui_PokeIcon_02_0181_00_0	16	4
+マリルリ.png	No.0184 マリルリ	0184	sprite-poke-ui_PokeIcon_02_0184_00_0	16	2
+ニョロトノ.png	No.0186 ニョロトノ	0186	sprite-poke-ui_PokeIcon_02_0186_00_0	16	1
+エーフィ.png	No.0196 エーフィ	0196	sprite-poke-ui_PokeIcon_02_0196_00_0	16	0
+ブラッキー.png	No.0197 ブラッキー	0197	sprite-poke-ui_PokeIcon_02_0197_00_0	15	15
+ヤドキング.png	No.0199 ヤドキング	0199	sprite-poke-ui_PokeIcon_02_0199_00_0	14	15
+ヤドキング_ガラルのすがた.png	No.0199 ヤドキング (ガラルのすがた)	0199	sprite-poke-ui_PokeIcon_02_0199_01_0	13	15
+フォレトス.png	No.0205 フォレトス	0205	sprite-poke-ui_PokeIcon_02_0205_00_0	12	15
+ハガネール.png	No.0208 ハガネール	0208	sprite-poke-ui_PokeIcon_02_0208_00_0	11	15
+ハッサム.png	No.0212 ハッサム	0212	sprite-poke-ui_PokeIcon_02_0212_00_0	9	15
+ヘラクロス.png	No.0214 ヘラクロス	0214	sprite-poke-ui_PokeIcon_02_0214_00_0	7	15
+エアームド.png	No.0227 エアームド	0227	sprite-poke-ui_PokeIcon_02_0227_00_0	5	15
+ヘルガー.png	No.0229 ヘルガー	0229	sprite-poke-ui_PokeIcon_02_0229_00_0	3	15
+バンギラス.png	No.0248 バンギラス	0248	sprite-poke-ui_PokeIcon_02_0248_00_0	1	15
+ペリッパー.png	No.0279 ペリッパー	0279	sprite-poke-ui_PokeIcon_02_0279_00_0	15	14
+サーナイト.png	No.0282 サーナイト	0282	sprite-poke-ui_PokeIcon_02_0282_00_0	15	13
+ヤミラミ.png	No.0302 ヤミラミ	0302	sprite-poke-ui_PokeIcon_02_0302_00_0	15	11
+ボスゴドラ.png	No.0306 ボスゴドラ	0306	sprite-poke-ui_PokeIcon_02_0306_00_0	15	9
+チャーレム.png	No.0308 チャーレム	0308	sprite-poke-ui_PokeIcon_02_0308_00_0	15	7
+ライボルト.png	No.0310 ライボルト	0310	sprite-poke-ui_PokeIcon_02_0310_00_0	15	5
+サメハダー.png	No.0319 サメハダー	0319	sprite-poke-ui_PokeIcon_02_0319_00_0	15	3
+バクーダ.png	No.0323 バクーダ	0323	sprite-poke-ui_PokeIcon_02_0323_00_0	15	1
+コータス.png	No.0324 コータス	0324	sprite-poke-ui_PokeIcon_02_0324_00_0	14	14
+チルタリス.png	No.0334 チルタリス	0334	sprite-poke-ui_PokeIcon_02_0334_00_0	13	14
+ミロカロス.png	No.0350 ミロカロス	0350	sprite-poke-ui_PokeIcon_02_0350_00_0	11	14
+ポワルン.png	No.0351 ポワルン	0351	sprite-poke-ui_PokeIcon_02_0351_00_0	10	14
+ジュペッタ.png	No.0354 ジュペッタ	0354	sprite-poke-ui_PokeIcon_02_0354_00_0	6	14
+チリーン.png	No.0358 チリーン	0358	sprite-poke-ui_PokeIcon_02_0358_00_0	4	14
+アブソル.png	No.0359 アブソル	0359	sprite-poke-ui_PokeIcon_02_0359_00_0	2	14
+オニゴーリ.png	No.0362 オニゴーリ	0362	sprite-poke-ui_PokeIcon_02_0362_00_0	0	14
+ドダイトス.png	No.0389 ドダイトス	0389	sprite-poke-ui_PokeIcon_02_0389_00_0	14	12
+ゴウカザル.png	No.0392 ゴウカザル	0392	sprite-poke-ui_PokeIcon_02_0392_00_0	14	11
+エンペルト.png	No.0395 エンペルト	0395	sprite-poke-ui_PokeIcon_02_0395_00_0	14	10
+レントラー.png	No.0405 レントラー	0405	sprite-poke-ui_PokeIcon_02_0405_00_0	14	9
+ロズレイド.png	No.0407 ロズレイド	0407	sprite-poke-ui_PokeIcon_02_0407_00_0	14	8
+ラムパルド.png	No.0409 ラムパルド	0409	sprite-poke-ui_PokeIcon_02_0409_00_0	14	7
+トリデプス.png	No.0411 トリデプス	0411	sprite-poke-ui_PokeIcon_02_0411_00_0	14	6
+ミミロップ.png	No.0428 ミミロップ	0428	sprite-poke-ui_PokeIcon_02_0428_00_0	14	5
+ミカルゲ.png	No.0442 ミカルゲ	0442	sprite-poke-ui_PokeIcon_02_0442_00_0	14	3
+ガブリアス.png	No.0445 ガブリアス	0445	sprite-poke-ui_PokeIcon_02_0445_00_0	14	2
+ルカリオ.png	No.0448 ルカリオ	0448	sprite-poke-ui_PokeIcon_02_0448_00_0	14	0
+カバルドン.png	No.0450 カバルドン	0450	sprite-poke-ui_PokeIcon_02_0450_00_0	12	13
+ドクロッグ.png	No.0454 ドクロッグ	0454	sprite-poke-ui_PokeIcon_02_0454_00_0	11	13
+ユキノオー.png	No.0460 ユキノオー	0460	sprite-poke-ui_PokeIcon_02_0460_00_0	10	13
+マニューラ.png	No.0461 マニューラ	0461	sprite-poke-ui_PokeIcon_02_0461_00_0	8	13
+ドサイドン.png	No.0464 ドサイドン	0464	sprite-poke-ui_PokeIcon_02_0464_00_0	7	13
+リーフィア.png	No.0470 リーフィア	0470	sprite-poke-ui_PokeIcon_02_0470_00_0	6	13
+グレイシア.png	No.0471 グレイシア	0471	sprite-poke-ui_PokeIcon_02_0471_00_0	5	13
+グライオン.png	No.0472 グライオン	0472	sprite-poke-ui_PokeIcon_02_0472_00_0	4	13
+マンムー.png	No.0473 マンムー	0473	sprite-poke-ui_PokeIcon_02_0473_00_0	3	13
+エルレイド.png	No.0475 エルレイド	0475	sprite-poke-ui_PokeIcon_02_0475_00_0	2	13
+ユキメノコ.png	No.0478 ユキメノコ	0478	sprite-poke-ui_PokeIcon_02_0478_00_0	0	13
+ロトム_ロトムのすがた.png	No.0479 ロトム (ロトムのすがた)	0479	sprite-poke-ui_PokeIcon_02_0479_00_0	13	11
+ロトム_ヒートロトム.png	No.0479 ロトム (ヒートロトム)	0479	sprite-poke-ui_PokeIcon_02_0479_01_0	13	10
+ロトム_ウォッシュロトム.png	No.0479 ロトム (ウォッシュロトム)	0479	sprite-poke-ui_PokeIcon_02_0479_02_0	13	9
+ロトム_フロストロトム.png	No.0479 ロトム (フロストロトム)	0479	sprite-poke-ui_PokeIcon_02_0479_03_0	13	8
+ロトム_スピンロトム.png	No.0479 ロトム (スピンロトム)	0479	sprite-poke-ui_PokeIcon_02_0479_04_0	13	7
+ロトム_カットロトム.png	No.0479 ロトム (カットロトム)	0479	sprite-poke-ui_PokeIcon_02_0479_05_0	13	6
+ジャローダ.png	No.0497 ジャローダ	0497	sprite-poke-ui_PokeIcon_02_0497_00_0	13	5
+エンブオー.png	No.0500 エンブオー	0500	sprite-poke-ui_PokeIcon_02_0500_00_0	13	4
+ダイケンキ.png	No.0503 ダイケンキ	0503	sprite-poke-ui_PokeIcon_02_0503_00_0	13	2
+ダイケンキ_ヒスイのすがた.png	No.0503 ダイケンキ (ヒスイのすがた)	0503	sprite-poke-ui_PokeIcon_02_0503_01_0	13	1
+ミルホッグ.png	No.0505 ミルホッグ	0505	sprite-poke-ui_PokeIcon_02_0505_00_0	13	0
+レパルダス.png	No.0510 レパルダス	0510	sprite-poke-ui_PokeIcon_02_0510_00_0	12	12
+ヤナッキー.png	No.0512 ヤナッキー	0512	sprite-poke-ui_PokeIcon_02_0512_00_0	11	12
+バオッキー.png	No.0514 バオッキー	0514	sprite-poke-ui_PokeIcon_02_0514_00_0	10	12
+ヒヤッキー.png	No.0516 ヒヤッキー	0516	sprite-poke-ui_PokeIcon_02_0516_00_0	9	12
+ドリュウズ.png	No.0530 ドリュウズ	0530	sprite-poke-ui_PokeIcon_02_0530_00_0	8	12
+タブンネ.png	No.0531 タブンネ	0531	sprite-poke-ui_PokeIcon_02_0531_00_0	6	12
+ローブシン.png	No.0534 ローブシン	0534	sprite-poke-ui_PokeIcon_02_0534_00_0	4	12
+エルフーン.png	No.0547 エルフーン	0547	sprite-poke-ui_PokeIcon_02_0547_00_0	3	12
+ワルビアル.png	No.0553 ワルビアル	0553	sprite-poke-ui_PokeIcon_02_0553_00_0	2	12
+デスカーン.png	No.0563 デスカーン	0563	sprite-poke-ui_PokeIcon_02_0563_00_0	1	12
+ダストダス.png	No.0569 ダストダス	0569	sprite-poke-ui_PokeIcon_02_0569_00_0	0	12
+ゾロアーク.png	No.0571 ゾロアーク	0571	sprite-poke-ui_PokeIcon_02_0571_00_0	12	11
+ゾロアーク_ヒスイのすがた.png	No.0571 ゾロアーク (ヒスイのすがた)	0571	sprite-poke-ui_PokeIcon_02_0571_01_0	12	10
+ランクルス.png	No.0579 ランクルス	0579	sprite-poke-ui_PokeIcon_02_0579_00_0	12	9
+バイバニラ.png	No.0584 バイバニラ	0584	sprite-poke-ui_PokeIcon_02_0584_00_0	12	8
+エモンガ.png	No.0587 エモンガ	0587	sprite-poke-ui_PokeIcon_02_0587_00_0	12	7
+シャンデラ.png	No.0609 シャンデラ	0609	sprite-poke-ui_PokeIcon_02_0609_00_0	12	6
+ツンベアー.png	No.0614 ツンベアー	0614	sprite-poke-ui_PokeIcon_02_0614_00_0	12	4
+マッギョ.png	No.0618 マッギョ	0618	sprite-poke-ui_PokeIcon_02_0618_00_0	12	3
+マッギョ_ガラルのすがた.png	No.0618 マッギョ (ガラルのすがた)	0618	sprite-poke-ui_PokeIcon_02_0618_01_0	12	2
+ゴルーグ.png	No.0623 ゴルーグ	0623	sprite-poke-ui_PokeIcon_02_0623_00_0	12	1
+サザンドラ.png	No.0635 サザンドラ	0635	sprite-poke-ui_PokeIcon_02_0635_00_0	11	11
+ウルガモス.png	No.0637 ウルガモス	0637	sprite-poke-ui_PokeIcon_02_0637_00_0	10	11
+ブリガロン.png	No.0652 ブリガロン	0652	sprite-poke-ui_PokeIcon_02_0652_00_0	9	11
+マフォクシー.png	No.0655 マフォクシー	0655	sprite-poke-ui_PokeIcon_02_0655_00_0	7	11
+ゲッコウガ.png	No.0658 ゲッコウガ	0658	sprite-poke-ui_PokeIcon_02_0658_00_0	5	11
+ホルード.png	No.0660 ホルード	0660	sprite-poke-ui_PokeIcon_02_0660_00_0	3	11
+ファイアロー.png	No.0663 ファイアロー	0663	sprite-poke-ui_PokeIcon_02_0663_00_0	2	11
+ビビヨン.png	No.0666 ビビヨン	0666	sprite-poke-ui_PokeIcon_02_0666_18_0	5	10
+フラエッテ.png	No.0670 フラエッテ	0670	sprite-poke-ui_PokeIcon_02_0670_05_0	3	10
+フラージェス.png	No.0671 フラージェス	0671	sprite-poke-ui_PokeIcon_02_0671_00_0	1	10
+ゴロンダ.png	No.0675 ゴロンダ	0675	sprite-poke-ui_PokeIcon_02_0675_00_0	10	6
+トリミアン.png	No.0676 トリミアン	0676	sprite-poke-ui_PokeIcon_02_0676_00_0	10	5
+ニャオニクス_オスのすがた.png	No.0678 ニャオニクス (オスのすがた)	0678	sprite-poke-ui_PokeIcon_02_0678_00_0	5	9
+ニャオニクス_メスのすがた.png	No.0678 ニャオニクス (メスのすがた)	0678	sprite-poke-ui_PokeIcon_02_0678_01_0	4	9
+ギルガルド.png	No.0681 ギルガルド	0681	sprite-poke-ui_PokeIcon_02_0681_00_0	2	9
+フレフワン.png	No.0683 フレフワン	0683	sprite-poke-ui_PokeIcon_02_0683_00_0	0	9
+ペロリーム.png	No.0685 ペロリーム	0685	sprite-poke-ui_PokeIcon_02_0685_00_0	9	8
+ブロスター.png	No.0693 ブロスター	0693	sprite-poke-ui_PokeIcon_02_0693_00_0	9	7
+エレザード.png	No.0695 エレザード	0695	sprite-poke-ui_PokeIcon_02_0695_00_0	9	6
+ガチゴラス.png	No.0697 ガチゴラス	0697	sprite-poke-ui_PokeIcon_02_0697_00_0	9	5
+アマルルガ.png	No.0699 アマルルガ	0699	sprite-poke-ui_PokeIcon_02_0699_00_0	9	4
+ニンフィア.png	No.0700 ニンフィア	0700	sprite-poke-ui_PokeIcon_02_0700_00_0	9	3
+ルチャブル.png	No.0701 ルチャブル	0701	sprite-poke-ui_PokeIcon_02_0701_00_0	9	2
+デデンネ.png	No.0702 デデンネ	0702	sprite-poke-ui_PokeIcon_02_0702_00_0	9	0
+ヌメルゴン.png	No.0706 ヌメルゴン	0706	sprite-poke-ui_PokeIcon_02_0706_00_0	8	8
+ヌメルゴン_ヒスイのすがた.png	No.0706 ヌメルゴン (ヒスイのすがた)	0706	sprite-poke-ui_PokeIcon_02_0706_01_0	7	8
+クレッフィ.png	No.0707 クレッフィ	0707	sprite-poke-ui_PokeIcon_02_0707_00_0	6	8
+オーロット.png	No.0709 オーロット	0709	sprite-poke-ui_PokeIcon_02_0709_00_0	5	8
+パンプジン_ちゅうだましゅ.png	No.0711 パンプジン (ちゅうだましゅ)	0711	sprite-poke-ui_PokeIcon_02_0711_00_0	4	8
+パンプジン_こだましゅ.png	No.0711 パンプジン (こだましゅ)	0711	sprite-poke-ui_PokeIcon_02_0711_01_0	3	8
+パンプジン_おおだましゅ.png	No.0711 パンプジン (おおだましゅ)	0711	sprite-poke-ui_PokeIcon_02_0711_02_0	2	8
+パンプジン_ギガだましゅ.png	No.0711 パンプジン (ギガだましゅ)	0711	sprite-poke-ui_PokeIcon_02_0711_03_0	1	8
+クレベース.png	No.0713 クレベース	0713	sprite-poke-ui_PokeIcon_02_0713_00_0	0	8
+クレベース_ヒスイのすがた.png	No.0713 クレベース (ヒスイのすがた)	0713	sprite-poke-ui_PokeIcon_02_0713_01_0	8	7
+オンバーン.png	No.0715 オンバーン	0715	sprite-poke-ui_PokeIcon_02_0715_00_0	8	6
+ジュナイパー.png	No.0724 ジュナイパー	0724	sprite-poke-ui_PokeIcon_02_0724_00_0	8	5
+ジュナイパー_ヒスイのすがた.png	No.0724 ジュナイパー (ヒスイのすがた)	0724	sprite-poke-ui_PokeIcon_02_0724_01_0	8	4
+ガオガエン.png	No.0727 ガオガエン	0727	sprite-poke-ui_PokeIcon_02_0727_00_0	8	3
+アシレーヌ.png	No.0730 アシレーヌ	0730	sprite-poke-ui_PokeIcon_02_0730_00_0	8	2
+ドデカバシ.png	No.0733 ドデカバシ	0733	sprite-poke-ui_PokeIcon_02_0733_00_0	8	1
+ケケンカニ.png	No.0740 ケケンカニ	0740	sprite-poke-ui_PokeIcon_02_0740_00_0	8	0
+ルガルガン_まひるのすがた.png	No.0745 ルガルガン (まひるのすがた)	0745	sprite-poke-ui_PokeIcon_02_0745_00_0	6	7
+ルガルガン_まよなかのすがた.png	No.0745 ルガルガン (まよなかのすがた)	0745	sprite-poke-ui_PokeIcon_02_0745_01_0	5	7
+ルガルガン_たそがれのすがた.png	No.0745 ルガルガン (たそがれのすがた)	0745	sprite-poke-ui_PokeIcon_02_0745_02_0	4	7
+ドヒドイデ.png	No.0748 ドヒドイデ	0748	sprite-poke-ui_PokeIcon_02_0748_00_0	3	7
+バンバドロ.png	No.0750 バンバドロ	0750	sprite-poke-ui_PokeIcon_02_0750_00_0	2	7
+オニシズクモ.png	No.0752 オニシズクモ	0752	sprite-poke-ui_PokeIcon_02_0752_00_0	1	7
+エンニュート.png	No.0758 エンニュート	0758	sprite-poke-ui_PokeIcon_02_0758_00_0	0	7
+アマージョ.png	No.0763 アマージョ	0763	sprite-poke-ui_PokeIcon_02_0763_00_0	7	6
+ヤレユータン.png	No.0765 ヤレユータン	0765	sprite-poke-ui_PokeIcon_02_0765_00_0	7	5
+ナゲツケサル.png	No.0766 ナゲツケサル	0766	sprite-poke-ui_PokeIcon_02_0766_00_0	7	4
+ミミッキュ.png	No.0778 ミミッキュ	0778	sprite-poke-ui_PokeIcon_02_0778_00_0	7	3
+ジジーロン.png	No.0780 ジジーロン	0780	sprite-poke-ui_PokeIcon_02_0780_00_0	7	2
+ジャラランガ.png	No.0784 ジャラランガ	0784	sprite-poke-ui_PokeIcon_02_0784_00_0	7	0
+アーマーガア.png	No.0823 アーマーガア	0823	sprite-poke-ui_PokeIcon_02_0823_00_0	6	6
+アップリュー.png	No.0841 アップリュー	0841	sprite-poke-ui_PokeIcon_02_0841_00_0	5	6
+タルップル.png	No.0842 タルップル	0842	sprite-poke-ui_PokeIcon_02_0842_00_0	4	6
+サダイジャ.png	No.0844 サダイジャ	0844	sprite-poke-ui_PokeIcon_02_0844_00_0	3	6
+ポットデス.png	No.0855 ポットデス	0855	sprite-poke-ui_PokeIcon_02_0855_00_0	2	6
+ブリムオン.png	No.0858 ブリムオン	0858	sprite-poke-ui_PokeIcon_02_0858_00_0	1	6
+バリコオル.png	No.0866 バリコオル	0866	sprite-poke-ui_PokeIcon_02_0866_00_0	0	6
+デスバーン.png	No.0867 デスバーン	0867	sprite-poke-ui_PokeIcon_02_0867_00_0	6	5
+マホイップ.png	No.0869 マホイップ	0869	sprite-poke-ui_PokeIcon_02_0869_00_0	6	4
+モルペコ.png	No.0877 モルペコ	0877	sprite-poke-ui_PokeIcon_02_0877_00_0	1	5
+ドラパルト.png	No.0887 ドラパルト	0887	sprite-poke-ui_PokeIcon_02_0887_00_0	5	4
+アヤシシ.png	No.0899 アヤシシ	0899	sprite-poke-ui_PokeIcon_02_0899_00_0	5	3
+バサギリ.png	No.0900 バサギリ	0900	sprite-poke-ui_PokeIcon_02_0900_00_0	5	2
+イダイトウ_オスのすがた.png	No.0902 イダイトウ (オスのすがた)	0902	sprite-poke-ui_PokeIcon_02_0902_00_0	5	1
+イダイトウ_メスのすがた.png	No.0902 イダイトウ (メスのすがた)	0902	sprite-poke-ui_PokeIcon_02_0902_01_0	5	0
+オオニューラ.png	No.0903 オオニューラ	0903	sprite-poke-ui_PokeIcon_02_0903_00_0	4	4
+マスカーニャ.png	No.0908 マスカーニャ	0908	sprite-poke-ui_PokeIcon_02_0908_00_0	3	4
+ラウドボーン.png	No.0911 ラウドボーン	0911	sprite-poke-ui_PokeIcon_02_0911_00_0	2	4
+ウェーニバル.png	No.0914 ウェーニバル	0914	sprite-poke-ui_PokeIcon_02_0914_00_0	1	4
+イッカネズミ.png	No.0925 イッカネズミ	0925	sprite-poke-ui_PokeIcon_02_0925_00_0	4	3
+キョジオーン.png	No.0934 キョジオーン	0934	sprite-poke-ui_PokeIcon_02_0934_00_0	4	1
+グレンアルマ.png	No.0936 グレンアルマ	0936	sprite-poke-ui_PokeIcon_02_0936_00_0	4	0
+ソウブレイズ.png	No.0937 ソウブレイズ	0937	sprite-poke-ui_PokeIcon_02_0937_00_0	3	3
+ハラバリー.png	No.0939 ハラバリー	0939	sprite-poke-ui_PokeIcon_02_0939_00_0	2	3
+スコヴィラン.png	No.0952 スコヴィラン	0952	sprite-poke-ui_PokeIcon_02_0952_00_0	1	3
+クエスパトラ.png	No.0956 クエスパトラ	0956	sprite-poke-ui_PokeIcon_02_0956_00_0	3	2
+デカヌチャン.png	No.0959 デカヌチャン	0959	sprite-poke-ui_PokeIcon_02_0959_00_0	3	1
+イルカマン.png	No.0964 イルカマン	0964	sprite-poke-ui_PokeIcon_02_0964_00_0	3	0
+ミミズズ.png	No.0968 ミミズズ	0968	sprite-poke-ui_PokeIcon_02_0968_00_0	1	2
+キラフロル.png	No.0970 キラフロル	0970	sprite-poke-ui_PokeIcon_02_0970_00_0	0	2
+リキキリン.png	No.0981 リキキリン	0981	sprite-poke-ui_PokeIcon_02_0981_00_0	2	0
+ドドゲザン.png	No.0983 ドドゲザン	0983	sprite-poke-ui_PokeIcon_02_0983_00_0	1	1
+ヤバソチャ.png	No.1013 ヤバソチャ	1013	sprite-poke-ui_PokeIcon_02_1013_00_0	0	1
+ブリジュラス.png	No.1018 ブリジュラス	1018	sprite-poke-ui_PokeIcon_02_1018_00_0	1	0
+カミツオロチ.png	No.1019 カミツオロチ	1019	sprite-poke-ui_PokeIcon_02_1019_00_0	0	0
