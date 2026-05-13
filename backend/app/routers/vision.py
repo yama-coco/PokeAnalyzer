@@ -112,6 +112,7 @@ async def force_scene_transition(state: str):
         )
 
     vision_engine._scene_machine.force_transition(target)
+    vision_engine._state.scene = vision_engine._scene_machine.context
     return {"state": target.value, "message": f"Forced transition to {target.value}"}
 
 
