@@ -16,6 +16,9 @@ async function request<T>(
       : detail || res.statusText
     throw new Error(String(message))
   }
+  if (res.status === 204 || res.headers.get('content-length') === '0') {
+    return undefined as T
+  }
   return res.json()
 }
 
