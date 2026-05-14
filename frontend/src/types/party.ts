@@ -1,20 +1,26 @@
-export interface Pokemon {
-  name: string
+export interface PokemonStats {
+  hp: number
+  attack: number
+  defense: number
+  sp_attack: number
+  sp_defense: number
+  speed: number
+}
+
+export interface PokemonEntry {
+  species: string
   ability: string
   item: string
-  tera_type: string
   moves: string[]
-  nature: string
-  evs: { hp: number; attack: number; defense: number; sp_attack: number; sp_defense: number; speed: number }
-  ivs: { hp: number; attack: number; defense: number; sp_attack: number; sp_defense: number; speed: number }
-  actual_stats: { hp: number; attack: number; defense: number; sp_attack: number; sp_defense: number; speed: number }
-  mega_stone: string
+  stats: PokemonStats
+  tera_type: string | null
+  can_mega_evolve: boolean
 }
 
 export interface Party {
   id: number
   name: string
-  pokemon: Pokemon[]
+  pokemon: PokemonEntry[]
   created_at: string
   updated_at: string
 }

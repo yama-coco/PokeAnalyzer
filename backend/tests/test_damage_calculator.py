@@ -117,8 +117,8 @@ class TestDamageCalculation:
         attacker = AttackerInfo(name="ガブリアス", attack_stat=182)
         defender = DefenderInfo(name="バンギラス", defense_stat=130, max_hp=207)
         result = calculate_damage(earthquake_move, attacker, defender)
-        # 乱数幅: min は max の85%前後
-        assert result.min_damage >= result.max_damage * 0.84
+        # 乱数幅: min は max の85%前後 (floor丸めにより若干のずれあり)
+        assert result.min_damage >= result.max_damage * 0.82
         assert result.min_damage <= result.max_damage * 0.86
 
 

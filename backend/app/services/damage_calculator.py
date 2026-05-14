@@ -4,7 +4,7 @@ HPバーの変動率から相手の耐久調整（EVs）を逆算する。
 ポケモンチャンピオンズのダブルバトル（Lv50）に対応。
 
 ダメージ計算式 (第9世代準拠):
-  Damage = floor(floor(floor(Power * A/D * 2/5 + 2) * Modifier) * random / 100)
+  Damage = floor(floor(((2*Level/5+2) * Power * A/D) / 50 + 2) * Modifier * random / 100)
 
 逆算:
   相手のHP%低下から、可能な耐久EV振りの範囲を推定する。
@@ -155,8 +155,10 @@ def calculate_damage(
     atk = _apply_stat_modifier(attacker.attack_stat, attacker.attack_modifier)
     dfn = _apply_stat_modifier(defender.defense_stat, defender.defense_modifier)
 
-    # 基本ダメージ
-    base = math.floor(math.floor(move.power * atk / dfn) * 2 * attacker.level / 5 + 2)
+    # 基本ダメージ (第9世代準拠)
+    base = math.floor(
+        math.floor((2 * attacker.level / 5 + 2) * move.power * atk / dfn) / 50 + 2
+    )
 
     # 範囲技補正 (ダブルバトル)
     if move.is_spread:

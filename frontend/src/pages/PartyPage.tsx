@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react'
 import { Users, Plus, Trash2, Edit2, Save, X } from 'lucide-react'
 import { partyApi } from '../api/party'
-import type { Party } from '../types/party'
+import type { Party, PokemonEntry } from '../types/party'
 
 export function PartyPage() {
   const [parties, setParties] = useState<Party[]>([])
@@ -30,10 +30,17 @@ export function PartyPage() {
 
   const handleSave = async () => {
     try {
+      let pokemon: PokemonEntry[]
+      try {
+        pokemon = JSON.parse(formJson)
+      } catch {
+        setError('JSONの形式が正しくありません')
+        return
+      }
       if (editId !== null) {
-        await partyApi.update(editId, { name: formName, pokemon_json: formJson })
+        await partyApi.update(editId, { name: formName, pokemon })
       } else {
-        await partyApi.create({ name: formName, pokemon_json: formJson })
+        await partyApi.create({ name: formName, pokemon })
       }
       setShowForm(false)
       setEditId(null)
@@ -97,7 +104,7 @@ export function PartyPage() {
               onChange={(e) => setFormName(e.target.value)}
             />
             <textarea
-              placeholder='ポケモンJSON配列 [{"name": "ガブリアス", "ability": "さめはだ", ...}]'
+              placeholder='ポケモンJSON配列 [{"species": "ガブリアス", "ability": "さめはだ", "item": "", "moves": [], "stats": {"hp": 183, "attack": 200, "defense": 115, "sp_attack": 100, "sp_defense": 105, "speed": 169}, "tera_type": null, "can_mega_evolve": false}]'
               className={`${inputClass} h-48 font-mono text-xs`}
               value={formJson}
               onChange={(e) => setFormJson(e.target.value)}
@@ -148,7 +155,7 @@ export function PartyPage() {
               <div className="flex gap-2 flex-wrap">
                 {(party.pokemon || []).map((p, i) => (
                   <span key={i} className="px-2 py-0.5 rounded bg-gray-800 text-xs text-gray-300">
-                    {p.name || `ポケモン${i + 1}`}
+                    {p.species || `ポケモン${i + 1}`}
                   </span>
                 ))}
               </div>
