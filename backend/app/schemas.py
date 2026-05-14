@@ -214,3 +214,101 @@ class SceneStateResponse(BaseModel):
     entered_at: float
     frame_count: int
     history: list[dict] = Field(default_factory=list)
+
+
+# --- Battle State schemas (Phase 3) ---
+
+
+class PokemonOnFieldSchema(BaseModel):
+    slot: int = Field(..., ge=0, le=3, description="フィールド上のスロット (0-3)")
+    name: str = Field(..., description="ポケモン名")
+    species: str = Field("", description="種族名")
+    ability: str = Field("", description="特性")
+    item: str = Field("", description="持ち物")
+    base_speed: int = Field(0, ge=0, description="素早さ実数値")
+    current_hp: int = Field(0, ge=0, description="現在HP")
+    max_hp: int = Field(0, ge=0, description="最大HP")
+    hp_percent: float = Field(100.0, ge=0.0, le=100.0, description="HP割合 (%)")
+    side: str = Field("ally", description="味方(ally)か相手(enemy)か")
+    status: str = Field("", description="状態異常")
+
+
+class StartMatchRequest(BaseModel):
+    ally_team: list[str] = Field(default_factory=list, description="味方チーム6体")
+    enemy_team: list[str] = Field(default_factory=list, description="相手チーム6体")
+
+
+class SetSelectionRequest(BaseModel):
+    ally_leads: list[str] = Field(..., min_length=1, max_length=4, description="味方選出")
+    enemy_leads: list[str] = Field(default_factory=list, max_length=4, description="相手選出")
+
+
+class StartBattleRequest(BaseModel):
+    pokemon_on_field: list[PokemonOnFieldSchema] = Field(
+        default_factory=list, max_length=4, description="フィールド上のポケモン"
+    )
+
+
+class UpdateFieldRequest(BaseModel):
+    weather: str | None = Field(None, description="天候 (none/sun/rain/sand/snow)")
+    tailwind_ally: bool | None = Field(None, description="味方追い風")
+    tailwind_enemy: bool | None = Field(None, description="相手追い風")
+    trick_room: bool | None = Field(None, description="トリックルーム")
+    terrain: str | None = Field(None, description="フィールド (grassy/electric/psychic/misty)")
+
+
+class UpdateHPRequest(BaseModel):
+    slot: int = Field(..., ge=0, le=3, description="スロット")
+    current_hp: int | None = Field(None, ge=0, description="現在HP")
+    max_hp: int | None = Field(None, ge=0, description="最大HP")
+    hp_percent: float | None = Field(None, ge=0.0, le=100.0, description="HP%")
+
+
+class AdvanceTurnRequest(BaseModel):
+    actions: list[dict] = Field(default_factory=list, description="ターンのアクション一覧")
+
+
+class LogActionRequest(BaseModel):
+    turn: int = Field(..., ge=1, description="ターン番号")
+    pokemon_slot: int = Field(..., ge=0, le=3, description="ポケモンスロット")
+    pokemon_name: str = Field(..., description="ポケモン名")
+    action_type: str = Field(..., description="アクション種別 (move/switch/terastal/mega/protect)")
+    action_name: str = Field(..., description="アクション名 (技名等)")
+    target_slot: int | None = Field(None, ge=0, le=3, description="ターゲットスロット")
+    target_name: str = Field("", description="ターゲット名")
+
+
+class ProtectRecordRequest(BaseModel):
+    pokemon_name: str = Field(..., description="ポケモン名")
+    move_name: str = Field("まもる", description="まもる系技名")
+    turn: int = Field(..., ge=1, description="ターン番号")
+    success: bool = Field(True, description="成功したか")
+
+
+class DamageCalcRequest(BaseModel):
+    move_name: str = Field(..., description="技名")
+    move_power: int = Field(..., ge=0, description="技威力")
+    move_category: str = Field(..., description="物理(physical)/特殊(special)")
+    is_spread: bool = Field(False, description="範囲技か")
+    attacker_name: str = Field(..., description="攻撃側ポケモン名")
+    attacker_stat: int = Field(..., ge=1, description="攻撃/特攻の実数値")
+    attacker_ability: str = Field("", description="攻撃側特性")
+    attacker_item: str = Field("", description="攻撃側持ち物")
+    has_stab: bool = Field(False, description="タイプ一致か")
+    type_effectiveness: float = Field(1.0, description="タイプ相性倍率")
+    defender_name: str = Field(..., description="防御側ポケモン名")
+    defender_stat: int = Field(..., ge=1, description="防御/特防の実数値")
+    defender_max_hp: int = Field(..., ge=1, description="防御側最大HP")
+
+
+class EVEstimateRequest(BaseModel):
+    species_base_stat: int = Field(..., ge=1, description="種族値")
+    damage_percent: float = Field(..., gt=0, description="ダメージ%")
+    move_name: str = Field(..., description="技名")
+    move_power: int = Field(..., ge=0, description="技威力")
+    move_category: str = Field(..., description="物理/特殊")
+    is_spread: bool = Field(False, description="範囲技か")
+    attacker_stat: int = Field(..., ge=1, description="攻撃/特攻の実数値")
+    defender_max_hp: int = Field(..., ge=1, description="防御側最大HP")
+    has_stab: bool = Field(False, description="タイプ一致")
+    type_effectiveness: float = Field(1.0, description="タイプ相性")
