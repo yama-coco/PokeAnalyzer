@@ -10,7 +10,11 @@ async function request<T>(
   })
   if (!res.ok) {
     const error = await res.json().catch(() => ({ detail: res.statusText }))
-    throw new Error(error.detail || res.statusText)
+    const detail = error.detail
+    const message = Array.isArray(detail)
+      ? detail.map((d: { msg?: string }) => d.msg || String(d)).join(', ')
+      : detail || res.statusText
+    throw new Error(String(message))
   }
   return res.json()
 }
