@@ -42,23 +42,59 @@ class RegionOfInterest:
         return px, py, pw, ph
 
 
-# VS画面: 相手の6体アイコンが表示される領域 (仮の位置)
-VS_SCREEN_ICONS = RegionOfInterest("vs_icons", 0.55, 0.15, 0.40, 0.70)
+# --- 選出画面 ROI (実際のゲーム画面から計測) ---
+# 味方パーティリスト: 左側 (名前・持ち物・アイコン表示)
+SELECTION_ALLY_LIST = RegionOfInterest("selection_ally", 0.02, 0.08, 0.28, 0.82)
+# 相手パーティアイコン: 右側
+SELECTION_ENEMY_ICONS = RegionOfInterest("selection_enemy", 0.68, 0.03, 0.30, 0.92)
+# タイマー: 上部中央
+SELECTION_TIMER = RegionOfInterest("selection_timer", 0.35, 0.0, 0.15, 0.05)
 
-# 選出画面: パーティ一覧
-SELECTION_AREA = RegionOfInterest("selection", 0.05, 0.10, 0.90, 0.80)
+# --- VS画面 ROI ---
+VS_SCREEN_ICONS = RegionOfInterest("vs_icons", 0.68, 0.03, 0.30, 0.92)
 
-# バトル画面: テキストボックス (画面下部)
-TEXT_BOX = RegionOfInterest("text_box", 0.0, 0.75, 1.0, 0.25)
+# 選出画面 (後方互換)
+SELECTION_AREA = RegionOfInterest("selection", 0.02, 0.08, 0.96, 0.87)
 
-# バトル画面: HPバー領域 (味方・相手)
-HP_BAR_ALLY_1 = RegionOfInterest("hp_ally_1", 0.55, 0.55, 0.20, 0.05)
-HP_BAR_ALLY_2 = RegionOfInterest("hp_ally_2", 0.75, 0.65, 0.20, 0.05)
-HP_BAR_ENEMY_1 = RegionOfInterest("hp_enemy_1", 0.05, 0.15, 0.20, 0.05)
-HP_BAR_ENEMY_2 = RegionOfInterest("hp_enemy_2", 0.25, 0.25, 0.20, 0.05)
+# --- バトル画面 ROI (実際のゲーム画面から計測) ---
+# 相手HPエリア: 画面上部 (名前 + %表示 + HPバー)
+HP_BAR_ENEMY_1 = RegionOfInterest("hp_enemy_1", 0.46, 0.0, 0.24, 0.08)
+HP_BAR_ENEMY_2 = RegionOfInterest("hp_enemy_2", 0.72, 0.0, 0.24, 0.08)
+# 相手HP%テキスト (パーセンテージ数値のみ)
+HP_TEXT_ENEMY_1 = RegionOfInterest("hp_text_enemy_1", 0.46, 0.04, 0.12, 0.04)
+HP_TEXT_ENEMY_2 = RegionOfInterest("hp_text_enemy_2", 0.72, 0.04, 0.12, 0.04)
+# 相手ポケモン名
+NAME_ENEMY_1 = RegionOfInterest("name_enemy_1", 0.48, 0.0, 0.20, 0.04)
+NAME_ENEMY_2 = RegionOfInterest("name_enemy_2", 0.74, 0.0, 0.20, 0.04)
 
-# バトル画面: コマンドメニュー
-COMMAND_MENU = RegionOfInterest("command_menu", 0.60, 0.60, 0.38, 0.38)
+# 味方HPエリア: 画面下部 (名前 + 実数値HP + HPバー)
+HP_BAR_ALLY_1 = RegionOfInterest("hp_ally_1", 0.0, 0.87, 0.25, 0.11)
+HP_BAR_ALLY_2 = RegionOfInterest("hp_ally_2", 0.25, 0.87, 0.25, 0.11)
+# 味方HPテキスト (実数値: 149/185)
+HP_TEXT_ALLY_1 = RegionOfInterest("hp_text_ally_1", 0.06, 0.93, 0.16, 0.05)
+HP_TEXT_ALLY_2 = RegionOfInterest("hp_text_ally_2", 0.31, 0.93, 0.16, 0.05)
+# 味方ポケモン名
+NAME_ALLY_1 = RegionOfInterest("name_ally_1", 0.04, 0.87, 0.18, 0.05)
+NAME_ALLY_2 = RegionOfInterest("name_ally_2", 0.29, 0.87, 0.18, 0.05)
+
+# テキストボックス (バトルログ・演出テキスト)
+TEXT_BOX = RegionOfInterest("text_box", 0.0, 0.75, 0.55, 0.12)
+
+# コマンドメニュー (たたかう・ポケモン ボタン)
+COMMAND_MENU = RegionOfInterest("command_menu", 0.78, 0.58, 0.20, 0.40)
+
+# 技選択メニュー (4技表示領域)
+MOVE_SELECT = RegionOfInterest("move_select", 0.58, 0.28, 0.40, 0.70)
+# 個別の技スロット
+MOVE_SLOT_1 = RegionOfInterest("move_1", 0.60, 0.30, 0.38, 0.14)
+MOVE_SLOT_2 = RegionOfInterest("move_2", 0.60, 0.46, 0.38, 0.14)
+MOVE_SLOT_3 = RegionOfInterest("move_3", 0.60, 0.62, 0.38, 0.14)
+MOVE_SLOT_4 = RegionOfInterest("move_4", 0.60, 0.78, 0.38, 0.14)
+
+# バトルタイマー
+BATTLE_TIMER = RegionOfInterest("battle_timer", 0.50, 0.70, 0.12, 0.05)
+# COMMANDカウンター
+COMMAND_COUNTER = RegionOfInterest("command_counter", 0.75, 0.40, 0.15, 0.06)
 
 # 全定義済みROIのリスト
 ALL_ROIS = [
@@ -70,6 +106,34 @@ ALL_ROIS = [
     HP_BAR_ENEMY_1,
     HP_BAR_ENEMY_2,
     COMMAND_MENU,
+]
+
+# バトル画面用の全ROI
+BATTLE_ROIS = [
+    HP_BAR_ALLY_1,
+    HP_BAR_ALLY_2,
+    HP_BAR_ENEMY_1,
+    HP_BAR_ENEMY_2,
+    HP_TEXT_ALLY_1,
+    HP_TEXT_ALLY_2,
+    HP_TEXT_ENEMY_1,
+    HP_TEXT_ENEMY_2,
+    NAME_ALLY_1,
+    NAME_ALLY_2,
+    NAME_ENEMY_1,
+    NAME_ENEMY_2,
+    TEXT_BOX,
+    COMMAND_MENU,
+    MOVE_SELECT,
+    BATTLE_TIMER,
+    COMMAND_COUNTER,
+]
+
+# 選出画面用のROI
+SELECTION_ROIS = [
+    SELECTION_ALLY_LIST,
+    SELECTION_ENEMY_ICONS,
+    SELECTION_TIMER,
 ]
 
 
