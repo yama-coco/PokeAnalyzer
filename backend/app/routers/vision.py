@@ -15,6 +15,8 @@ from fastapi import APIRouter, WebSocket, WebSocketDisconnect
 from fastapi.responses import JSONResponse
 
 from app.schemas import (
+    PipelineStartRequest,
+    PipelineStatusResponse,
     SceneStateResponse,
     VisionAnalysisResult,
     VisionDetection,
@@ -24,6 +26,7 @@ from app.schemas import (
 )
 from app.services.obs_connector import obs_connector
 from app.services.vision_engine import vision_engine
+from app.services.vision_pipeline import vision_pipeline
 
 logger = logging.getLogger(__name__)
 
@@ -219,3 +222,39 @@ def _build_status() -> VisionStatus:
         detected_abilities=state.detected_abilities,
         components=vision_engine.components_status,
     )
+
+
+# --- Vision Pipeline endpoints (Phase 5) ---
+
+
+@router.post("/pipeline/start", response_model=PipelineStatusResponse)
+async def start_pipeline(request: PipelineStartRequest | None = None):
+    """リアルタイム映像連携パイプラインを開始する。
+
+    OBS仮想カメラからフレームを取得し、Vision Engineで解析を行う。
+    解析結果はBattleState/HPTracker/TurnLoggerに自動的に反映される。
+    """
+    params: dict = {}
+    if request is not None:
+        params = {
+            "device_index": request.device_index,
+            "target_fps": request.target_fps,
+            "scene_confidence_threshold": request.scene_confidence_threshold,
+            "noise_frame_count": request.noise_frame_count,
+        }
+    result = await vision_pipeline.start(**params)
+    return PipelineStatusResponse(**result)
+
+
+@router.post("/pipeline/stop", response_model=PipelineStatusResponse)
+async def stop_pipeline():
+    """リアルタイム映像連携パイプラインを停止する。"""
+    result = await vision_pipeline.stop()
+    return PipelineStatusResponse(**result)
+
+
+@router.get("/pipeline/status", response_model=PipelineStatusResponse)
+async def get_pipeline_status():
+    """リアルタイム映像連携パイプラインの状態を取得する。"""
+    result = vision_pipeline.get_status()
+    return PipelineStatusResponse(**result)
