@@ -1,0 +1,1280 @@
+[
+  {
+    "filename": "フシギバナ.png",
+    "name": "No.0003 フシギバナ",
+    "dex": "0003",
+    "sprite_class": "sprite-poke-ui_PokeIcon_02_0003_00_0"
+  },
+  {
+    "filename": "リザードン.png",
+    "name": "No.0006 リザードン",
+    "dex": "0006",
+    "sprite_class": "sprite-poke-ui_PokeIcon_02_0006_00_0"
+  },
+  {
+    "filename": "カメックス.png",
+    "name": "No.0009 カメックス",
+    "dex": "0009",
+    "sprite_class": "sprite-poke-ui_PokeIcon_02_0009_00_0"
+  },
+  {
+    "filename": "スピアー.png",
+    "name": "No.0015 スピアー",
+    "dex": "0015",
+    "sprite_class": "sprite-poke-ui_PokeIcon_02_0015_00_0"
+  },
+  {
+    "filename": "ピジョット.png",
+    "name": "No.0018 ピジョット",
+    "dex": "0018",
+    "sprite_class": "sprite-poke-ui_PokeIcon_02_0018_00_0"
+  },
+  {
+    "filename": "アーボック.png",
+    "name": "No.0024 アーボック",
+    "dex": "0024",
+    "sprite_class": "sprite-poke-ui_PokeIcon_02_0024_00_0"
+  },
+  {
+    "filename": "ピカチュウ.png",
+    "name": "No.0025 ピカチュウ",
+    "dex": "0025",
+    "sprite_class": "sprite-poke-ui_PokeIcon_02_0025_00_0"
+  },
+  {
+    "filename": "ライチュウ.png",
+    "name": "No.0026 ライチュウ",
+    "dex": "0026",
+    "sprite_class": "sprite-poke-ui_PokeIcon_02_0026_00_0"
+  },
+  {
+    "filename": "ライチュウ_アローラのすがた.png",
+    "name": "No.0026 ライチュウ (アローラのすがた)",
+    "dex": "0026",
+    "sprite_class": "sprite-poke-ui_PokeIcon_02_0026_01_0"
+  },
+  {
+    "filename": "ピクシー.png",
+    "name": "No.0036 ピクシー",
+    "dex": "0036",
+    "sprite_class": "sprite-poke-ui_PokeIcon_02_0036_00_0"
+  },
+  {
+    "filename": "キュウコン.png",
+    "name": "No.0038 キュウコン",
+    "dex": "0038",
+    "sprite_class": "sprite-poke-ui_PokeIcon_02_0038_00_0"
+  },
+  {
+    "filename": "キュウコン_アローラのすがた.png",
+    "name": "No.0038 キュウコン (アローラのすがた)",
+    "dex": "0038",
+    "sprite_class": "sprite-poke-ui_PokeIcon_02_0038_01_0"
+  },
+  {
+    "filename": "ウインディ.png",
+    "name": "No.0059 ウインディ",
+    "dex": "0059",
+    "sprite_class": "sprite-poke-ui_PokeIcon_02_0059_00_0"
+  },
+  {
+    "filename": "ウインディ_ヒスイのすがた.png",
+    "name": "No.0059 ウインディ (ヒスイのすがた)",
+    "dex": "0059",
+    "sprite_class": "sprite-poke-ui_PokeIcon_02_0059_01_0"
+  },
+  {
+    "filename": "フーディン.png",
+    "name": "No.0065 フーディン",
+    "dex": "0065",
+    "sprite_class": "sprite-poke-ui_PokeIcon_02_0065_00_0"
+  },
+  {
+    "filename": "カイリキー.png",
+    "name": "No.0068 カイリキー",
+    "dex": "0068",
+    "sprite_class": "sprite-poke-ui_PokeIcon_02_0068_00_0"
+  },
+  {
+    "filename": "ウツボット.png",
+    "name": "No.0071 ウツボット",
+    "dex": "0071",
+    "sprite_class": "sprite-poke-ui_PokeIcon_02_0071_00_0"
+  },
+  {
+    "filename": "ヤドラン.png",
+    "name": "No.0080 ヤドラン",
+    "dex": "0080",
+    "sprite_class": "sprite-poke-ui_PokeIcon_02_0080_00_0"
+  },
+  {
+    "filename": "ヤドラン_ガラルのすがた.png",
+    "name": "No.0080 ヤドラン (ガラルのすがた)",
+    "dex": "0080",
+    "sprite_class": "sprite-poke-ui_PokeIcon_02_0080_02_0"
+  },
+  {
+    "filename": "ゲンガー.png",
+    "name": "No.0094 ゲンガー",
+    "dex": "0094",
+    "sprite_class": "sprite-poke-ui_PokeIcon_02_0094_00_0"
+  },
+  {
+    "filename": "ガルーラ.png",
+    "name": "No.0115 ガルーラ",
+    "dex": "0115",
+    "sprite_class": "sprite-poke-ui_PokeIcon_02_0115_00_0"
+  },
+  {
+    "filename": "スターミー.png",
+    "name": "No.0121 スターミー",
+    "dex": "0121",
+    "sprite_class": "sprite-poke-ui_PokeIcon_02_0121_00_0"
+  },
+  {
+    "filename": "カイロス.png",
+    "name": "No.0127 カイロス",
+    "dex": "0127",
+    "sprite_class": "sprite-poke-ui_PokeIcon_02_0127_00_0"
+  },
+  {
+    "filename": "ケンタロス.png",
+    "name": "No.0128 ケンタロス",
+    "dex": "0128",
+    "sprite_class": "sprite-poke-ui_PokeIcon_02_0128_00_0"
+  },
+  {
+    "filename": "ケンタロス_パルデアのすがた_コンバットしゅ.png",
+    "name": "No.0128 ケンタロス (パルデアのすがた・コンバットしゅ)",
+    "dex": "0128",
+    "sprite_class": "sprite-poke-ui_PokeIcon_02_0128_01_0"
+  },
+  {
+    "filename": "ケンタロス_パルデアのすがた_ブレイズしゅ.png",
+    "name": "No.0128 ケンタロス (パルデアのすがた・ブレイズしゅ)",
+    "dex": "0128",
+    "sprite_class": "sprite-poke-ui_PokeIcon_02_0128_02_0"
+  },
+  {
+    "filename": "ケンタロス_パルデアのすがた_ウォーターしゅ.png",
+    "name": "No.0128 ケンタロス (パルデアのすがた・ウォーターしゅ)",
+    "dex": "0128",
+    "sprite_class": "sprite-poke-ui_PokeIcon_02_0128_03_0"
+  },
+  {
+    "filename": "ギャラドス.png",
+    "name": "No.0130 ギャラドス",
+    "dex": "0130",
+    "sprite_class": "sprite-poke-ui_PokeIcon_02_0130_00_0"
+  },
+  {
+    "filename": "メタモン.png",
+    "name": "No.0132 メタモン",
+    "dex": "0132",
+    "sprite_class": "sprite-poke-ui_PokeIcon_02_0132_00_0"
+  },
+  {
+    "filename": "シャワーズ.png",
+    "name": "No.0134 シャワーズ",
+    "dex": "0134",
+    "sprite_class": "sprite-poke-ui_PokeIcon_02_0134_00_0"
+  },
+  {
+    "filename": "サンダース.png",
+    "name": "No.0135 サンダース",
+    "dex": "0135",
+    "sprite_class": "sprite-poke-ui_PokeIcon_02_0135_00_0"
+  },
+  {
+    "filename": "ブースター.png",
+    "name": "No.0136 ブースター",
+    "dex": "0136",
+    "sprite_class": "sprite-poke-ui_PokeIcon_02_0136_00_0"
+  },
+  {
+    "filename": "プテラ.png",
+    "name": "No.0142 プテラ",
+    "dex": "0142",
+    "sprite_class": "sprite-poke-ui_PokeIcon_02_0142_00_0"
+  },
+  {
+    "filename": "カビゴン.png",
+    "name": "No.0143 カビゴン",
+    "dex": "0143",
+    "sprite_class": "sprite-poke-ui_PokeIcon_02_0143_00_0"
+  },
+  {
+    "filename": "カイリュー.png",
+    "name": "No.0149 カイリュー",
+    "dex": "0149",
+    "sprite_class": "sprite-poke-ui_PokeIcon_02_0149_00_0"
+  },
+  {
+    "filename": "メガニウム.png",
+    "name": "No.0154 メガニウム",
+    "dex": "0154",
+    "sprite_class": "sprite-poke-ui_PokeIcon_02_0154_00_0"
+  },
+  {
+    "filename": "バクフーン.png",
+    "name": "No.0157 バクフーン",
+    "dex": "0157",
+    "sprite_class": "sprite-poke-ui_PokeIcon_02_0157_00_0"
+  },
+  {
+    "filename": "バクフーン_ヒスイのすがた.png",
+    "name": "No.0157 バクフーン (ヒスイのすがた)",
+    "dex": "0157",
+    "sprite_class": "sprite-poke-ui_PokeIcon_02_0157_01_0"
+  },
+  {
+    "filename": "オーダイル.png",
+    "name": "No.0160 オーダイル",
+    "dex": "0160",
+    "sprite_class": "sprite-poke-ui_PokeIcon_02_0160_00_0"
+  },
+  {
+    "filename": "アリアドス.png",
+    "name": "No.0168 アリアドス",
+    "dex": "0168",
+    "sprite_class": "sprite-poke-ui_PokeIcon_02_0168_00_0"
+  },
+  {
+    "filename": "デンリュウ.png",
+    "name": "No.0181 デンリュウ",
+    "dex": "0181",
+    "sprite_class": "sprite-poke-ui_PokeIcon_02_0181_00_0"
+  },
+  {
+    "filename": "マリルリ.png",
+    "name": "No.0184 マリルリ",
+    "dex": "0184",
+    "sprite_class": "sprite-poke-ui_PokeIcon_02_0184_00_0"
+  },
+  {
+    "filename": "ニョロトノ.png",
+    "name": "No.0186 ニョロトノ",
+    "dex": "0186",
+    "sprite_class": "sprite-poke-ui_PokeIcon_02_0186_00_0"
+  },
+  {
+    "filename": "エーフィ.png",
+    "name": "No.0196 エーフィ",
+    "dex": "0196",
+    "sprite_class": "sprite-poke-ui_PokeIcon_02_0196_00_0"
+  },
+  {
+    "filename": "ブラッキー.png",
+    "name": "No.0197 ブラッキー",
+    "dex": "0197",
+    "sprite_class": "sprite-poke-ui_PokeIcon_02_0197_00_0"
+  },
+  {
+    "filename": "ヤドキング.png",
+    "name": "No.0199 ヤドキング",
+    "dex": "0199",
+    "sprite_class": "sprite-poke-ui_PokeIcon_02_0199_00_0"
+  },
+  {
+    "filename": "ヤドキング_ガラルのすがた.png",
+    "name": "No.0199 ヤドキング (ガラルのすがた)",
+    "dex": "0199",
+    "sprite_class": "sprite-poke-ui_PokeIcon_02_0199_01_0"
+  },
+  {
+    "filename": "フォレトス.png",
+    "name": "No.0205 フォレトス",
+    "dex": "0205",
+    "sprite_class": "sprite-poke-ui_PokeIcon_02_0205_00_0"
+  },
+  {
+    "filename": "ハガネール.png",
+    "name": "No.0208 ハガネール",
+    "dex": "0208",
+    "sprite_class": "sprite-poke-ui_PokeIcon_02_0208_00_0"
+  },
+  {
+    "filename": "ハッサム.png",
+    "name": "No.0212 ハッサム",
+    "dex": "0212",
+    "sprite_class": "sprite-poke-ui_PokeIcon_02_0212_00_0"
+  },
+  {
+    "filename": "ヘラクロス.png",
+    "name": "No.0214 ヘラクロス",
+    "dex": "0214",
+    "sprite_class": "sprite-poke-ui_PokeIcon_02_0214_00_0"
+  },
+  {
+    "filename": "エアームド.png",
+    "name": "No.0227 エアームド",
+    "dex": "0227",
+    "sprite_class": "sprite-poke-ui_PokeIcon_02_0227_00_0"
+  },
+  {
+    "filename": "ヘルガー.png",
+    "name": "No.0229 ヘルガー",
+    "dex": "0229",
+    "sprite_class": "sprite-poke-ui_PokeIcon_02_0229_00_0"
+  },
+  {
+    "filename": "バンギラス.png",
+    "name": "No.0248 バンギラス",
+    "dex": "0248",
+    "sprite_class": "sprite-poke-ui_PokeIcon_02_0248_00_0"
+  },
+  {
+    "filename": "ペリッパー.png",
+    "name": "No.0279 ペリッパー",
+    "dex": "0279",
+    "sprite_class": "sprite-poke-ui_PokeIcon_02_0279_00_0"
+  },
+  {
+    "filename": "サーナイト.png",
+    "name": "No.0282 サーナイト",
+    "dex": "0282",
+    "sprite_class": "sprite-poke-ui_PokeIcon_02_0282_00_0"
+  },
+  {
+    "filename": "ヤミラミ.png",
+    "name": "No.0302 ヤミラミ",
+    "dex": "0302",
+    "sprite_class": "sprite-poke-ui_PokeIcon_02_0302_00_0"
+  },
+  {
+    "filename": "ボスゴドラ.png",
+    "name": "No.0306 ボスゴドラ",
+    "dex": "0306",
+    "sprite_class": "sprite-poke-ui_PokeIcon_02_0306_00_0"
+  },
+  {
+    "filename": "チャーレム.png",
+    "name": "No.0308 チャーレム",
+    "dex": "0308",
+    "sprite_class": "sprite-poke-ui_PokeIcon_02_0308_00_0"
+  },
+  {
+    "filename": "ライボルト.png",
+    "name": "No.0310 ライボルト",
+    "dex": "0310",
+    "sprite_class": "sprite-poke-ui_PokeIcon_02_0310_00_0"
+  },
+  {
+    "filename": "サメハダー.png",
+    "name": "No.0319 サメハダー",
+    "dex": "0319",
+    "sprite_class": "sprite-poke-ui_PokeIcon_02_0319_00_0"
+  },
+  {
+    "filename": "バクーダ.png",
+    "name": "No.0323 バクーダ",
+    "dex": "0323",
+    "sprite_class": "sprite-poke-ui_PokeIcon_02_0323_00_0"
+  },
+  {
+    "filename": "コータス.png",
+    "name": "No.0324 コータス",
+    "dex": "0324",
+    "sprite_class": "sprite-poke-ui_PokeIcon_02_0324_00_0"
+  },
+  {
+    "filename": "チルタリス.png",
+    "name": "No.0334 チルタリス",
+    "dex": "0334",
+    "sprite_class": "sprite-poke-ui_PokeIcon_02_0334_00_0"
+  },
+  {
+    "filename": "ミロカロス.png",
+    "name": "No.0350 ミロカロス",
+    "dex": "0350",
+    "sprite_class": "sprite-poke-ui_PokeIcon_02_0350_00_0"
+  },
+  {
+    "filename": "ポワルン.png",
+    "name": "No.0351 ポワルン",
+    "dex": "0351",
+    "sprite_class": "sprite-poke-ui_PokeIcon_02_0351_00_0"
+  },
+  {
+    "filename": "ジュペッタ.png",
+    "name": "No.0354 ジュペッタ",
+    "dex": "0354",
+    "sprite_class": "sprite-poke-ui_PokeIcon_02_0354_00_0"
+  },
+  {
+    "filename": "チリーン.png",
+    "name": "No.0358 チリーン",
+    "dex": "0358",
+    "sprite_class": "sprite-poke-ui_PokeIcon_02_0358_00_0"
+  },
+  {
+    "filename": "アブソル.png",
+    "name": "No.0359 アブソル",
+    "dex": "0359",
+    "sprite_class": "sprite-poke-ui_PokeIcon_02_0359_00_0"
+  },
+  {
+    "filename": "オニゴーリ.png",
+    "name": "No.0362 オニゴーリ",
+    "dex": "0362",
+    "sprite_class": "sprite-poke-ui_PokeIcon_02_0362_00_0"
+  },
+  {
+    "filename": "ドダイトス.png",
+    "name": "No.0389 ドダイトス",
+    "dex": "0389",
+    "sprite_class": "sprite-poke-ui_PokeIcon_02_0389_00_0"
+  },
+  {
+    "filename": "ゴウカザル.png",
+    "name": "No.0392 ゴウカザル",
+    "dex": "0392",
+    "sprite_class": "sprite-poke-ui_PokeIcon_02_0392_00_0"
+  },
+  {
+    "filename": "エンペルト.png",
+    "name": "No.0395 エンペルト",
+    "dex": "0395",
+    "sprite_class": "sprite-poke-ui_PokeIcon_02_0395_00_0"
+  },
+  {
+    "filename": "レントラー.png",
+    "name": "No.0405 レントラー",
+    "dex": "0405",
+    "sprite_class": "sprite-poke-ui_PokeIcon_02_0405_00_0"
+  },
+  {
+    "filename": "ロズレイド.png",
+    "name": "No.0407 ロズレイド",
+    "dex": "0407",
+    "sprite_class": "sprite-poke-ui_PokeIcon_02_0407_00_0"
+  },
+  {
+    "filename": "ラムパルド.png",
+    "name": "No.0409 ラムパルド",
+    "dex": "0409",
+    "sprite_class": "sprite-poke-ui_PokeIcon_02_0409_00_0"
+  },
+  {
+    "filename": "トリデプス.png",
+    "name": "No.0411 トリデプス",
+    "dex": "0411",
+    "sprite_class": "sprite-poke-ui_PokeIcon_02_0411_00_0"
+  },
+  {
+    "filename": "ミミロップ.png",
+    "name": "No.0428 ミミロップ",
+    "dex": "0428",
+    "sprite_class": "sprite-poke-ui_PokeIcon_02_0428_00_0"
+  },
+  {
+    "filename": "ミカルゲ.png",
+    "name": "No.0442 ミカルゲ",
+    "dex": "0442",
+    "sprite_class": "sprite-poke-ui_PokeIcon_02_0442_00_0"
+  },
+  {
+    "filename": "ガブリアス.png",
+    "name": "No.0445 ガブリアス",
+    "dex": "0445",
+    "sprite_class": "sprite-poke-ui_PokeIcon_02_0445_00_0"
+  },
+  {
+    "filename": "ルカリオ.png",
+    "name": "No.0448 ルカリオ",
+    "dex": "0448",
+    "sprite_class": "sprite-poke-ui_PokeIcon_02_0448_00_0"
+  },
+  {
+    "filename": "カバルドン.png",
+    "name": "No.0450 カバルドン",
+    "dex": "0450",
+    "sprite_class": "sprite-poke-ui_PokeIcon_02_0450_00_0"
+  },
+  {
+    "filename": "ドクロッグ.png",
+    "name": "No.0454 ドクロッグ",
+    "dex": "0454",
+    "sprite_class": "sprite-poke-ui_PokeIcon_02_0454_00_0"
+  },
+  {
+    "filename": "ユキノオー.png",
+    "name": "No.0460 ユキノオー",
+    "dex": "0460",
+    "sprite_class": "sprite-poke-ui_PokeIcon_02_0460_00_0"
+  },
+  {
+    "filename": "マニューラ.png",
+    "name": "No.0461 マニューラ",
+    "dex": "0461",
+    "sprite_class": "sprite-poke-ui_PokeIcon_02_0461_00_0"
+  },
+  {
+    "filename": "ドサイドン.png",
+    "name": "No.0464 ドサイドン",
+    "dex": "0464",
+    "sprite_class": "sprite-poke-ui_PokeIcon_02_0464_00_0"
+  },
+  {
+    "filename": "リーフィア.png",
+    "name": "No.0470 リーフィア",
+    "dex": "0470",
+    "sprite_class": "sprite-poke-ui_PokeIcon_02_0470_00_0"
+  },
+  {
+    "filename": "グレイシア.png",
+    "name": "No.0471 グレイシア",
+    "dex": "0471",
+    "sprite_class": "sprite-poke-ui_PokeIcon_02_0471_00_0"
+  },
+  {
+    "filename": "グライオン.png",
+    "name": "No.0472 グライオン",
+    "dex": "0472",
+    "sprite_class": "sprite-poke-ui_PokeIcon_02_0472_00_0"
+  },
+  {
+    "filename": "マンムー.png",
+    "name": "No.0473 マンムー",
+    "dex": "0473",
+    "sprite_class": "sprite-poke-ui_PokeIcon_02_0473_00_0"
+  },
+  {
+    "filename": "エルレイド.png",
+    "name": "No.0475 エルレイド",
+    "dex": "0475",
+    "sprite_class": "sprite-poke-ui_PokeIcon_02_0475_00_0"
+  },
+  {
+    "filename": "ユキメノコ.png",
+    "name": "No.0478 ユキメノコ",
+    "dex": "0478",
+    "sprite_class": "sprite-poke-ui_PokeIcon_02_0478_00_0"
+  },
+  {
+    "filename": "ロトム_ロトムのすがた.png",
+    "name": "No.0479 ロトム (ロトムのすがた)",
+    "dex": "0479",
+    "sprite_class": "sprite-poke-ui_PokeIcon_02_0479_00_0"
+  },
+  {
+    "filename": "ロトム_ヒートロトム.png",
+    "name": "No.0479 ロトム (ヒートロトム)",
+    "dex": "0479",
+    "sprite_class": "sprite-poke-ui_PokeIcon_02_0479_01_0"
+  },
+  {
+    "filename": "ロトム_ウォッシュロトム.png",
+    "name": "No.0479 ロトム (ウォッシュロトム)",
+    "dex": "0479",
+    "sprite_class": "sprite-poke-ui_PokeIcon_02_0479_02_0"
+  },
+  {
+    "filename": "ロトム_フロストロトム.png",
+    "name": "No.0479 ロトム (フロストロトム)",
+    "dex": "0479",
+    "sprite_class": "sprite-poke-ui_PokeIcon_02_0479_03_0"
+  },
+  {
+    "filename": "ロトム_スピンロトム.png",
+    "name": "No.0479 ロトム (スピンロトム)",
+    "dex": "0479",
+    "sprite_class": "sprite-poke-ui_PokeIcon_02_0479_04_0"
+  },
+  {
+    "filename": "ロトム_カットロトム.png",
+    "name": "No.0479 ロトム (カットロトム)",
+    "dex": "0479",
+    "sprite_class": "sprite-poke-ui_PokeIcon_02_0479_05_0"
+  },
+  {
+    "filename": "ジャローダ.png",
+    "name": "No.0497 ジャローダ",
+    "dex": "0497",
+    "sprite_class": "sprite-poke-ui_PokeIcon_02_0497_00_0"
+  },
+  {
+    "filename": "エンブオー.png",
+    "name": "No.0500 エンブオー",
+    "dex": "0500",
+    "sprite_class": "sprite-poke-ui_PokeIcon_02_0500_00_0"
+  },
+  {
+    "filename": "ダイケンキ.png",
+    "name": "No.0503 ダイケンキ",
+    "dex": "0503",
+    "sprite_class": "sprite-poke-ui_PokeIcon_02_0503_00_0"
+  },
+  {
+    "filename": "ダイケンキ_ヒスイのすがた.png",
+    "name": "No.0503 ダイケンキ (ヒスイのすがた)",
+    "dex": "0503",
+    "sprite_class": "sprite-poke-ui_PokeIcon_02_0503_01_0"
+  },
+  {
+    "filename": "ミルホッグ.png",
+    "name": "No.0505 ミルホッグ",
+    "dex": "0505",
+    "sprite_class": "sprite-poke-ui_PokeIcon_02_0505_00_0"
+  },
+  {
+    "filename": "レパルダス.png",
+    "name": "No.0510 レパルダス",
+    "dex": "0510",
+    "sprite_class": "sprite-poke-ui_PokeIcon_02_0510_00_0"
+  },
+  {
+    "filename": "ヤナッキー.png",
+    "name": "No.0512 ヤナッキー",
+    "dex": "0512",
+    "sprite_class": "sprite-poke-ui_PokeIcon_02_0512_00_0"
+  },
+  {
+    "filename": "バオッキー.png",
+    "name": "No.0514 バオッキー",
+    "dex": "0514",
+    "sprite_class": "sprite-poke-ui_PokeIcon_02_0514_00_0"
+  },
+  {
+    "filename": "ヒヤッキー.png",
+    "name": "No.0516 ヒヤッキー",
+    "dex": "0516",
+    "sprite_class": "sprite-poke-ui_PokeIcon_02_0516_00_0"
+  },
+  {
+    "filename": "ドリュウズ.png",
+    "name": "No.0530 ドリュウズ",
+    "dex": "0530",
+    "sprite_class": "sprite-poke-ui_PokeIcon_02_0530_00_0"
+  },
+  {
+    "filename": "タブンネ.png",
+    "name": "No.0531 タブンネ",
+    "dex": "0531",
+    "sprite_class": "sprite-poke-ui_PokeIcon_02_0531_00_0"
+  },
+  {
+    "filename": "ローブシン.png",
+    "name": "No.0534 ローブシン",
+    "dex": "0534",
+    "sprite_class": "sprite-poke-ui_PokeIcon_02_0534_00_0"
+  },
+  {
+    "filename": "エルフーン.png",
+    "name": "No.0547 エルフーン",
+    "dex": "0547",
+    "sprite_class": "sprite-poke-ui_PokeIcon_02_0547_00_0"
+  },
+  {
+    "filename": "ワルビアル.png",
+    "name": "No.0553 ワルビアル",
+    "dex": "0553",
+    "sprite_class": "sprite-poke-ui_PokeIcon_02_0553_00_0"
+  },
+  {
+    "filename": "デスカーン.png",
+    "name": "No.0563 デスカーン",
+    "dex": "0563",
+    "sprite_class": "sprite-poke-ui_PokeIcon_02_0563_00_0"
+  },
+  {
+    "filename": "ダストダス.png",
+    "name": "No.0569 ダストダス",
+    "dex": "0569",
+    "sprite_class": "sprite-poke-ui_PokeIcon_02_0569_00_0"
+  },
+  {
+    "filename": "ゾロアーク.png",
+    "name": "No.0571 ゾロアーク",
+    "dex": "0571",
+    "sprite_class": "sprite-poke-ui_PokeIcon_02_0571_00_0"
+  },
+  {
+    "filename": "ゾロアーク_ヒスイのすがた.png",
+    "name": "No.0571 ゾロアーク (ヒスイのすがた)",
+    "dex": "0571",
+    "sprite_class": "sprite-poke-ui_PokeIcon_02_0571_01_0"
+  },
+  {
+    "filename": "ランクルス.png",
+    "name": "No.0579 ランクルス",
+    "dex": "0579",
+    "sprite_class": "sprite-poke-ui_PokeIcon_02_0579_00_0"
+  },
+  {
+    "filename": "バイバニラ.png",
+    "name": "No.0584 バイバニラ",
+    "dex": "0584",
+    "sprite_class": "sprite-poke-ui_PokeIcon_02_0584_00_0"
+  },
+  {
+    "filename": "エモンガ.png",
+    "name": "No.0587 エモンガ",
+    "dex": "0587",
+    "sprite_class": "sprite-poke-ui_PokeIcon_02_0587_00_0"
+  },
+  {
+    "filename": "シャンデラ.png",
+    "name": "No.0609 シャンデラ",
+    "dex": "0609",
+    "sprite_class": "sprite-poke-ui_PokeIcon_02_0609_00_0"
+  },
+  {
+    "filename": "ツンベアー.png",
+    "name": "No.0614 ツンベアー",
+    "dex": "0614",
+    "sprite_class": "sprite-poke-ui_PokeIcon_02_0614_00_0"
+  },
+  {
+    "filename": "マッギョ.png",
+    "name": "No.0618 マッギョ",
+    "dex": "0618",
+    "sprite_class": "sprite-poke-ui_PokeIcon_02_0618_00_0"
+  },
+  {
+    "filename": "マッギョ_ガラルのすがた.png",
+    "name": "No.0618 マッギョ (ガラルのすがた)",
+    "dex": "0618",
+    "sprite_class": "sprite-poke-ui_PokeIcon_02_0618_01_0"
+  },
+  {
+    "filename": "ゴルーグ.png",
+    "name": "No.0623 ゴルーグ",
+    "dex": "0623",
+    "sprite_class": "sprite-poke-ui_PokeIcon_02_0623_00_0"
+  },
+  {
+    "filename": "サザンドラ.png",
+    "name": "No.0635 サザンドラ",
+    "dex": "0635",
+    "sprite_class": "sprite-poke-ui_PokeIcon_02_0635_00_0"
+  },
+  {
+    "filename": "ウルガモス.png",
+    "name": "No.0637 ウルガモス",
+    "dex": "0637",
+    "sprite_class": "sprite-poke-ui_PokeIcon_02_0637_00_0"
+  },
+  {
+    "filename": "ブリガロン.png",
+    "name": "No.0652 ブリガロン",
+    "dex": "0652",
+    "sprite_class": "sprite-poke-ui_PokeIcon_02_0652_00_0"
+  },
+  {
+    "filename": "マフォクシー.png",
+    "name": "No.0655 マフォクシー",
+    "dex": "0655",
+    "sprite_class": "sprite-poke-ui_PokeIcon_02_0655_00_0"
+  },
+  {
+    "filename": "ゲッコウガ.png",
+    "name": "No.0658 ゲッコウガ",
+    "dex": "0658",
+    "sprite_class": "sprite-poke-ui_PokeIcon_02_0658_00_0"
+  },
+  {
+    "filename": "ホルード.png",
+    "name": "No.0660 ホルード",
+    "dex": "0660",
+    "sprite_class": "sprite-poke-ui_PokeIcon_02_0660_00_0"
+  },
+  {
+    "filename": "ファイアロー.png",
+    "name": "No.0663 ファイアロー",
+    "dex": "0663",
+    "sprite_class": "sprite-poke-ui_PokeIcon_02_0663_00_0"
+  },
+  {
+    "filename": "ビビヨン.png",
+    "name": "No.0666 ビビヨン",
+    "dex": "0666",
+    "sprite_class": "sprite-poke-ui_PokeIcon_02_0666_18_0"
+  },
+  {
+    "filename": "フラエッテ.png",
+    "name": "No.0670 フラエッテ",
+    "dex": "0670",
+    "sprite_class": "sprite-poke-ui_PokeIcon_02_0670_05_0"
+  },
+  {
+    "filename": "フラージェス.png",
+    "name": "No.0671 フラージェス",
+    "dex": "0671",
+    "sprite_class": "sprite-poke-ui_PokeIcon_02_0671_00_0"
+  },
+  {
+    "filename": "ゴロンダ.png",
+    "name": "No.0675 ゴロンダ",
+    "dex": "0675",
+    "sprite_class": "sprite-poke-ui_PokeIcon_02_0675_00_0"
+  },
+  {
+    "filename": "トリミアン.png",
+    "name": "No.0676 トリミアン",
+    "dex": "0676",
+    "sprite_class": "sprite-poke-ui_PokeIcon_02_0676_00_0"
+  },
+  {
+    "filename": "ニャオニクス_オスのすがた.png",
+    "name": "No.0678 ニャオニクス (オスのすがた)",
+    "dex": "0678",
+    "sprite_class": "sprite-poke-ui_PokeIcon_02_0678_00_0"
+  },
+  {
+    "filename": "ニャオニクス_メスのすがた.png",
+    "name": "No.0678 ニャオニクス (メスのすがた)",
+    "dex": "0678",
+    "sprite_class": "sprite-poke-ui_PokeIcon_02_0678_01_0"
+  },
+  {
+    "filename": "ギルガルド.png",
+    "name": "No.0681 ギルガルド",
+    "dex": "0681",
+    "sprite_class": "sprite-poke-ui_PokeIcon_02_0681_00_0"
+  },
+  {
+    "filename": "フレフワン.png",
+    "name": "No.0683 フレフワン",
+    "dex": "0683",
+    "sprite_class": "sprite-poke-ui_PokeIcon_02_0683_00_0"
+  },
+  {
+    "filename": "ペロリーム.png",
+    "name": "No.0685 ペロリーム",
+    "dex": "0685",
+    "sprite_class": "sprite-poke-ui_PokeIcon_02_0685_00_0"
+  },
+  {
+    "filename": "ブロスター.png",
+    "name": "No.0693 ブロスター",
+    "dex": "0693",
+    "sprite_class": "sprite-poke-ui_PokeIcon_02_0693_00_0"
+  },
+  {
+    "filename": "エレザード.png",
+    "name": "No.0695 エレザード",
+    "dex": "0695",
+    "sprite_class": "sprite-poke-ui_PokeIcon_02_0695_00_0"
+  },
+  {
+    "filename": "ガチゴラス.png",
+    "name": "No.0697 ガチゴラス",
+    "dex": "0697",
+    "sprite_class": "sprite-poke-ui_PokeIcon_02_0697_00_0"
+  },
+  {
+    "filename": "アマルルガ.png",
+    "name": "No.0699 アマルルガ",
+    "dex": "0699",
+    "sprite_class": "sprite-poke-ui_PokeIcon_02_0699_00_0"
+  },
+  {
+    "filename": "ニンフィア.png",
+    "name": "No.0700 ニンフィア",
+    "dex": "0700",
+    "sprite_class": "sprite-poke-ui_PokeIcon_02_0700_00_0"
+  },
+  {
+    "filename": "ルチャブル.png",
+    "name": "No.0701 ルチャブル",
+    "dex": "0701",
+    "sprite_class": "sprite-poke-ui_PokeIcon_02_0701_00_0"
+  },
+  {
+    "filename": "デデンネ.png",
+    "name": "No.0702 デデンネ",
+    "dex": "0702",
+    "sprite_class": "sprite-poke-ui_PokeIcon_02_0702_00_0"
+  },
+  {
+    "filename": "ヌメルゴン.png",
+    "name": "No.0706 ヌメルゴン",
+    "dex": "0706",
+    "sprite_class": "sprite-poke-ui_PokeIcon_02_0706_00_0"
+  },
+  {
+    "filename": "ヌメルゴン_ヒスイのすがた.png",
+    "name": "No.0706 ヌメルゴン (ヒスイのすがた)",
+    "dex": "0706",
+    "sprite_class": "sprite-poke-ui_PokeIcon_02_0706_01_0"
+  },
+  {
+    "filename": "クレッフィ.png",
+    "name": "No.0707 クレッフィ",
+    "dex": "0707",
+    "sprite_class": "sprite-poke-ui_PokeIcon_02_0707_00_0"
+  },
+  {
+    "filename": "オーロット.png",
+    "name": "No.0709 オーロット",
+    "dex": "0709",
+    "sprite_class": "sprite-poke-ui_PokeIcon_02_0709_00_0"
+  },
+  {
+    "filename": "パンプジン_ちゅうだましゅ.png",
+    "name": "No.0711 パンプジン (ちゅうだましゅ)",
+    "dex": "0711",
+    "sprite_class": "sprite-poke-ui_PokeIcon_02_0711_00_0"
+  },
+  {
+    "filename": "パンプジン_こだましゅ.png",
+    "name": "No.0711 パンプジン (こだましゅ)",
+    "dex": "0711",
+    "sprite_class": "sprite-poke-ui_PokeIcon_02_0711_01_0"
+  },
+  {
+    "filename": "パンプジン_おおだましゅ.png",
+    "name": "No.0711 パンプジン (おおだましゅ)",
+    "dex": "0711",
+    "sprite_class": "sprite-poke-ui_PokeIcon_02_0711_02_0"
+  },
+  {
+    "filename": "パンプジン_ギガだましゅ.png",
+    "name": "No.0711 パンプジン (ギガだましゅ)",
+    "dex": "0711",
+    "sprite_class": "sprite-poke-ui_PokeIcon_02_0711_03_0"
+  },
+  {
+    "filename": "クレベース.png",
+    "name": "No.0713 クレベース",
+    "dex": "0713",
+    "sprite_class": "sprite-poke-ui_PokeIcon_02_0713_00_0"
+  },
+  {
+    "filename": "クレベース_ヒスイのすがた.png",
+    "name": "No.0713 クレベース (ヒスイのすがた)",
+    "dex": "0713",
+    "sprite_class": "sprite-poke-ui_PokeIcon_02_0713_01_0"
+  },
+  {
+    "filename": "オンバーン.png",
+    "name": "No.0715 オンバーン",
+    "dex": "0715",
+    "sprite_class": "sprite-poke-ui_PokeIcon_02_0715_00_0"
+  },
+  {
+    "filename": "ジュナイパー.png",
+    "name": "No.0724 ジュナイパー",
+    "dex": "0724",
+    "sprite_class": "sprite-poke-ui_PokeIcon_02_0724_00_0"
+  },
+  {
+    "filename": "ジュナイパー_ヒスイのすがた.png",
+    "name": "No.0724 ジュナイパー (ヒスイのすがた)",
+    "dex": "0724",
+    "sprite_class": "sprite-poke-ui_PokeIcon_02_0724_01_0"
+  },
+  {
+    "filename": "ガオガエン.png",
+    "name": "No.0727 ガオガエン",
+    "dex": "0727",
+    "sprite_class": "sprite-poke-ui_PokeIcon_02_0727_00_0"
+  },
+  {
+    "filename": "アシレーヌ.png",
+    "name": "No.0730 アシレーヌ",
+    "dex": "0730",
+    "sprite_class": "sprite-poke-ui_PokeIcon_02_0730_00_0"
+  },
+  {
+    "filename": "ドデカバシ.png",
+    "name": "No.0733 ドデカバシ",
+    "dex": "0733",
+    "sprite_class": "sprite-poke-ui_PokeIcon_02_0733_00_0"
+  },
+  {
+    "filename": "ケケンカニ.png",
+    "name": "No.0740 ケケンカニ",
+    "dex": "0740",
+    "sprite_class": "sprite-poke-ui_PokeIcon_02_0740_00_0"
+  },
+  {
+    "filename": "ルガルガン_まひるのすがた.png",
+    "name": "No.0745 ルガルガン (まひるのすがた)",
+    "dex": "0745",
+    "sprite_class": "sprite-poke-ui_PokeIcon_02_0745_00_0"
+  },
+  {
+    "filename": "ルガルガン_まよなかのすがた.png",
+    "name": "No.0745 ルガルガン (まよなかのすがた)",
+    "dex": "0745",
+    "sprite_class": "sprite-poke-ui_PokeIcon_02_0745_01_0"
+  },
+  {
+    "filename": "ルガルガン_たそがれのすがた.png",
+    "name": "No.0745 ルガルガン (たそがれのすがた)",
+    "dex": "0745",
+    "sprite_class": "sprite-poke-ui_PokeIcon_02_0745_02_0"
+  },
+  {
+    "filename": "ドヒドイデ.png",
+    "name": "No.0748 ドヒドイデ",
+    "dex": "0748",
+    "sprite_class": "sprite-poke-ui_PokeIcon_02_0748_00_0"
+  },
+  {
+    "filename": "バンバドロ.png",
+    "name": "No.0750 バンバドロ",
+    "dex": "0750",
+    "sprite_class": "sprite-poke-ui_PokeIcon_02_0750_00_0"
+  },
+  {
+    "filename": "オニシズクモ.png",
+    "name": "No.0752 オニシズクモ",
+    "dex": "0752",
+    "sprite_class": "sprite-poke-ui_PokeIcon_02_0752_00_0"
+  },
+  {
+    "filename": "エンニュート.png",
+    "name": "No.0758 エンニュート",
+    "dex": "0758",
+    "sprite_class": "sprite-poke-ui_PokeIcon_02_0758_00_0"
+  },
+  {
+    "filename": "アマージョ.png",
+    "name": "No.0763 アマージョ",
+    "dex": "0763",
+    "sprite_class": "sprite-poke-ui_PokeIcon_02_0763_00_0"
+  },
+  {
+    "filename": "ヤレユータン.png",
+    "name": "No.0765 ヤレユータン",
+    "dex": "0765",
+    "sprite_class": "sprite-poke-ui_PokeIcon_02_0765_00_0"
+  },
+  {
+    "filename": "ナゲツケサル.png",
+    "name": "No.0766 ナゲツケサル",
+    "dex": "0766",
+    "sprite_class": "sprite-poke-ui_PokeIcon_02_0766_00_0"
+  },
+  {
+    "filename": "ミミッキュ.png",
+    "name": "No.0778 ミミッキュ",
+    "dex": "0778",
+    "sprite_class": "sprite-poke-ui_PokeIcon_02_0778_00_0"
+  },
+  {
+    "filename": "ジジーロン.png",
+    "name": "No.0780 ジジーロン",
+    "dex": "0780",
+    "sprite_class": "sprite-poke-ui_PokeIcon_02_0780_00_0"
+  },
+  {
+    "filename": "ジャラランガ.png",
+    "name": "No.0784 ジャラランガ",
+    "dex": "0784",
+    "sprite_class": "sprite-poke-ui_PokeIcon_02_0784_00_0"
+  },
+  {
+    "filename": "アーマーガア.png",
+    "name": "No.0823 アーマーガア",
+    "dex": "0823",
+    "sprite_class": "sprite-poke-ui_PokeIcon_02_0823_00_0"
+  },
+  {
+    "filename": "アップリュー.png",
+    "name": "No.0841 アップリュー",
+    "dex": "0841",
+    "sprite_class": "sprite-poke-ui_PokeIcon_02_0841_00_0"
+  },
+  {
+    "filename": "タルップル.png",
+    "name": "No.0842 タルップル",
+    "dex": "0842",
+    "sprite_class": "sprite-poke-ui_PokeIcon_02_0842_00_0"
+  },
+  {
+    "filename": "サダイジャ.png",
+    "name": "No.0844 サダイジャ",
+    "dex": "0844",
+    "sprite_class": "sprite-poke-ui_PokeIcon_02_0844_00_0"
+  },
+  {
+    "filename": "ポットデス.png",
+    "name": "No.0855 ポットデス",
+    "dex": "0855",
+    "sprite_class": "sprite-poke-ui_PokeIcon_02_0855_00_0"
+  },
+  {
+    "filename": "ブリムオン.png",
+    "name": "No.0858 ブリムオン",
+    "dex": "0858",
+    "sprite_class": "sprite-poke-ui_PokeIcon_02_0858_00_0"
+  },
+  {
+    "filename": "バリコオル.png",
+    "name": "No.0866 バリコオル",
+    "dex": "0866",
+    "sprite_class": "sprite-poke-ui_PokeIcon_02_0866_00_0"
+  },
+  {
+    "filename": "デスバーン.png",
+    "name": "No.0867 デスバーン",
+    "dex": "0867",
+    "sprite_class": "sprite-poke-ui_PokeIcon_02_0867_00_0"
+  },
+  {
+    "filename": "マホイップ.png",
+    "name": "No.0869 マホイップ",
+    "dex": "0869",
+    "sprite_class": "sprite-poke-ui_PokeIcon_02_0869_00_0"
+  },
+  {
+    "filename": "モルペコ.png",
+    "name": "No.0877 モルペコ",
+    "dex": "0877",
+    "sprite_class": "sprite-poke-ui_PokeIcon_02_0877_00_0"
+  },
+  {
+    "filename": "ドラパルト.png",
+    "name": "No.0887 ドラパルト",
+    "dex": "0887",
+    "sprite_class": "sprite-poke-ui_PokeIcon_02_0887_00_0"
+  },
+  {
+    "filename": "アヤシシ.png",
+    "name": "No.0899 アヤシシ",
+    "dex": "0899",
+    "sprite_class": "sprite-poke-ui_PokeIcon_02_0899_00_0"
+  },
+  {
+    "filename": "バサギリ.png",
+    "name": "No.0900 バサギリ",
+    "dex": "0900",
+    "sprite_class": "sprite-poke-ui_PokeIcon_02_0900_00_0"
+  },
+  {
+    "filename": "イダイトウ_オスのすがた.png",
+    "name": "No.0902 イダイトウ (オスのすがた)",
+    "dex": "0902",
+    "sprite_class": "sprite-poke-ui_PokeIcon_02_0902_00_0"
+  },
+  {
+    "filename": "イダイトウ_メスのすがた.png",
+    "name": "No.0902 イダイトウ (メスのすがた)",
+    "dex": "0902",
+    "sprite_class": "sprite-poke-ui_PokeIcon_02_0902_01_0"
+  },
+  {
+    "filename": "オオニューラ.png",
+    "name": "No.0903 オオニューラ",
+    "dex": "0903",
+    "sprite_class": "sprite-poke-ui_PokeIcon_02_0903_00_0"
+  },
+  {
+    "filename": "マスカーニャ.png",
+    "name": "No.0908 マスカーニャ",
+    "dex": "0908",
+    "sprite_class": "sprite-poke-ui_PokeIcon_02_0908_00_0"
+  },
+  {
+    "filename": "ラウドボーン.png",
+    "name": "No.0911 ラウドボーン",
+    "dex": "0911",
+    "sprite_class": "sprite-poke-ui_PokeIcon_02_0911_00_0"
+  },
+  {
+    "filename": "ウェーニバル.png",
+    "name": "No.0914 ウェーニバル",
+    "dex": "0914",
+    "sprite_class": "sprite-poke-ui_PokeIcon_02_0914_00_0"
+  },
+  {
+    "filename": "イッカネズミ.png",
+    "name": "No.0925 イッカネズミ",
+    "dex": "0925",
+    "sprite_class": "sprite-poke-ui_PokeIcon_02_0925_00_0"
+  },
+  {
+    "filename": "キョジオーン.png",
+    "name": "No.0934 キョジオーン",
+    "dex": "0934",
+    "sprite_class": "sprite-poke-ui_PokeIcon_02_0934_00_0"
+  },
+  {
+    "filename": "グレンアルマ.png",
+    "name": "No.0936 グレンアルマ",
+    "dex": "0936",
+    "sprite_class": "sprite-poke-ui_PokeIcon_02_0936_00_0"
+  },
+  {
+    "filename": "ソウブレイズ.png",
+    "name": "No.0937 ソウブレイズ",
+    "dex": "0937",
+    "sprite_class": "sprite-poke-ui_PokeIcon_02_0937_00_0"
+  },
+  {
+    "filename": "ハラバリー.png",
+    "name": "No.0939 ハラバリー",
+    "dex": "0939",
+    "sprite_class": "sprite-poke-ui_PokeIcon_02_0939_00_0"
+  },
+  {
+    "filename": "スコヴィラン.png",
+    "name": "No.0952 スコヴィラン",
+    "dex": "0952",
+    "sprite_class": "sprite-poke-ui_PokeIcon_02_0952_00_0"
+  },
+  {
+    "filename": "クエスパトラ.png",
+    "name": "No.0956 クエスパトラ",
+    "dex": "0956",
+    "sprite_class": "sprite-poke-ui_PokeIcon_02_0956_00_0"
+  },
+  {
+    "filename": "デカヌチャン.png",
+    "name": "No.0959 デカヌチャン",
+    "dex": "0959",
+    "sprite_class": "sprite-poke-ui_PokeIcon_02_0959_00_0"
+  },
+  {
+    "filename": "イルカマン.png",
+    "name": "No.0964 イルカマン",
+    "dex": "0964",
+    "sprite_class": "sprite-poke-ui_PokeIcon_02_0964_00_0"
+  },
+  {
+    "filename": "ミミズズ.png",
+    "name": "No.0968 ミミズズ",
+    "dex": "0968",
+    "sprite_class": "sprite-poke-ui_PokeIcon_02_0968_00_0"
+  },
+  {
+    "filename": "キラフロル.png",
+    "name": "No.0970 キラフロル",
+    "dex": "0970",
+    "sprite_class": "sprite-poke-ui_PokeIcon_02_0970_00_0"
+  },
+  {
+    "filename": "リキキリン.png",
+    "name": "No.0981 リキキリン",
+    "dex": "0981",
+    "sprite_class": "sprite-poke-ui_PokeIcon_02_0981_00_0"
+  },
+  {
+    "filename": "ドドゲザン.png",
+    "name": "No.0983 ドドゲザン",
+    "dex": "0983",
+    "sprite_class": "sprite-poke-ui_PokeIcon_02_0983_00_0"
+  },
+  {
+    "filename": "ヤバソチャ.png",
+    "name": "No.1013 ヤバソチャ",
+    "dex": "1013",
+    "sprite_class": "sprite-poke-ui_PokeIcon_02_1013_00_0"
+  },
+  {
+    "filename": "ブリジュラス.png",
+    "name": "No.1018 ブリジュラス",
+    "dex": "1018",
+    "sprite_class": "sprite-poke-ui_PokeIcon_02_1018_00_0"
+  },
+  {
+    "filename": "カミツオロチ.png",
+    "name": "No.1019 カミツオロチ",
+    "dex": "1019",
+    "sprite_class": "sprite-poke-ui_PokeIcon_02_1019_00_0"
+  }
+]
