@@ -6,6 +6,7 @@ import {
   Shield,
   Calculator,
   Users,
+  Search,
   Monitor,
   Activity,
 } from 'lucide-react'
@@ -17,6 +18,7 @@ const navItems = [
   { to: '/protect', icon: Shield, label: 'まもる管理' },
   { to: '/damage', icon: Calculator, label: 'ダメージ計算' },
   { to: '/party', icon: Users, label: 'パーティ管理' },
+  { to: '/meta', icon: Search, label: 'メタ型検索' },
   { to: '/hud-settings', icon: Monitor, label: 'OBS HUD' },
 ]
 

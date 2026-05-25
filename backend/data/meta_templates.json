@@ -1,0 +1,25 @@
+{
+  "last_updated": "2026-05-25T00:43:47.954491+00:00",
+  "pokemon": {
+    "テストポケモン": [
+      {
+        "species": "テストポケモン",
+        "archetype_name": "テスト型",
+        "ability": "テスト特性",
+        "item": "テスト持ち物",
+        "nature": "ようき",
+        "evs": {
+          "attack": 252
+        },
+        "moves": [
+          "テスト技"
+        ],
+        "usage_rate": 0.5,
+        "tera_type": null,
+        "can_mega_evolve": false,
+        "notes": "",
+        "source_url": ""
+      }
+    ]
+  }
+}

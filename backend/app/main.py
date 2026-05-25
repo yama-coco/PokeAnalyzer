@@ -6,7 +6,7 @@ from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 
 from app.database import init_db
-from app.routers import battle, obs, party, vision
+from app.routers import battle, meta, obs, party, vision
 from app.services.obs_connector import obs_connector
 from app.services.vision_engine import vision_engine
 
@@ -38,6 +38,7 @@ app.include_router(party.router)
 app.include_router(battle.router)
 app.include_router(obs.router)
 app.include_router(vision.router)
+app.include_router(meta.router)
 
 
 @app.get("/")
