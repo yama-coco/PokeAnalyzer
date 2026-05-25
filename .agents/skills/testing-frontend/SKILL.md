@@ -1,6 +1,6 @@
 ---
 name: testing-pokeanalyzer-frontend
-description: Test PokeAnalyzer React frontend end-to-end against the FastAPI backend. Use when verifying UI pages, API integration, or Phase 4 changes.
+description: Test PokeAnalyzer React frontend end-to-end against the FastAPI backend. Use when verifying UI pages, API integration, or Phase 4+ changes.
 ---
 
 # Testing PokeAnalyzer Frontend
@@ -10,7 +10,8 @@ description: Test PokeAnalyzer React frontend end-to-end against the FastAPI bac
 ### Start Backend
 ```bash
 cd /home/ubuntu/repos/PokeAnalyzer/backend
-uv run uvicorn app.main:app --reload --host 0.0.0.0 --port 8000
+source .venv/bin/activate
+uvicorn app.main:app --reload --host 0.0.0.0 --port 8000
 ```
 
 ### Start Frontend
@@ -31,14 +32,41 @@ Should return JSON with match phase info.
 
 | Route | Page | Key Checks |
 |-------|------|------------|
-| `/` | Dashboard | Sidebar 7 links, phase badge, match start/end/advance controls |
+| `/` | Dashboard | Sidebar 8 links, phase badge, match start/end/advance controls |
 | `/speed` | Speed Calculator | 4 Pokemon inputs, calculate button, trick room reversal |
 | `/hp` | HP Tracker | Empty state when no battle; ally actual HP vs enemy % HP |
 | `/protect` | Protect Manager | Probability table (100% → 33.3% → 11.1% → 3.7%) |
 | `/damage` | Damage Calculator | Attack/defense inputs, STAB/type effectiveness, result display |
 | `/party` | Party Management | CRUD operations, "新規作成" button |
+| `/meta` | メタ型検索 | 3 tabs: チーム分析, 個別検索, 使用率ランキング |
 | `/hud-settings` | HUD Settings | OBS setup instructions, preview iframe |
 | `/hud` | HUD Overlay | Only shows content when phase is `in_battle` |
+
+## Meta Page Testing (Phase 8)
+
+The `/meta` page has 3 tabs accessible via buttons at the top:
+
+### 使用率ランキング Tab
+- Click "使用率ランキング" button
+- Shows top 20 Pokemon with rank, species name, archetype, usage %
+- Expected order: #1 イダイトウ (オス), #2 ガブリアス, #3 ドドゲザン
+- If ミミロップ appears as #1, the ranking sort is broken (using archetype rate instead of site order)
+
+### 個別検索 Tab
+- Click "個別検索" button
+- Type Pokemon name (e.g., "ガブリアス") and click "検索"
+- Should show "ガブリアス の型一覧 (5 件)" header
+- Each template card shows: archetype name, usage %, ability, item, nature, moves
+- "メガシンカ" badge appears when can_mega_evolve is true
+- Clicking the expand arrow on a card shows EV spread details
+
+### チーム分析 Tab
+- Click "チーム分析" button
+- Enter Pokemon names in 6 slots (at least 1 required)
+- Click "分析する"
+- Results show: 構築タイプ推定, 軸ポケモン, 警戒ポイント, and per-Pokemon template cards
+- Test: Enter "ペリッパー" → should detect "雨パ" (rain team)
+- Test: Enter only unknown Pokemon → should show "スタン" archetype
 
 ## Match Lifecycle for Testing
 
@@ -54,6 +82,7 @@ Should return JSON with match phase info.
 - **Damage calculator formula**: The damage calculation formula might produce inflated values. Verify with known scenarios (e.g., STAB super-effective should give ~50-80%, not thousands of %).
 - **HUD overlay route**: Navigating to `/hud` might cause browser issues if the page renders an empty transparent overlay. Test via `/hud-settings` preview iframe instead.
 - **WebSocket connection**: Header shows "未接続" (disconnected) — this is expected unless the vision engine WebSocket server is running.
+- **Meta data corruption**: If `meta_templates.json` contains only "テストポケモン" (1 species, ~563 bytes), pytest has overwritten it. Re-run `python scripts/scrape_pokedb.py` to regenerate.
 
 ## Speed Calculator Test Scenario
 
@@ -80,3 +109,9 @@ For verifying damage calc correctness:
 - The frontend uses Vite proxy — all `/api/*` requests proxy to backend port 8000
 - Tailwind CSS v4 is used — check `@import "tailwindcss"` syntax if styles break
 - React Router handles client-side routing — direct URL navigation works with Vite dev server
+- Sidebar has 8 navigation links (added メタ型検索 in Phase 8)
+- If the browser tool becomes unresponsive during testing, API endpoints can be verified via curl as a fallback
+
+## Devin Secrets Needed
+
+None -- all testing can be done without external credentials.

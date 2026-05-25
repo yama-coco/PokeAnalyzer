@@ -1,6 +1,6 @@
 ---
 name: testing-pokeanalyzer-api
-description: Test the PokeAnalyzer FastAPI backend end-to-end. Use when verifying API changes, Vision Engine, speed calculator, OBS integration, Vision Pipeline, or YOLO detector.
+description: Test the PokeAnalyzer FastAPI backend end-to-end. Use when verifying API changes, Vision Engine, speed calculator, OBS integration, Vision Pipeline, YOLO detector, or Meta Database.
 ---
 
 # Testing PokeAnalyzer API
@@ -28,8 +28,39 @@ Available at `http://localhost:8000/docs`. API groups:
 - **battle**: Speed tier calculation (`POST /api/battle/speed-tiers`)
 - **obs**: OBS WebSocket integration (graceful degradation when OBS not connected)
 - **vision**: Vision Engine pipeline (Phase 2) + Vision Pipeline (Phase 5)
+- **meta**: Meta database - Pokemon type templates, team analysis, usage ranking (Phase 8)
 
 ## Key Test Flows
+
+### Meta Database (Phase 8)
+
+Phase 8 provides competitive Pokemon data from champs.pokedb.tokyo.
+
+**Endpoints:**
+- `GET /api/meta/usage-ranking?limit=N` - Usage ranking (default top 50)
+- `GET /api/meta/pokemon/{species}` - Pokemon templates (URL-encode Japanese names)
+- `POST /api/meta/analyze-team` - Team composition analysis
+- `POST /api/meta/update` - Manual template update
+
+**Key test scenarios:**
+1. **Usage ranking order**: Ranking must follow the site's order (insertion order in JSON), NOT sorted by archetype usage_rate. If sorted by usage_rate, ミミロップ (98.5%) would incorrectly appear first instead of イダイトウ (オス) (43.4%).
+2. **Individual search**: `GET /api/meta/pokemon/ガブリアス` should return 5 templates. Top template: ability=さめはだ, item=オボンのみ, nature=いじっぱり, usage_rate=0.355
+3. **Team analysis**: `POST /api/meta/analyze-team` with `{"enemy_species": ["ペリッパー", "ガブリアス"]}` should return archetype="雨パ" (rain team detected via ペリッパー's あめふらし ability)
+4. **Non-existent Pokemon**: `GET /api/meta/pokemon/存在しない` should return empty array `[]`, not error
+5. **Data integrity**: `total_pokemon` should be 50, `total_templates` should be 250
+
+**Known pitfalls:**
+- `test_meta_api.py` uses `patch.object(meta_database, "save")` to prevent tests from overwriting `meta_templates.json`. If this mock is removed, running pytest will corrupt the data file with test data ("テストポケモン").
+- The `usage_rate` field in templates is the archetype-level rate within a species (e.g., 35.5% of ガブリアス users use オボンのみ), NOT the species-level usage rate.
+- Species names may contain special characters: parentheses like "イダイトウ (オス)", colons like "フラエッテ (えいえん)", region markers like "キュウコン (アローラ)"
+
+**Data refresh:**
+```bash
+cd /home/ubuntu/repos/PokeAnalyzer/backend
+source .venv/bin/activate
+python scripts/scrape_pokedb.py
+```
+Requires Chrome running with CDP (DevToolsActivePort). Takes ~4 minutes for 50 species.
 
 ### Vision Engine State Machine
 
@@ -130,9 +161,7 @@ source .venv/bin/activate
 python -m pytest tests/ -v
 ```
 
-Expected: 289+ tests passing. Tests cover Phase 1 (parties, battle, OBS), Phase 2 (vision engine, scene state, frame processor, OCR, YOLO, template matcher), Phase 5 (vision pipeline), and Phase 6 (YOLO detector utilities: NMS, IoU, coordinate conversion, benchmark, training data management).
-
-Phase 6 specific tests (48 tests): `python -m pytest tests/test_yolo_detector.py -v`
+Expected: 416+ tests passing. Tests cover Phase 1-8.
 
 ## Lint
 
@@ -143,7 +172,7 @@ ruff check app/ tests/
 ruff format --check app/ tests/
 ```
 
-**Note**: `damage_calculator.py` may have pre-existing formatting issues not introduced by recent phases.
+**Note**: Old scraper files (`scrape_meta_data.py`, `scrape_via_browser.py`) may have pre-existing lint warnings. Focus on `app/` and `tests/` directories.
 
 ## Common Pitfalls
 
@@ -154,6 +183,7 @@ ruff format --check app/ tests/
 - When testing pipeline start failure, the error response dict has a slightly different shape than `get_status()` (e.g., `components` may be empty).
 - `capture_training_data.py` requires a live OBS WebSocket connection and cannot be E2E tested without OBS.
 - Phase 5 pipeline endpoints (`/api/vision/pipeline/*`) are only available if Phase 5 PR is merged. If testing Phase 6 branch based off main without Phase 5, skip pipeline tests.
+- MetaDatabase is a singleton. Running pytest test_meta_api.py will NOT corrupt `meta_templates.json` because save() is mocked. But if save() mock is removed, data file will be overwritten with test data.
 
 ## Devin Secrets Needed
 
