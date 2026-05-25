@@ -45,12 +45,12 @@
 
 ### 4.1 前提条件
 
-| ツール | バージョン | 用途 |
-|---|---|---|
-| Python | 3.10+ | バックエンド |
-| Node.js | 18+ | フロントエンド |
-| uv | 最新 | Python パッケージ管理 |
-| OBS Studio | 30+ (任意) | 映像キャプチャ連携 |
+| ツール     | バージョン | 用途                  |
+| ---------- | ---------- | --------------------- |
+| Python     | 3.10+      | バックエンド          |
+| Node.js    | 18+        | フロントエンド        |
+| uv         | 最新       | Python パッケージ管理 |
+| OBS Studio | 30+ (任意) | 映像キャプチャ連携    |
 
 ### 4.2 バックエンドセットアップ
 
@@ -71,6 +71,7 @@ uv run uvicorn app.main:app --reload --port 8000
 ```
 
 起動後:
+
 - **Swagger UI (API ドキュメント):** http://localhost:8000/docs
 - **ReDoc:** http://localhost:8000/redoc
 
@@ -87,6 +88,7 @@ npm run dev
 ```
 
 起動後:
+
 - **フロントエンド:** http://localhost:5173
 - Vite プロキシにより `/api/*` リクエストは自動的に `localhost:8000` へ転送される
 
@@ -177,32 +179,34 @@ PokeAnalyzer/
 
 #### パーティ管理 (`/api/parties/`)
 
-| メソッド | パス | 概要 |
-|---|---|---|
-| GET | `/api/parties/` | パーティ一覧取得 |
-| POST | `/api/parties/` | パーティ新規作成 |
-| GET | `/api/parties/{id}` | パーティ詳細取得 |
-| PUT | `/api/parties/{id}` | パーティ更新 |
-| DELETE | `/api/parties/{id}` | パーティ削除 |
+| メソッド | パス                | 概要             |
+| -------- | ------------------- | ---------------- |
+| GET      | `/api/parties/`     | パーティ一覧取得 |
+| POST     | `/api/parties/`     | パーティ新規作成 |
+| GET      | `/api/parties/{id}` | パーティ詳細取得 |
+| PUT      | `/api/parties/{id}` | パーティ更新     |
+| DELETE   | `/api/parties/{id}` | パーティ削除     |
 
 登録項目: 種族 (species)、特性 (ability)、持ち物 (item)、技 (moves)、実数値 (stats: HP/A/B/C/D/S)、テラスタイプ (tera_type)、メガシンカ可否 (can_mega_evolve)
 
 #### 素早さ計算 (`/api/battle/speed-tiers`)
 
-| 対応補正 | 詳細 |
-|---|---|
-| フィールド | 追い風 (×2)、トリックルーム (行動順反転) |
-| 天候特性 | すいすい/ようりょくそ/すなかき/ゆきかき (天候時 ×2) |
-| アイテム | こだわりスカーフ (×1.5)、くろいてっきゅう (×0.5) |
-| 特性 | はやあし (まひ無効)、かるわざ (×2)、スロースタート (×0.5) |
-| 状態 | まひ (×0.5)、ランク変化 (-6〜+6) |
+| 対応補正   | 詳細                                                      |
+| ---------- | --------------------------------------------------------- |
+| フィールド | 追い風 (×2)、トリックルーム (行動順反転)                  |
+| 天候特性   | すいすい/ようりょくそ/すなかき/ゆきかき (天候時 ×2)       |
+| アイテム   | こだわりスカーフ (×1.5)、くろいてっきゅう (×0.5)          |
+| 特性       | はやあし (まひ無効)、かるわざ (×2)、スロースタート (×0.5) |
+| 状態       | まひ (×0.5)、ランク変化 (-6〜+6)                          |
 
 #### ダメージ計算 (`/api/battle/damage`)
 
 第9世代準拠の計算式:
+
 ```
 Damage = floor(floor(((2*Level/5+2) * Power * A/D) / 50 + 2) * Modifier * random / 100)
 ```
+
 - 乱数幅: 85〜100 の16パターン
 - STAB (タイプ一致 ×1.5)、範囲技補正 (×0.75)、タイプ相性 (0.25x〜4x)
 - テラスタル・メガシンカ時の補正対応
@@ -246,37 +250,37 @@ Damage = floor(floor(((2*Level/5+2) * Power * A/D) / 50 + 2) * Modifier * random
 
 ### 5.2 フロントエンド (7ページ)
 
-| ページ | パス | 概要 |
-|---|---|---|
-| ダッシュボード | `/` | 試合開始/終了/ターン制御 + 全パネル統合ビュー |
-| 素早さ順位 | `/speed` | 4体入力 + フィールド条件 → 行動順表示 (トリル反転対応) |
-| HP追跡 | `/hp` | 味方: 実数値管理、相手: パーセンテージ管理 |
-| まもる管理 | `/protect` | 連続成功確率 + 使用履歴表示 |
-| ダメージ計算 | `/damage` | 第9世代準拠、STAB/範囲技/タイプ相性対応 |
-| パーティ管理 | `/party` | CRUD + JSON 入力フォーム |
-| OBS HUD | `/hud` | 透明背景オーバーレイ (OBS ブラウザソース用) |
+| ページ         | パス       | 概要                                                   |
+| -------------- | ---------- | ------------------------------------------------------ |
+| ダッシュボード | `/`        | 試合開始/終了/ターン制御 + 全パネル統合ビュー          |
+| 素早さ順位     | `/speed`   | 4体入力 + フィールド条件 → 行動順表示 (トリル反転対応) |
+| HP追跡         | `/hp`      | 味方: 実数値管理、相手: パーセンテージ管理             |
+| まもる管理     | `/protect` | 連続成功確率 + 使用履歴表示                            |
+| ダメージ計算   | `/damage`  | 第9世代準拠、STAB/範囲技/タイプ相性対応                |
+| パーティ管理   | `/party`   | CRUD + JSON 入力フォーム                               |
+| OBS HUD        | `/hud`     | 透明背景オーバーレイ (OBS ブラウザソース用)            |
 
 ### 5.3 テストカバレッジ
 
 248テスト (16テストファイル):
 
-| テストファイル | 対象 |
-|---|---|
-| `test_speed_calculator.py` | 素早さ計算 (追い風/トリル/スカーフ/天候/まひ/複合補正) |
-| `test_damage_calculator.py` | ダメージ計算・耐久逆算 |
-| `test_hp_tracker.py` | HP追跡 (OCR/パーセンテージ/バー解析) |
-| `test_protect_manager.py` | まもる管理 (連続確率計算) |
-| `test_battle_state.py` | 試合状態管理 |
-| `test_turn_logger.py` | ターンログ記録 |
-| `test_scene_state.py` | シーンステートマシン遷移 |
-| `test_frame_processor.py` | フレーム前処理・ROI抽出 |
-| `test_template_matcher.py` | テンプレートマッチング |
-| `test_ocr_engine.py` | OCRエンジン |
-| `test_vision_engine.py` | 映像解析パイプライン |
-| `test_yolo_detector.py` | YOLO検出 |
-| `test_party_api.py` | パーティ CRUD API |
-| `test_battle_api.py` | バトル関連 API |
-| `test_vision_api.py` | Vision API |
+| テストファイル              | 対象                                                   |
+| --------------------------- | ------------------------------------------------------ |
+| `test_speed_calculator.py`  | 素早さ計算 (追い風/トリル/スカーフ/天候/まひ/複合補正) |
+| `test_damage_calculator.py` | ダメージ計算・耐久逆算                                 |
+| `test_hp_tracker.py`        | HP追跡 (OCR/パーセンテージ/バー解析)                   |
+| `test_protect_manager.py`   | まもる管理 (連続確率計算)                              |
+| `test_battle_state.py`      | 試合状態管理                                           |
+| `test_turn_logger.py`       | ターンログ記録                                         |
+| `test_scene_state.py`       | シーンステートマシン遷移                               |
+| `test_frame_processor.py`   | フレーム前処理・ROI抽出                                |
+| `test_template_matcher.py`  | テンプレートマッチング                                 |
+| `test_ocr_engine.py`        | OCRエンジン                                            |
+| `test_vision_engine.py`     | 映像解析パイプライン                                   |
+| `test_yolo_detector.py`     | YOLO検出                                               |
+| `test_party_api.py`         | パーティ CRUD API                                      |
+| `test_battle_api.py`        | バトル関連 API                                         |
+| `test_vision_api.py`        | Vision API                                             |
 
 ---
 
@@ -306,18 +310,18 @@ IDLE → MATCHING → SELECTION → BATTLE → RESULT → IDLE
 
 座標は正規化値 (0.0-1.0) で定義し、任意の解像度に対応。基準解像度: 1920×1080。
 
-| ROI名 | 座標 (x, y, w, h) | 用途 |
-|---|---|---|
-| `hp_enemy_1` | 0.46, 0.0, 0.24, 0.08 | 相手1体目HPエリア |
-| `hp_enemy_2` | 0.72, 0.0, 0.24, 0.08 | 相手2体目HPエリア |
-| `hp_ally_1` | 0.0, 0.87, 0.25, 0.11 | 味方1体目HPエリア |
-| `hp_ally_2` | 0.25, 0.87, 0.25, 0.11 | 味方2体目HPエリア |
-| `text_box` | 0.0, 0.75, 0.55, 0.12 | バトルログテキスト |
-| `command_menu` | 0.78, 0.58, 0.20, 0.40 | コマンドメニュー |
-| `move_select` | 0.58, 0.28, 0.40, 0.70 | 技選択メニュー |
-| `selection_ally` | 0.02, 0.08, 0.28, 0.82 | 選出画面・味方リスト |
+| ROI名             | 座標 (x, y, w, h)      | 用途                   |
+| ----------------- | ---------------------- | ---------------------- |
+| `hp_enemy_1`      | 0.46, 0.0, 0.24, 0.08  | 相手1体目HPエリア      |
+| `hp_enemy_2`      | 0.72, 0.0, 0.24, 0.08  | 相手2体目HPエリア      |
+| `hp_ally_1`       | 0.0, 0.87, 0.25, 0.11  | 味方1体目HPエリア      |
+| `hp_ally_2`       | 0.25, 0.87, 0.25, 0.11 | 味方2体目HPエリア      |
+| `text_box`        | 0.0, 0.75, 0.55, 0.12  | バトルログテキスト     |
+| `command_menu`    | 0.78, 0.58, 0.20, 0.40 | コマンドメニュー       |
+| `move_select`     | 0.58, 0.28, 0.40, 0.70 | 技選択メニュー         |
+| `selection_ally`  | 0.02, 0.08, 0.28, 0.82 | 選出画面・味方リスト   |
 | `selection_enemy` | 0.68, 0.03, 0.30, 0.92 | 選出画面・相手アイコン |
-| `vs_icons` | 0.68, 0.03, 0.30, 0.92 | VS画面・相手アイコン |
+| `vs_icons`        | 0.68, 0.03, 0.30, 0.92 | VS画面・相手アイコン   |
 
 ### 6.4 素早さ計算ロジック
 
@@ -393,22 +397,23 @@ class VisionPipeline:
 
 **APIエンドポイント追加:**
 
-| メソッド | パス | 概要 |
-|---|---|---|
-| POST | `/api/vision/pipeline/start` | パイプライン開始 (OBS仮想カメラ接続) |
-| POST | `/api/vision/pipeline/stop` | パイプライン停止 |
-| GET | `/api/vision/pipeline/status` | パイプライン状態取得 (FPS、処理フレーム数、接続状態) |
+| メソッド | パス                          | 概要                                                 |
+| -------- | ----------------------------- | ---------------------------------------------------- |
+| POST     | `/api/vision/pipeline/start`  | パイプライン開始 (OBS仮想カメラ接続)                 |
+| POST     | `/api/vision/pipeline/stop`   | パイプライン停止                                     |
+| GET      | `/api/vision/pipeline/status` | パイプライン状態取得 (FPS、処理フレーム数、接続状態) |
 
 **設定パラメータ:**
 
-| パラメータ | デフォルト | 説明 |
-|---|---|---|
-| `target_fps` | 5 | 解析フレームレート (fps)。CPU負荷と検出精度のバランス |
-| `device_index` | 0 | OpenCV の VideoCapture デバイスインデックス |
-| `scene_confidence_threshold` | 0.6 | シーン遷移の confidence 閾値 |
-| `noise_frame_count` | 3 | ノイズ耐性のためのフレーム数 (連続N回同じ判定で遷移) |
+| パラメータ                   | デフォルト | 説明                                                  |
+| ---------------------------- | ---------- | ----------------------------------------------------- |
+| `target_fps`                 | 5          | 解析フレームレート (fps)。CPU負荷と検出精度のバランス |
+| `device_index`               | 0          | OpenCV の VideoCapture デバイスインデックス           |
+| `scene_confidence_threshold` | 0.6        | シーン遷移の confidence 閾値                          |
+| `noise_frame_count`          | 3          | ノイズ耐性のためのフレーム数 (連続N回同じ判定で遷移)  |
 
 **テスト計画:**
+
 - OBS仮想カメラが未接続時のgraceful degradation (接続エラー → ステータス返却)
 - フレーム取得 → VisionEngine.process_frame() の結合テスト (合成テスト画像使用)
 - パイプライン開始/停止のライフサイクルテスト
@@ -423,13 +428,13 @@ class VisionPipeline:
 
 **データ要件:**
 
-| 項目 | 詳細 |
-|---|---|
-| 対象ポケモン | レギュレーション M-A 準拠の全使用可能ポケモン |
-| 必要画像枚数 | 最低500枚 (1ポケモンあたり2-3枚 × 200種+) |
-| 画像ソース | OBS経由のゲーム画面キャプチャ (1920×1080) |
-| アノテーション形式 | YOLO形式 (`class_id cx cy w h`、正規化座標) |
-| ROI | VS画面: `vs_icons` (0.68, 0.03, 0.30, 0.92)、選出画面: `selection_enemy` |
+| 項目               | 詳細                                                                     |
+| ------------------ | ------------------------------------------------------------------------ |
+| 対象ポケモン       | レギュレーション M-A 準拠の全使用可能ポケモン                            |
+| 必要画像枚数       | 最低500枚 (1ポケモンあたり2-3枚 × 200種+)                                |
+| 画像ソース         | OBS経由のゲーム画面キャプチャ (1920×1080)                                |
+| アノテーション形式 | YOLO形式 (`class_id cx cy w h`、正規化座標)                              |
+| ROI                | VS画面: `vs_icons` (0.68, 0.03, 0.30, 0.92)、選出画面: `selection_enemy` |
 
 **データ収集スクリプト:**
 
@@ -492,7 +497,7 @@ train: images/train
 val: images/val
 
 # クラス数はレギュレーション M-A の使用可能ポケモン数に依存
-nc: 200  # 例: 200種
+nc: 200 # 例: 200種
 
 names:
   0: ガブリアス
@@ -535,6 +540,7 @@ class YOLODetector:
 ```
 
 **テスト計画:**
+
 - 合成テスト画像での検出テスト (既存の `test_yolo_detector.py` を拡張)
 - 推論速度テスト (640×640 入力で 100ms 以下を目標)
 - NMS (Non-Maximum Suppression) パラメータの調整テスト
@@ -547,14 +553,14 @@ class YOLODetector:
 
 #### 7.1 対象テキストと抽出パターン
 
-| テキスト種別 | 画面位置 (ROI) | フォーマット例 | 抽出パターン |
-|---|---|---|---|
-| 味方HP実数値 | `hp_text_ally_1/2` | `149/185` | `r"(\d+)/(\d+)"` |
-| 相手HPパーセンテージ | `hp_text_enemy_1/2` | `73%` | `r"(\d+)%"` |
-| ポケモン名 | `name_ally_1/2`, `name_enemy_1/2` | `ガブリアス` | 日本語テキスト全体 |
-| 技名 | `move_1/2/3/4` | `じしん` | 日本語テキスト全体 |
-| バトルログ | `text_box` | `ガブリアスの じしん!` | 技名・特性・アイテムの分類 |
-| タイマー | `selection_timer`, `battle_timer` | `1:30` | `r"(\d+):(\d+)"` |
+| テキスト種別         | 画面位置 (ROI)                    | フォーマット例         | 抽出パターン               |
+| -------------------- | --------------------------------- | ---------------------- | -------------------------- |
+| 味方HP実数値         | `hp_text_ally_1/2`                | `149/185`              | `r"(\d+)/(\d+)"`           |
+| 相手HPパーセンテージ | `hp_text_enemy_1/2`               | `73%`                  | `r"(\d+)%"`                |
+| ポケモン名           | `name_ally_1/2`, `name_enemy_1/2` | `ガブリアス`           | 日本語テキスト全体         |
+| 技名                 | `move_1/2/3/4`                    | `じしん`               | 日本語テキスト全体         |
+| バトルログ           | `text_box`                        | `ガブリアスの じしん!` | 技名・特性・アイテムの分類 |
+| タイマー             | `selection_timer`, `battle_timer` | `1:30`                 | `r"(\d+):(\d+)"`           |
 
 #### 7.2 OCR前処理パイプライン
 
@@ -620,6 +626,7 @@ ocr = PaddleOCR(
 ```
 
 **テスト計画:**
+
 - 各ROIのスクリーンショットに対するOCR精度テスト (正解率90%以上を目標)
 - 前処理パイプラインの効果測定 (前処理あり/なしの精度比較)
 - フォントサイズ・解像度別の精度テスト
@@ -705,12 +712,12 @@ data/meta_templates.json に保存する。
 
 #### 8.3 API エンドポイント
 
-| メソッド | パス | 概要 |
-|---|---|---|
-| GET | `/api/meta/pokemon/{species}` | 指定ポケモンの型テンプレート一覧 |
-| POST | `/api/meta/analyze-team` | 相手6体の分析 (構築タイプ推定・脅威分析) |
-| POST | `/api/meta/update` | メタデータの手動更新 |
-| GET | `/api/meta/usage-ranking` | 使用率ランキング |
+| メソッド | パス                          | 概要                                     |
+| -------- | ----------------------------- | ---------------------------------------- |
+| GET      | `/api/meta/pokemon/{species}` | 指定ポケモンの型テンプレート一覧         |
+| POST     | `/api/meta/analyze-team`      | 相手6体の分析 (構築タイプ推定・脅威分析) |
+| POST     | `/api/meta/update`            | メタデータの手動更新                     |
+| GET      | `/api/meta/usage-ranking`     | 使用率ランキング                         |
 
 **リクエスト/レスポンス例:**
 
@@ -747,6 +754,7 @@ data/meta_templates.json に保存する。
 ```
 
 **テスト計画:**
+
 - JSON データの読み込み・検索テスト
 - チーム構築タイプ推定のロジックテスト (雨パ/砂パ/トリルパ/スタン等)
 - 未知のポケモンに対する graceful degradation テスト
@@ -776,53 +784,59 @@ data/meta_templates.json に保存する。
 ```typescript
 // frontend/electron/main.ts (新規)
 
-import { app, BrowserWindow, shell } from 'electron'
-import { spawn, ChildProcess } from 'child_process'
-import path from 'path'
+import { app, BrowserWindow, shell } from "electron";
+import { spawn, ChildProcess } from "child_process";
+import path from "path";
 
-let mainWindow: BrowserWindow | null = null
-let backendProcess: ChildProcess | null = null
+let mainWindow: BrowserWindow | null = null;
+let backendProcess: ChildProcess | null = null;
 
 function startBackend(): void {
   // バックエンドサーバーを子プロセスとして起動
-  const backendPath = path.join(__dirname, '../../backend')
-  backendProcess = spawn('uv', ['run', 'uvicorn', 'app.main:app', '--port', '8000'], {
-    cwd: backendPath,
-    stdio: 'pipe',
-  })
-  backendProcess.stdout?.on('data', (data) => console.log(`[backend] ${data}`))
-  backendProcess.stderr?.on('data', (data) => console.error(`[backend] ${data}`))
+  const backendPath = path.join(__dirname, "../../backend");
+  backendProcess = spawn(
+    "uv",
+    ["run", "uvicorn", "app.main:app", "--port", "8000"],
+    {
+      cwd: backendPath,
+      stdio: "pipe",
+    },
+  );
+  backendProcess.stdout?.on("data", (data) => console.log(`[backend] ${data}`));
+  backendProcess.stderr?.on("data", (data) =>
+    console.error(`[backend] ${data}`),
+  );
 }
 
 function createWindow(): void {
   mainWindow = new BrowserWindow({
     width: 1280,
     height: 800,
-    title: 'PAL-C - PokeAnalysis Live for Champions',
+    title: "PAL-C - PokeAnalysis Live for Champions",
     webPreferences: {
       nodeIntegration: false,
       contextIsolation: true,
     },
-  })
+  });
 
   // 開発時: Vite dev server、本番時: ビルド済みHTML
-  if (process.env.NODE_ENV === 'development') {
-    mainWindow.loadURL('http://localhost:5173')
+  if (process.env.NODE_ENV === "development") {
+    mainWindow.loadURL("http://localhost:5173");
   } else {
-    mainWindow.loadFile(path.join(__dirname, '../dist/index.html'))
+    mainWindow.loadFile(path.join(__dirname, "../dist/index.html"));
   }
 }
 
 app.whenReady().then(() => {
-  startBackend()
+  startBackend();
   // バックエンド起動待ち (最大10秒)
-  setTimeout(createWindow, 2000)
-})
+  setTimeout(createWindow, 2000);
+});
 
-app.on('window-all-closed', () => {
-  backendProcess?.kill()
-  app.quit()
-})
+app.on("window-all-closed", () => {
+  backendProcess?.kill();
+  app.quit();
+});
 ```
 
 #### 9.3 ビルド設定
@@ -835,10 +849,7 @@ app.on('window-all-closed', () => {
   "directories": {
     "output": "release"
   },
-  "files": [
-    "dist/**/*",
-    "electron/**/*"
-  ],
+  "files": ["dist/**/*", "electron/**/*"],
   "extraResources": [
     {
       "from": "../backend",
@@ -858,6 +869,7 @@ app.on('window-all-closed', () => {
 ```
 
 **テスト計画:**
+
 - Electron ウィンドウの起動・終了テスト
 - バックエンド子プロセスの起動・停止テスト
 - ビルド成果物の動作確認 (Windows / macOS)
@@ -936,3 +948,5 @@ jobs:
 - **メタデータ:** レギュレーション M-A (メガシンカ・テラスタル共存ルール)
 - **ポケモンアイコンソース:** [ポケモンチャンピオンズ公式 ポケモン一覧](https://web-view.app.pokemonchampions.jp/battle/pages/events/rs177501629259kmzbny/ja/pokemon.html)
 - **ダメージ計算式:** 第9世代準拠 (`floor(floor(((2*Level/5+2) * Power * A/D) / 50 + 2) * Modifier * random / 100)`)
+- ポケモン徹底攻略(https://yakkun.com/bbs/party/list/?rule=1)
+- 対戦データ(https://champs.pokedb.tokyo/?rule=1#pokemon)
