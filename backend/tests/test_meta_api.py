@@ -200,8 +200,9 @@ class TestUsageRanking:
         assert len(data["ranking"]) == 3
         assert data["ranking"][0]["rank"] == 1
         assert data["total_pokemon"] == 3
-        rates = [e["usage_rate"] for e in data["ranking"]]
-        assert rates == sorted(rates, reverse=True)
+        # ランキングはデータの挿入順を保持する
+        species_order = [e["species"] for e in data["ranking"]]
+        assert species_order == ["ガブリアス", "ペリッパー", "カマスジョー"]
 
     @pytest.mark.usefixtures("_populate_meta")
     def test_ranking_limit(self):

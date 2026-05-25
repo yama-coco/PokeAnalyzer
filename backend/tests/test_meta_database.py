@@ -240,8 +240,10 @@ class TestMetaDatabase:
         db.templates = rain_team_templates
         ranking = db.get_usage_ranking(limit=3)
         assert len(ranking) == 3
-        assert ranking[0]["usage_rate"] >= ranking[1]["usage_rate"]
-        assert ranking[1]["usage_rate"] >= ranking[2]["usage_rate"]
+        # ランキングはデータの挿入順（外部サイトの使用率順）を保持する
+        species_order = [r["species"] for r in ranking]
+        expected_order = list(rain_team_templates.keys())[:3]
+        assert species_order == expected_order
 
     def test_get_usage_ranking_empty(self, tmp_data_path: str):
         db = MetaDatabase(data_path=tmp_data_path)

@@ -151,22 +151,24 @@ class MetaDatabase:
         self.templates[species].append(template)
 
     def get_usage_ranking(self, limit: int = 50) -> list[dict]:
-        """使用率ランキングを返す。"""
+        """使用率ランキングを返す。
+
+        データは外部サイトの使用率順で保存されているため、
+        挿入順をそのままランキングとして使用する。
+        """
         ranking: list[dict] = []
         for species, templates in self.templates.items():
             if not templates:
                 continue
-            max_rate = max(t.usage_rate for t in templates)
             top_template = max(templates, key=lambda t: t.usage_rate)
             ranking.append(
                 {
                     "species": species,
-                    "usage_rate": max_rate,
+                    "usage_rate": top_template.usage_rate,
                     "top_archetype": top_template.archetype_name,
                     "template_count": len(templates),
                 }
             )
-        ranking.sort(key=lambda x: x["usage_rate"], reverse=True)
         return ranking[:limit]
 
     def suggest_team_composition(self, enemy_species: list[str]) -> dict:
