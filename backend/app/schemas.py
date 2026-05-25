@@ -312,3 +312,56 @@ class EVEstimateRequest(BaseModel):
     defender_max_hp: int = Field(..., ge=1, description="防御側最大HP")
     has_stab: bool = Field(False, description="タイプ一致")
     type_effectiveness: float = Field(1.0, description="タイプ相性")
+
+
+# --- Vision Pipeline schemas (Phase 5) ---
+
+
+class PipelineStartRequest(BaseModel):
+    device_index: int = Field(0, ge=0, description="OpenCV VideoCapture デバイスインデックス")
+    target_fps: int = Field(5, ge=1, le=30, description="解析フレームレート (fps)")
+    scene_confidence_threshold: float = Field(
+        0.6, ge=0.0, le=1.0, description="シーン遷移の confidence 閾値"
+    )
+    noise_frame_count: int = Field(
+        3, ge=1, le=30, description="ノイズ耐性のためのフレーム数"
+    )
+
+
+class PipelineCaptureStatus(BaseModel):
+    active: bool = False
+    width: int | None = None
+    height: int | None = None
+    fps: float | None = None
+
+
+class PipelineVisionStatus(BaseModel):
+    running: bool = False
+    scene_state: str = "idle"
+    scene_confidence: float = 0.0
+    fps: float = 0.0
+    total_frames: int = 0
+    detected_pokemon: list[str] = Field(default_factory=list)
+
+
+class PipelineStatsResponse(BaseModel):
+    started_at: float = 0.0
+    total_frames_fed: int = 0
+    total_frames_processed: int = 0
+    total_events_dispatched: int = 0
+    last_frame_at: float = 0.0
+    capture_errors: int = 0
+    pipeline_fps: float = 0.0
+
+
+class PipelineStatusResponse(BaseModel):
+    running: bool = False
+    target_fps: int = 5
+    device_index: int = 0
+    scene_confidence_threshold: float = 0.6
+    noise_frame_count: int = 3
+    capture: PipelineCaptureStatus = Field(default_factory=PipelineCaptureStatus)
+    vision: PipelineVisionStatus = Field(default_factory=PipelineVisionStatus)
+    stats: PipelineStatsResponse = Field(default_factory=PipelineStatsResponse)
+    components: dict = Field(default_factory=dict)
+    error: str | None = None
