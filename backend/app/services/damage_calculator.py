@@ -156,9 +156,7 @@ def calculate_damage(
     dfn = _apply_stat_modifier(defender.defense_stat, defender.defense_modifier)
 
     # 基本ダメージ (第9世代準拠)
-    base = math.floor(
-        math.floor((2 * attacker.level / 5 + 2) * move.power * atk / dfn) / 50 + 2
-    )
+    base = math.floor(math.floor((2 * attacker.level / 5 + 2) * move.power * atk / dfn) / 50 + 2)
 
     # 範囲技補正 (ダブルバトル)
     if move.is_spread:

@@ -249,25 +249,13 @@ class VisionPipeline:
         )
         self._stats.total_events_dispatched += 1
 
-        if (
-            self._previous_scene == SceneState.IDLE
-            and current_scene == SceneState.MATCHING
-        ):
+        if self._previous_scene == SceneState.IDLE and current_scene == SceneState.MATCHING:
             self._on_matching_start()
-        elif (
-            self._previous_scene == SceneState.MATCHING
-            and current_scene == SceneState.SELECTION
-        ):
+        elif self._previous_scene == SceneState.MATCHING and current_scene == SceneState.SELECTION:
             self._on_selection_start()
-        elif (
-            self._previous_scene == SceneState.SELECTION
-            and current_scene == SceneState.BATTLE
-        ):
+        elif self._previous_scene == SceneState.SELECTION and current_scene == SceneState.BATTLE:
             self._on_battle_start()
-        elif (
-            self._previous_scene == SceneState.BATTLE
-            and current_scene == SceneState.RESULT
-        ):
+        elif self._previous_scene == SceneState.BATTLE and current_scene == SceneState.RESULT:
             self._on_result()
         elif current_scene == SceneState.IDLE:
             self._on_return_to_idle()
