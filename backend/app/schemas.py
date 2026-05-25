@@ -323,9 +323,7 @@ class PipelineStartRequest(BaseModel):
     scene_confidence_threshold: float = Field(
         0.6, ge=0.0, le=1.0, description="シーン遷移の confidence 閾値"
     )
-    noise_frame_count: int = Field(
-        3, ge=1, le=30, description="ノイズ耐性のためのフレーム数"
-    )
+    noise_frame_count: int = Field(3, ge=1, le=30, description="ノイズ耐性のためのフレーム数")
 
 
 class PipelineCaptureStatus(BaseModel):
@@ -365,3 +363,62 @@ class PipelineStatusResponse(BaseModel):
     stats: PipelineStatsResponse = Field(default_factory=PipelineStatsResponse)
     components: dict = Field(default_factory=dict)
     error: str | None = None
+
+
+# --- Meta Database schemas (Phase 8) ---
+
+
+class PokemonTemplateResponse(BaseModel):
+    species: str = Field(..., description="種族名")
+    archetype_name: str = Field(..., description="型名 (例: スカーフ型)")
+    ability: str = Field(..., description="特性")
+    item: str = Field(..., description="持ち物")
+    nature: str = Field("", description="性格")
+    evs: dict[str, int] = Field(default_factory=dict, description="努力値")
+    moves: list[str] = Field(default_factory=list, description="技候補")
+    usage_rate: float = Field(0.0, ge=0.0, le=1.0, description="使用率")
+    tera_type: str | None = Field(None, description="テラスタイプ")
+    can_mega_evolve: bool = Field(False, description="メガシンカ可否")
+    notes: str = Field("", description="備考")
+    source_url: str = Field("", description="データソースURL")
+
+
+class MetaAnalyzeTeamRequest(BaseModel):
+    enemy_species: list[str] = Field(
+        ..., min_length=1, max_length=6, description="相手の6体のポケモン種族名"
+    )
+
+
+class KeyPokemonInfo(BaseModel):
+    species: str = Field(..., description="種族名")
+    role: str = Field(..., description="役割")
+    priority: str = Field("中", description="優先度 (高/中/低)")
+
+
+class TeamAnalysisResponse(BaseModel):
+    archetype: str = Field("スタン", description="構築タイプ推定")
+    key_pokemon: list[KeyPokemonInfo] = Field(default_factory=list, description="軸ポケモン")
+    threats: list[str] = Field(default_factory=list, description="警戒すべき要素")
+    pokemon_details: dict[str, list[PokemonTemplateResponse]] = Field(
+        default_factory=dict, description="各ポケモンの型テンプレート"
+    )
+
+
+class MetaUpdateRequest(BaseModel):
+    species: str = Field(..., description="種族名")
+    templates: list[PokemonTemplateResponse] = Field(..., description="型テンプレート一覧")
+
+
+class UsageRankingEntry(BaseModel):
+    rank: int = Field(..., description="順位")
+    species: str = Field(..., description="種族名")
+    usage_rate: float = Field(..., description="使用率")
+    top_archetype: str = Field("", description="最多型名")
+    template_count: int = Field(0, description="型数")
+
+
+class UsageRankingResponse(BaseModel):
+    ranking: list[UsageRankingEntry] = Field(default_factory=list)
+    total_pokemon: int = Field(0, description="登録ポケモン種数")
+    total_templates: int = Field(0, description="総テンプレート数")
+    last_updated: str = Field("", description="最終更新日時")

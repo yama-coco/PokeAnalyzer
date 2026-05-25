@@ -7,6 +7,7 @@ import { ProtectPage } from './pages/ProtectPage'
 import { DamagePage } from './pages/DamagePage'
 import { PartyPage } from './pages/PartyPage'
 import { HUDPage } from './pages/HUDPage'
+import { MetaPage } from './pages/MetaPage'
 import { HUDOverlay } from './components/hud/HUDOverlay'
 
 function App() {
@@ -24,6 +25,7 @@ function App() {
           <Route path="/protect" element={<ProtectPage />} />
           <Route path="/damage" element={<DamagePage />} />
           <Route path="/party" element={<PartyPage />} />
+          <Route path="/meta" element={<MetaPage />} />
           <Route path="/hud-settings" element={<HUDPage />} />
         </Route>
       </Routes>
