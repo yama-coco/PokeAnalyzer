@@ -1,24 +1,6647 @@
 {
-  "last_updated": "2026-05-25T01:29:43.072945+00:00",
+  "last_updated": "2026-05-25T03:45:33.549162+00:00",
+  "source": "champs.pokedb.tokyo (バトルデータベース チャンピオンズ)",
+  "filter": "ダブルバトル / シーズンM-2 / レギュレーションM-A",
+  "total_pokemon_scraped": 50,
   "pokemon": {
-    "テストポケモン": [
+    "イダイトウ (オス)": [
       {
-        "species": "テストポケモン",
-        "archetype_name": "テスト型",
-        "ability": "テスト特性",
-        "item": "テスト持ち物",
-        "nature": "ようき",
+        "species": "イダイトウ (オス)",
+        "archetype_name": "スカーフ型",
+        "ability": "てきおうりょく",
+        "item": "こだわりスカーフ",
+        "nature": "いじっぱり",
         "evs": {
-          "attack": 252
+          "attack": 256,
+          "speed": 256
         },
         "moves": [
-          "テスト技"
+          "おはかまいり",
+          "アクアジェット",
+          "ウェーブタックル",
+          "まもる",
+          "クイックターン",
+          "アクアブレイク",
+          "サイコファング",
+          "たきのぼり"
         ],
-        "usage_rate": 0.5,
+        "usage_rate": 0.434,
         "tera_type": null,
         "can_mega_evolve": false,
-        "notes": "",
-        "source_url": ""
+        "notes": "使用率1位",
+        "source_url": "https://champs.pokedb.tokyo/pokemon/show/0902-00?season=2&rule=1"
+      },
+      {
+        "species": "イダイトウ (オス)",
+        "archetype_name": "タスキ型",
+        "ability": "てきおうりょく",
+        "item": "きあいのタスキ",
+        "nature": "いじっぱり",
+        "evs": {
+          "attack": 256,
+          "speed": 256
+        },
+        "moves": [
+          "おはかまいり",
+          "アクアジェット",
+          "ウェーブタックル",
+          "まもる",
+          "クイックターン",
+          "アクアブレイク",
+          "サイコファング",
+          "たきのぼり"
+        ],
+        "usage_rate": 0.266,
+        "tera_type": null,
+        "can_mega_evolve": false,
+        "notes": "使用率1位",
+        "source_url": "https://champs.pokedb.tokyo/pokemon/show/0902-00?season=2&rule=1"
+      },
+      {
+        "species": "イダイトウ (オス)",
+        "archetype_name": "AS物理アタッカー型",
+        "ability": "てきおうりょく",
+        "item": "しんぴのしずく",
+        "nature": "いじっぱり",
+        "evs": {
+          "attack": 256,
+          "speed": 256
+        },
+        "moves": [
+          "おはかまいり",
+          "アクアジェット",
+          "ウェーブタックル",
+          "まもる",
+          "クイックターン",
+          "アクアブレイク",
+          "サイコファング",
+          "たきのぼり"
+        ],
+        "usage_rate": 0.193,
+        "tera_type": null,
+        "can_mega_evolve": false,
+        "notes": "使用率1位",
+        "source_url": "https://champs.pokedb.tokyo/pokemon/show/0902-00?season=2&rule=1"
+      },
+      {
+        "species": "イダイトウ (オス)",
+        "archetype_name": "AS物理アタッカー型",
+        "ability": "てきおうりょく",
+        "item": "ナモのみ",
+        "nature": "いじっぱり",
+        "evs": {
+          "attack": 256,
+          "speed": 256
+        },
+        "moves": [
+          "おはかまいり",
+          "アクアジェット",
+          "ウェーブタックル",
+          "まもる",
+          "クイックターン",
+          "アクアブレイク",
+          "サイコファング",
+          "たきのぼり"
+        ],
+        "usage_rate": 0.041,
+        "tera_type": null,
+        "can_mega_evolve": false,
+        "notes": "使用率1位",
+        "source_url": "https://champs.pokedb.tokyo/pokemon/show/0902-00?season=2&rule=1"
+      },
+      {
+        "species": "イダイトウ (オス)",
+        "archetype_name": "オボン型",
+        "ability": "てきおうりょく",
+        "item": "オボンのみ",
+        "nature": "いじっぱり",
+        "evs": {
+          "attack": 256,
+          "speed": 256
+        },
+        "moves": [
+          "おはかまいり",
+          "アクアジェット",
+          "ウェーブタックル",
+          "まもる",
+          "クイックターン",
+          "アクアブレイク",
+          "サイコファング",
+          "たきのぼり"
+        ],
+        "usage_rate": 0.034,
+        "tera_type": null,
+        "can_mega_evolve": false,
+        "notes": "使用率1位",
+        "source_url": "https://champs.pokedb.tokyo/pokemon/show/0902-00?season=2&rule=1"
+      }
+    ],
+    "ガブリアス": [
+      {
+        "species": "ガブリアス",
+        "archetype_name": "オボン型",
+        "ability": "さめはだ",
+        "item": "オボンのみ",
+        "nature": "いじっぱり",
+        "evs": {
+          "attack": 256,
+          "speed": 256
+        },
+        "moves": [
+          "じしん",
+          "いわなだれ",
+          "ドラゴンクロー",
+          "まもる",
+          "じだんだ",
+          "どくづき",
+          "がんせきふうじ",
+          "スケイルショット"
+        ],
+        "usage_rate": 0.355,
+        "tera_type": null,
+        "can_mega_evolve": true,
+        "notes": "使用率2位",
+        "source_url": "https://champs.pokedb.tokyo/pokemon/show/0445-00?season=2&rule=1"
+      },
+      {
+        "species": "ガブリアス",
+        "archetype_name": "スカーフ型",
+        "ability": "さめはだ",
+        "item": "こだわりスカーフ",
+        "nature": "いじっぱり",
+        "evs": {
+          "attack": 256,
+          "speed": 256
+        },
+        "moves": [
+          "じしん",
+          "いわなだれ",
+          "ドラゴンクロー",
+          "まもる",
+          "じだんだ",
+          "どくづき",
+          "がんせきふうじ",
+          "スケイルショット"
+        ],
+        "usage_rate": 0.205,
+        "tera_type": null,
+        "can_mega_evolve": true,
+        "notes": "使用率2位",
+        "source_url": "https://champs.pokedb.tokyo/pokemon/show/0445-00?season=2&rule=1"
+      },
+      {
+        "species": "ガブリアス",
+        "archetype_name": "AS物理アタッカー型",
+        "ability": "さめはだ",
+        "item": "やわらかいすな",
+        "nature": "いじっぱり",
+        "evs": {
+          "attack": 256,
+          "speed": 256
+        },
+        "moves": [
+          "じしん",
+          "いわなだれ",
+          "ドラゴンクロー",
+          "まもる",
+          "じだんだ",
+          "どくづき",
+          "がんせきふうじ",
+          "スケイルショット"
+        ],
+        "usage_rate": 0.081,
+        "tera_type": null,
+        "can_mega_evolve": true,
+        "notes": "使用率2位",
+        "source_url": "https://champs.pokedb.tokyo/pokemon/show/0445-00?season=2&rule=1"
+      },
+      {
+        "species": "ガブリアス",
+        "archetype_name": "ロゼル型",
+        "ability": "さめはだ",
+        "item": "ロゼルのみ",
+        "nature": "いじっぱり",
+        "evs": {
+          "attack": 256,
+          "speed": 256
+        },
+        "moves": [
+          "じしん",
+          "いわなだれ",
+          "ドラゴンクロー",
+          "まもる",
+          "じだんだ",
+          "どくづき",
+          "がんせきふうじ",
+          "スケイルショット"
+        ],
+        "usage_rate": 0.06,
+        "tera_type": null,
+        "can_mega_evolve": true,
+        "notes": "使用率2位",
+        "source_url": "https://champs.pokedb.tokyo/pokemon/show/0445-00?season=2&rule=1"
+      },
+      {
+        "species": "ガブリアス",
+        "archetype_name": "AS物理アタッカー型",
+        "ability": "さめはだ",
+        "item": "りゅうのキバ",
+        "nature": "いじっぱり",
+        "evs": {
+          "attack": 256,
+          "speed": 256
+        },
+        "moves": [
+          "じしん",
+          "いわなだれ",
+          "ドラゴンクロー",
+          "まもる",
+          "じだんだ",
+          "どくづき",
+          "がんせきふうじ",
+          "スケイルショット"
+        ],
+        "usage_rate": 0.047,
+        "tera_type": null,
+        "can_mega_evolve": true,
+        "notes": "使用率2位",
+        "source_url": "https://champs.pokedb.tokyo/pokemon/show/0445-00?season=2&rule=1"
+      }
+    ],
+    "ドドゲザン": [
+      {
+        "species": "ドドゲザン",
+        "archetype_name": "物理アタッカー型",
+        "ability": "まけんき",
+        "item": "ヨプのみ",
+        "nature": "いじっぱり",
+        "evs": {
+          "hp": 256,
+          "attack": 256
+        },
+        "moves": [
+          "ふいうち",
+          "ドゲザン",
+          "まもる",
+          "アイアンヘッド",
+          "けたぐり",
+          "つるぎのまい",
+          "かわらわり",
+          "ローキック"
+        ],
+        "usage_rate": 0.622,
+        "tera_type": null,
+        "can_mega_evolve": false,
+        "notes": "使用率3位",
+        "source_url": "https://champs.pokedb.tokyo/pokemon/show/0983-00?season=2&rule=1"
+      },
+      {
+        "species": "ドドゲザン",
+        "archetype_name": "物理アタッカー型",
+        "ability": "まけんき",
+        "item": "くろいメガネ",
+        "nature": "いじっぱり",
+        "evs": {
+          "hp": 256,
+          "attack": 256
+        },
+        "moves": [
+          "ふいうち",
+          "ドゲザン",
+          "まもる",
+          "アイアンヘッド",
+          "けたぐり",
+          "つるぎのまい",
+          "かわらわり",
+          "ローキック"
+        ],
+        "usage_rate": 0.274,
+        "tera_type": null,
+        "can_mega_evolve": false,
+        "notes": "使用率3位",
+        "source_url": "https://champs.pokedb.tokyo/pokemon/show/0983-00?season=2&rule=1"
+      },
+      {
+        "species": "ドドゲザン",
+        "archetype_name": "タスキ型",
+        "ability": "まけんき",
+        "item": "きあいのタスキ",
+        "nature": "いじっぱり",
+        "evs": {
+          "hp": 256,
+          "attack": 256
+        },
+        "moves": [
+          "ふいうち",
+          "ドゲザン",
+          "まもる",
+          "アイアンヘッド",
+          "けたぐり",
+          "つるぎのまい",
+          "かわらわり",
+          "ローキック"
+        ],
+        "usage_rate": 0.07,
+        "tera_type": null,
+        "can_mega_evolve": false,
+        "notes": "使用率3位",
+        "source_url": "https://champs.pokedb.tokyo/pokemon/show/0983-00?season=2&rule=1"
+      },
+      {
+        "species": "ドドゲザン",
+        "archetype_name": "オボン型",
+        "ability": "まけんき",
+        "item": "オボンのみ",
+        "nature": "いじっぱり",
+        "evs": {
+          "hp": 256,
+          "attack": 256
+        },
+        "moves": [
+          "ふいうち",
+          "ドゲザン",
+          "まもる",
+          "アイアンヘッド",
+          "けたぐり",
+          "つるぎのまい",
+          "かわらわり",
+          "ローキック"
+        ],
+        "usage_rate": 0.007,
+        "tera_type": null,
+        "can_mega_evolve": false,
+        "notes": "使用率3位",
+        "source_url": "https://champs.pokedb.tokyo/pokemon/show/0983-00?season=2&rule=1"
+      },
+      {
+        "species": "ドドゲザン",
+        "archetype_name": "残飯型",
+        "ability": "まけんき",
+        "item": "たべのこし",
+        "nature": "いじっぱり",
+        "evs": {
+          "hp": 256,
+          "attack": 256
+        },
+        "moves": [
+          "ふいうち",
+          "ドゲザン",
+          "まもる",
+          "アイアンヘッド",
+          "けたぐり",
+          "つるぎのまい",
+          "かわらわり",
+          "ローキック"
+        ],
+        "usage_rate": 0.006,
+        "tera_type": null,
+        "can_mega_evolve": false,
+        "notes": "使用率3位",
+        "source_url": "https://champs.pokedb.tokyo/pokemon/show/0983-00?season=2&rule=1"
+      }
+    ],
+    "リザードン": [
+      {
+        "species": "リザードン",
+        "archetype_name": "メガシンカ型",
+        "ability": "もうか",
+        "item": "リザードナイトＹ",
+        "nature": "ひかえめ",
+        "evs": {
+          "sp_attack": 256,
+          "speed": 256
+        },
+        "moves": [
+          "まもる",
+          "ねっぷう",
+          "ソーラービーム",
+          "ウェザーボール",
+          "エアスラッシュ",
+          "フレアドライブ",
+          "ドラゴンクロー",
+          "げんしのちから"
+        ],
+        "usage_rate": 0.925,
+        "tera_type": null,
+        "can_mega_evolve": true,
+        "notes": "使用率4位",
+        "source_url": "https://champs.pokedb.tokyo/pokemon/show/0006-00?season=2&rule=1"
+      },
+      {
+        "species": "リザードン",
+        "archetype_name": "メガシンカ型",
+        "ability": "もうか",
+        "item": "リザードナイトＸ",
+        "nature": "ひかえめ",
+        "evs": {
+          "sp_attack": 256,
+          "speed": 256
+        },
+        "moves": [
+          "まもる",
+          "ねっぷう",
+          "ソーラービーム",
+          "ウェザーボール",
+          "エアスラッシュ",
+          "フレアドライブ",
+          "ドラゴンクロー",
+          "げんしのちから"
+        ],
+        "usage_rate": 0.062,
+        "tera_type": null,
+        "can_mega_evolve": true,
+        "notes": "使用率4位",
+        "source_url": "https://champs.pokedb.tokyo/pokemon/show/0006-00?season=2&rule=1"
+      },
+      {
+        "species": "リザードン",
+        "archetype_name": "CS特殊アタッカー型",
+        "ability": "もうか",
+        "item": "もくたん",
+        "nature": "ひかえめ",
+        "evs": {
+          "sp_attack": 256,
+          "speed": 256
+        },
+        "moves": [
+          "まもる",
+          "ねっぷう",
+          "ソーラービーム",
+          "ウェザーボール",
+          "エアスラッシュ",
+          "フレアドライブ",
+          "ドラゴンクロー",
+          "げんしのちから"
+        ],
+        "usage_rate": 0.003,
+        "tera_type": null,
+        "can_mega_evolve": true,
+        "notes": "使用率4位",
+        "source_url": "https://champs.pokedb.tokyo/pokemon/show/0006-00?season=2&rule=1"
+      },
+      {
+        "species": "リザードン",
+        "archetype_name": "スカーフ型",
+        "ability": "もうか",
+        "item": "こだわりスカーフ",
+        "nature": "ひかえめ",
+        "evs": {
+          "sp_attack": 256,
+          "speed": 256
+        },
+        "moves": [
+          "まもる",
+          "ねっぷう",
+          "ソーラービーム",
+          "ウェザーボール",
+          "エアスラッシュ",
+          "フレアドライブ",
+          "ドラゴンクロー",
+          "げんしのちから"
+        ],
+        "usage_rate": 0.001,
+        "tera_type": null,
+        "can_mega_evolve": true,
+        "notes": "使用率4位",
+        "source_url": "https://champs.pokedb.tokyo/pokemon/show/0006-00?season=2&rule=1"
+      },
+      {
+        "species": "リザードン",
+        "archetype_name": "タスキ型",
+        "ability": "もうか",
+        "item": "きあいのタスキ",
+        "nature": "ひかえめ",
+        "evs": {
+          "sp_attack": 256,
+          "speed": 256
+        },
+        "moves": [
+          "まもる",
+          "ねっぷう",
+          "ソーラービーム",
+          "ウェザーボール",
+          "エアスラッシュ",
+          "フレアドライブ",
+          "ドラゴンクロー",
+          "げんしのちから"
+        ],
+        "usage_rate": 0.001,
+        "tera_type": null,
+        "can_mega_evolve": true,
+        "notes": "使用率4位",
+        "source_url": "https://champs.pokedb.tokyo/pokemon/show/0006-00?season=2&rule=1"
+      }
+    ],
+    "オオニューラ": [
+      {
+        "species": "オオニューラ",
+        "archetype_name": "白ハーブ型",
+        "ability": "かるわざ",
+        "item": "しろいハーブ",
+        "nature": "ようき",
+        "evs": {
+          "attack": 256,
+          "speed": 256
+        },
+        "moves": [
+          "インファイト",
+          "フェイタルクロー",
+          "ねこだまし",
+          "まもる",
+          "コーチング",
+          "いわなだれ",
+          "じごくづき",
+          "フェイント"
+        ],
+        "usage_rate": 0.758,
+        "tera_type": null,
+        "can_mega_evolve": false,
+        "notes": "使用率5位",
+        "source_url": "https://champs.pokedb.tokyo/pokemon/show/0903-00?season=2&rule=1"
+      },
+      {
+        "species": "オオニューラ",
+        "archetype_name": "タスキ型",
+        "ability": "かるわざ",
+        "item": "きあいのタスキ",
+        "nature": "ようき",
+        "evs": {
+          "attack": 256,
+          "speed": 256
+        },
+        "moves": [
+          "インファイト",
+          "フェイタルクロー",
+          "ねこだまし",
+          "まもる",
+          "コーチング",
+          "いわなだれ",
+          "じごくづき",
+          "フェイント"
+        ],
+        "usage_rate": 0.195,
+        "tera_type": null,
+        "can_mega_evolve": false,
+        "notes": "使用率5位",
+        "source_url": "https://champs.pokedb.tokyo/pokemon/show/0903-00?season=2&rule=1"
+      },
+      {
+        "species": "オオニューラ",
+        "archetype_name": "ラム型",
+        "ability": "かるわざ",
+        "item": "ラムのみ",
+        "nature": "ようき",
+        "evs": {
+          "attack": 256,
+          "speed": 256
+        },
+        "moves": [
+          "インファイト",
+          "フェイタルクロー",
+          "ねこだまし",
+          "まもる",
+          "コーチング",
+          "いわなだれ",
+          "じごくづき",
+          "フェイント"
+        ],
+        "usage_rate": 0.009,
+        "tera_type": null,
+        "can_mega_evolve": false,
+        "notes": "使用率5位",
+        "source_url": "https://champs.pokedb.tokyo/pokemon/show/0903-00?season=2&rule=1"
+      },
+      {
+        "species": "オオニューラ",
+        "archetype_name": "オボン型",
+        "ability": "かるわざ",
+        "item": "オボンのみ",
+        "nature": "ようき",
+        "evs": {
+          "attack": 256,
+          "speed": 256
+        },
+        "moves": [
+          "インファイト",
+          "フェイタルクロー",
+          "ねこだまし",
+          "まもる",
+          "コーチング",
+          "いわなだれ",
+          "じごくづき",
+          "フェイント"
+        ],
+        "usage_rate": 0.008,
+        "tera_type": null,
+        "can_mega_evolve": false,
+        "notes": "使用率5位",
+        "source_url": "https://champs.pokedb.tokyo/pokemon/show/0903-00?season=2&rule=1"
+      },
+      {
+        "species": "オオニューラ",
+        "archetype_name": "AS物理アタッカー型",
+        "ability": "かるわざ",
+        "item": "おうじゃのしるし",
+        "nature": "ようき",
+        "evs": {
+          "attack": 256,
+          "speed": 256
+        },
+        "moves": [
+          "インファイト",
+          "フェイタルクロー",
+          "ねこだまし",
+          "まもる",
+          "コーチング",
+          "いわなだれ",
+          "じごくづき",
+          "フェイント"
+        ],
+        "usage_rate": 0.005,
+        "tera_type": null,
+        "can_mega_evolve": false,
+        "notes": "使用率5位",
+        "source_url": "https://champs.pokedb.tokyo/pokemon/show/0903-00?season=2&rule=1"
+      }
+    ],
+    "エルフーン": [
+      {
+        "species": "エルフーン",
+        "archetype_name": "タスキ型",
+        "ability": "いたずらごころ",
+        "item": "きあいのタスキ",
+        "nature": "おくびょう",
+        "evs": {
+          "sp_attack": 256,
+          "speed": 256
+        },
+        "moves": [
+          "おいかぜ",
+          "ムーンフォース",
+          "アンコール",
+          "まもる",
+          "にほんばれ",
+          "ちょうはつ",
+          "トリックルーム",
+          "エナジーボール"
+        ],
+        "usage_rate": 0.391,
+        "tera_type": null,
+        "can_mega_evolve": false,
+        "notes": "使用率6位",
+        "source_url": "https://champs.pokedb.tokyo/pokemon/show/0547-00?season=2&rule=1"
+      },
+      {
+        "species": "エルフーン",
+        "archetype_name": "ハネ型",
+        "ability": "いたずらごころ",
+        "item": "ようせいのハネ",
+        "nature": "おくびょう",
+        "evs": {
+          "sp_attack": 256,
+          "speed": 256
+        },
+        "moves": [
+          "おいかぜ",
+          "ムーンフォース",
+          "アンコール",
+          "まもる",
+          "にほんばれ",
+          "ちょうはつ",
+          "トリックルーム",
+          "エナジーボール"
+        ],
+        "usage_rate": 0.367,
+        "tera_type": null,
+        "can_mega_evolve": false,
+        "notes": "使用率6位",
+        "source_url": "https://champs.pokedb.tokyo/pokemon/show/0547-00?season=2&rule=1"
+      },
+      {
+        "species": "エルフーン",
+        "archetype_name": "CS特殊アタッカー型",
+        "ability": "いたずらごころ",
+        "item": "バコウのみ",
+        "nature": "おくびょう",
+        "evs": {
+          "sp_attack": 256,
+          "speed": 256
+        },
+        "moves": [
+          "おいかぜ",
+          "ムーンフォース",
+          "アンコール",
+          "まもる",
+          "にほんばれ",
+          "ちょうはつ",
+          "トリックルーム",
+          "エナジーボール"
+        ],
+        "usage_rate": 0.072,
+        "tera_type": null,
+        "can_mega_evolve": false,
+        "notes": "使用率6位",
+        "source_url": "https://champs.pokedb.tokyo/pokemon/show/0547-00?season=2&rule=1"
+      },
+      {
+        "species": "エルフーン",
+        "archetype_name": "メンハ型",
+        "ability": "いたずらごころ",
+        "item": "メンタルハーブ",
+        "nature": "おくびょう",
+        "evs": {
+          "sp_attack": 256,
+          "speed": 256
+        },
+        "moves": [
+          "おいかぜ",
+          "ムーンフォース",
+          "アンコール",
+          "まもる",
+          "にほんばれ",
+          "ちょうはつ",
+          "トリックルーム",
+          "エナジーボール"
+        ],
+        "usage_rate": 0.051,
+        "tera_type": null,
+        "can_mega_evolve": false,
+        "notes": "使用率6位",
+        "source_url": "https://champs.pokedb.tokyo/pokemon/show/0547-00?season=2&rule=1"
+      },
+      {
+        "species": "エルフーン",
+        "archetype_name": "オボン型",
+        "ability": "いたずらごころ",
+        "item": "オボンのみ",
+        "nature": "おくびょう",
+        "evs": {
+          "sp_attack": 256,
+          "speed": 256
+        },
+        "moves": [
+          "おいかぜ",
+          "ムーンフォース",
+          "アンコール",
+          "まもる",
+          "にほんばれ",
+          "ちょうはつ",
+          "トリックルーム",
+          "エナジーボール"
+        ],
+        "usage_rate": 0.047,
+        "tera_type": null,
+        "can_mega_evolve": false,
+        "notes": "使用率6位",
+        "source_url": "https://champs.pokedb.tokyo/pokemon/show/0547-00?season=2&rule=1"
+      }
+    ],
+    "リキキリン": [
+      {
+        "species": "リキキリン",
+        "archetype_name": "オボン型",
+        "ability": "テイルアーマー",
+        "item": "オボンのみ",
+        "nature": "ずぶとい",
+        "evs": {
+          "hp": 136,
+          "defense": 152,
+          "sp_attack": 80,
+          "sp_defense": 160
+        },
+        "moves": [
+          "トリックルーム",
+          "サイコキネシス",
+          "てだすけ",
+          "まもる",
+          "ハイパーボイス",
+          "ツインビーム",
+          "１０まんボルト",
+          "ふういん"
+        ],
+        "usage_rate": 0.508,
+        "tera_type": null,
+        "can_mega_evolve": false,
+        "notes": "使用率7位",
+        "source_url": "https://champs.pokedb.tokyo/pokemon/show/0981-00?season=2&rule=1"
+      },
+      {
+        "species": "リキキリン",
+        "archetype_name": "汎用型",
+        "ability": "テイルアーマー",
+        "item": "ナモのみ",
+        "nature": "ずぶとい",
+        "evs": {
+          "hp": 136,
+          "defense": 152,
+          "sp_attack": 80,
+          "sp_defense": 160
+        },
+        "moves": [
+          "トリックルーム",
+          "サイコキネシス",
+          "てだすけ",
+          "まもる",
+          "ハイパーボイス",
+          "ツインビーム",
+          "１０まんボルト",
+          "ふういん"
+        ],
+        "usage_rate": 0.327,
+        "tera_type": null,
+        "can_mega_evolve": false,
+        "notes": "使用率7位",
+        "source_url": "https://champs.pokedb.tokyo/pokemon/show/0981-00?season=2&rule=1"
+      },
+      {
+        "species": "リキキリン",
+        "archetype_name": "メンハ型",
+        "ability": "テイルアーマー",
+        "item": "メンタルハーブ",
+        "nature": "ずぶとい",
+        "evs": {
+          "hp": 136,
+          "defense": 152,
+          "sp_attack": 80,
+          "sp_defense": 160
+        },
+        "moves": [
+          "トリックルーム",
+          "サイコキネシス",
+          "てだすけ",
+          "まもる",
+          "ハイパーボイス",
+          "ツインビーム",
+          "１０まんボルト",
+          "ふういん"
+        ],
+        "usage_rate": 0.067,
+        "tera_type": null,
+        "can_mega_evolve": false,
+        "notes": "使用率7位",
+        "source_url": "https://champs.pokedb.tokyo/pokemon/show/0981-00?season=2&rule=1"
+      },
+      {
+        "species": "リキキリン",
+        "archetype_name": "残飯型",
+        "ability": "テイルアーマー",
+        "item": "たべのこし",
+        "nature": "ずぶとい",
+        "evs": {
+          "hp": 136,
+          "defense": 152,
+          "sp_attack": 80,
+          "sp_defense": 160
+        },
+        "moves": [
+          "トリックルーム",
+          "サイコキネシス",
+          "てだすけ",
+          "まもる",
+          "ハイパーボイス",
+          "ツインビーム",
+          "１０まんボルト",
+          "ふういん"
+        ],
+        "usage_rate": 0.038,
+        "tera_type": null,
+        "can_mega_evolve": false,
+        "notes": "使用率7位",
+        "source_url": "https://champs.pokedb.tokyo/pokemon/show/0981-00?season=2&rule=1"
+      },
+      {
+        "species": "リキキリン",
+        "archetype_name": "タスキ型",
+        "ability": "テイルアーマー",
+        "item": "きあいのタスキ",
+        "nature": "ずぶとい",
+        "evs": {
+          "hp": 136,
+          "defense": 152,
+          "sp_attack": 80,
+          "sp_defense": 160
+        },
+        "moves": [
+          "トリックルーム",
+          "サイコキネシス",
+          "てだすけ",
+          "まもる",
+          "ハイパーボイス",
+          "ツインビーム",
+          "１０まんボルト",
+          "ふういん"
+        ],
+        "usage_rate": 0.021,
+        "tera_type": null,
+        "can_mega_evolve": false,
+        "notes": "使用率7位",
+        "source_url": "https://champs.pokedb.tokyo/pokemon/show/0981-00?season=2&rule=1"
+      }
+    ],
+    "ガオガエン": [
+      {
+        "species": "ガオガエン",
+        "archetype_name": "オボン型",
+        "ability": "いかく",
+        "item": "オボンのみ",
+        "nature": "しんちょう",
+        "evs": {
+          "hp": 256,
+          "attack": 256
+        },
+        "moves": [
+          "ねこだまし",
+          "すてゼリフ",
+          "フレアドライブ",
+          "じごくづき",
+          "ＤＤラリアット",
+          "まもる",
+          "おにび",
+          "ちょうはつ"
+        ],
+        "usage_rate": 0.447,
+        "tera_type": null,
+        "can_mega_evolve": false,
+        "notes": "使用率8位",
+        "source_url": "https://champs.pokedb.tokyo/pokemon/show/0727-00?season=2&rule=1"
+      },
+      {
+        "species": "ガオガエン",
+        "archetype_name": "物理アタッカー型",
+        "ability": "いかく",
+        "item": "ヨプのみ",
+        "nature": "しんちょう",
+        "evs": {
+          "hp": 256,
+          "attack": 256
+        },
+        "moves": [
+          "ねこだまし",
+          "すてゼリフ",
+          "フレアドライブ",
+          "じごくづき",
+          "ＤＤラリアット",
+          "まもる",
+          "おにび",
+          "ちょうはつ"
+        ],
+        "usage_rate": 0.197,
+        "tera_type": null,
+        "can_mega_evolve": false,
+        "notes": "使用率8位",
+        "source_url": "https://champs.pokedb.tokyo/pokemon/show/0727-00?season=2&rule=1"
+      },
+      {
+        "species": "ガオガエン",
+        "archetype_name": "物理アタッカー型",
+        "ability": "いかく",
+        "item": "イトケのみ",
+        "nature": "しんちょう",
+        "evs": {
+          "hp": 256,
+          "attack": 256
+        },
+        "moves": [
+          "ねこだまし",
+          "すてゼリフ",
+          "フレアドライブ",
+          "じごくづき",
+          "ＤＤラリアット",
+          "まもる",
+          "おにび",
+          "ちょうはつ"
+        ],
+        "usage_rate": 0.153,
+        "tera_type": null,
+        "can_mega_evolve": false,
+        "notes": "使用率8位",
+        "source_url": "https://champs.pokedb.tokyo/pokemon/show/0727-00?season=2&rule=1"
+      },
+      {
+        "species": "ガオガエン",
+        "archetype_name": "残飯型",
+        "ability": "いかく",
+        "item": "たべのこし",
+        "nature": "しんちょう",
+        "evs": {
+          "hp": 256,
+          "attack": 256
+        },
+        "moves": [
+          "ねこだまし",
+          "すてゼリフ",
+          "フレアドライブ",
+          "じごくづき",
+          "ＤＤラリアット",
+          "まもる",
+          "おにび",
+          "ちょうはつ"
+        ],
+        "usage_rate": 0.071,
+        "tera_type": null,
+        "can_mega_evolve": false,
+        "notes": "使用率8位",
+        "source_url": "https://champs.pokedb.tokyo/pokemon/show/0727-00?season=2&rule=1"
+      },
+      {
+        "species": "ガオガエン",
+        "archetype_name": "物理アタッカー型",
+        "ability": "いかく",
+        "item": "シュカのみ",
+        "nature": "しんちょう",
+        "evs": {
+          "hp": 256,
+          "attack": 256
+        },
+        "moves": [
+          "ねこだまし",
+          "すてゼリフ",
+          "フレアドライブ",
+          "じごくづき",
+          "ＤＤラリアット",
+          "まもる",
+          "おにび",
+          "ちょうはつ"
+        ],
+        "usage_rate": 0.045,
+        "tera_type": null,
+        "can_mega_evolve": false,
+        "notes": "使用率8位",
+        "source_url": "https://champs.pokedb.tokyo/pokemon/show/0727-00?season=2&rule=1"
+      }
+    ],
+    "ニンフィア": [
+      {
+        "species": "ニンフィア",
+        "archetype_name": "ハネ型",
+        "ability": "フェアリースキン",
+        "item": "ようせいのハネ",
+        "nature": "ひかえめ",
+        "evs": {
+          "hp": 248,
+          "sp_attack": 256
+        },
+        "moves": [
+          "ハイパーボイス",
+          "でんこうせっか",
+          "みきり",
+          "はかいこうせん",
+          "まもる",
+          "ムーンフォース",
+          "めいそう",
+          "マジカルフレイム"
+        ],
+        "usage_rate": 0.894,
+        "tera_type": null,
+        "can_mega_evolve": false,
+        "notes": "使用率9位",
+        "source_url": "https://champs.pokedb.tokyo/pokemon/show/0700-00?season=2&rule=1"
+      },
+      {
+        "species": "ニンフィア",
+        "archetype_name": "オボン型",
+        "ability": "フェアリースキン",
+        "item": "オボンのみ",
+        "nature": "ひかえめ",
+        "evs": {
+          "hp": 248,
+          "sp_attack": 256
+        },
+        "moves": [
+          "ハイパーボイス",
+          "でんこうせっか",
+          "みきり",
+          "はかいこうせん",
+          "まもる",
+          "ムーンフォース",
+          "めいそう",
+          "マジカルフレイム"
+        ],
+        "usage_rate": 0.034,
+        "tera_type": null,
+        "can_mega_evolve": false,
+        "notes": "使用率9位",
+        "source_url": "https://champs.pokedb.tokyo/pokemon/show/0700-00?season=2&rule=1"
+      },
+      {
+        "species": "ニンフィア",
+        "archetype_name": "残飯型",
+        "ability": "フェアリースキン",
+        "item": "たべのこし",
+        "nature": "ひかえめ",
+        "evs": {
+          "hp": 248,
+          "sp_attack": 256
+        },
+        "moves": [
+          "ハイパーボイス",
+          "でんこうせっか",
+          "みきり",
+          "はかいこうせん",
+          "まもる",
+          "ムーンフォース",
+          "めいそう",
+          "マジカルフレイム"
+        ],
+        "usage_rate": 0.028,
+        "tera_type": null,
+        "can_mega_evolve": false,
+        "notes": "使用率9位",
+        "source_url": "https://champs.pokedb.tokyo/pokemon/show/0700-00?season=2&rule=1"
+      },
+      {
+        "species": "ニンフィア",
+        "archetype_name": "特殊アタッカー型",
+        "ability": "フェアリースキン",
+        "item": "せんせいのツメ",
+        "nature": "ひかえめ",
+        "evs": {
+          "hp": 248,
+          "sp_attack": 256
+        },
+        "moves": [
+          "ハイパーボイス",
+          "でんこうせっか",
+          "みきり",
+          "はかいこうせん",
+          "まもる",
+          "ムーンフォース",
+          "めいそう",
+          "マジカルフレイム"
+        ],
+        "usage_rate": 0.025,
+        "tera_type": null,
+        "can_mega_evolve": false,
+        "notes": "使用率9位",
+        "source_url": "https://champs.pokedb.tokyo/pokemon/show/0700-00?season=2&rule=1"
+      },
+      {
+        "species": "ニンフィア",
+        "archetype_name": "スカーフ型",
+        "ability": "フェアリースキン",
+        "item": "こだわりスカーフ",
+        "nature": "ひかえめ",
+        "evs": {
+          "hp": 248,
+          "sp_attack": 256
+        },
+        "moves": [
+          "ハイパーボイス",
+          "でんこうせっか",
+          "みきり",
+          "はかいこうせん",
+          "まもる",
+          "ムーンフォース",
+          "めいそう",
+          "マジカルフレイム"
+        ],
+        "usage_rate": 0.004,
+        "tera_type": null,
+        "can_mega_evolve": false,
+        "notes": "使用率9位",
+        "source_url": "https://champs.pokedb.tokyo/pokemon/show/0700-00?season=2&rule=1"
+      }
+    ],
+    "ブリジュラス": [
+      {
+        "species": "ブリジュラス",
+        "archetype_name": "残飯型",
+        "ability": "じきゅうりょく",
+        "item": "たべのこし",
+        "nature": "ひかえめ",
+        "evs": {
+          "sp_attack": 256,
+          "speed": 256
+        },
+        "moves": [
+          "ラスターカノン",
+          "エレクトロビーム",
+          "まもる",
+          "りゅうのはどう",
+          "りゅうせいぐん",
+          "はどうだん",
+          "１０まんボルト",
+          "バークアウト"
+        ],
+        "usage_rate": 0.683,
+        "tera_type": null,
+        "can_mega_evolve": false,
+        "notes": "使用率10位",
+        "source_url": "https://champs.pokedb.tokyo/pokemon/show/1018-00?season=2&rule=1"
+      },
+      {
+        "species": "ブリジュラス",
+        "archetype_name": "スカーフ型",
+        "ability": "じきゅうりょく",
+        "item": "こだわりスカーフ",
+        "nature": "ひかえめ",
+        "evs": {
+          "sp_attack": 256,
+          "speed": 256
+        },
+        "moves": [
+          "ラスターカノン",
+          "エレクトロビーム",
+          "まもる",
+          "りゅうのはどう",
+          "りゅうせいぐん",
+          "はどうだん",
+          "１０まんボルト",
+          "バークアウト"
+        ],
+        "usage_rate": 0.105,
+        "tera_type": null,
+        "can_mega_evolve": false,
+        "notes": "使用率10位",
+        "source_url": "https://champs.pokedb.tokyo/pokemon/show/1018-00?season=2&rule=1"
+      },
+      {
+        "species": "ブリジュラス",
+        "archetype_name": "白ハーブ型",
+        "ability": "じきゅうりょく",
+        "item": "しろいハーブ",
+        "nature": "ひかえめ",
+        "evs": {
+          "sp_attack": 256,
+          "speed": 256
+        },
+        "moves": [
+          "ラスターカノン",
+          "エレクトロビーム",
+          "まもる",
+          "りゅうのはどう",
+          "りゅうせいぐん",
+          "はどうだん",
+          "１０まんボルト",
+          "バークアウト"
+        ],
+        "usage_rate": 0.054,
+        "tera_type": null,
+        "can_mega_evolve": false,
+        "notes": "使用率10位",
+        "source_url": "https://champs.pokedb.tokyo/pokemon/show/1018-00?season=2&rule=1"
+      },
+      {
+        "species": "ブリジュラス",
+        "archetype_name": "CS特殊アタッカー型",
+        "ability": "じきゅうりょく",
+        "item": "ヨプのみ",
+        "nature": "ひかえめ",
+        "evs": {
+          "sp_attack": 256,
+          "speed": 256
+        },
+        "moves": [
+          "ラスターカノン",
+          "エレクトロビーム",
+          "まもる",
+          "りゅうのはどう",
+          "りゅうせいぐん",
+          "はどうだん",
+          "１０まんボルト",
+          "バークアウト"
+        ],
+        "usage_rate": 0.046,
+        "tera_type": null,
+        "can_mega_evolve": false,
+        "notes": "使用率10位",
+        "source_url": "https://champs.pokedb.tokyo/pokemon/show/1018-00?season=2&rule=1"
+      },
+      {
+        "species": "ブリジュラス",
+        "archetype_name": "オボン型",
+        "ability": "じきゅうりょく",
+        "item": "オボンのみ",
+        "nature": "ひかえめ",
+        "evs": {
+          "sp_attack": 256,
+          "speed": 256
+        },
+        "moves": [
+          "ラスターカノン",
+          "エレクトロビーム",
+          "まもる",
+          "りゅうのはどう",
+          "りゅうせいぐん",
+          "はどうだん",
+          "１０まんボルト",
+          "バークアウト"
+        ],
+        "usage_rate": 0.045,
+        "tera_type": null,
+        "can_mega_evolve": false,
+        "notes": "使用率10位",
+        "source_url": "https://champs.pokedb.tokyo/pokemon/show/1018-00?season=2&rule=1"
+      }
+    ],
+    "ヤバソチャ": [
+      {
+        "species": "ヤバソチャ",
+        "archetype_name": "オボン型",
+        "ability": "おもてなし",
+        "item": "オボンのみ",
+        "nature": "ずぶとい",
+        "evs": {
+          "hp": 256,
+          "defense": 112,
+          "sp_defense": 160
+        },
+        "moves": [
+          "シャカシャカほう",
+          "いかりのこな",
+          "トリックルーム",
+          "いのちのしずく",
+          "まもる",
+          "シャドーボール",
+          "ちからをすいとる",
+          "ふういん"
+        ],
+        "usage_rate": 0.318,
+        "tera_type": null,
+        "can_mega_evolve": false,
+        "notes": "使用率11位",
+        "source_url": "https://champs.pokedb.tokyo/pokemon/show/1013-00?season=2&rule=1"
+      },
+      {
+        "species": "ヤバソチャ",
+        "archetype_name": "汎用型",
+        "ability": "おもてなし",
+        "item": "カシブのみ",
+        "nature": "ずぶとい",
+        "evs": {
+          "hp": 256,
+          "defense": 112,
+          "sp_defense": 160
+        },
+        "moves": [
+          "シャカシャカほう",
+          "いかりのこな",
+          "トリックルーム",
+          "いのちのしずく",
+          "まもる",
+          "シャドーボール",
+          "ちからをすいとる",
+          "ふういん"
+        ],
+        "usage_rate": 0.258,
+        "tera_type": null,
+        "can_mega_evolve": false,
+        "notes": "使用率11位",
+        "source_url": "https://champs.pokedb.tokyo/pokemon/show/1013-00?season=2&rule=1"
+      },
+      {
+        "species": "ヤバソチャ",
+        "archetype_name": "残飯型",
+        "ability": "おもてなし",
+        "item": "たべのこし",
+        "nature": "ずぶとい",
+        "evs": {
+          "hp": 256,
+          "defense": 112,
+          "sp_defense": 160
+        },
+        "moves": [
+          "シャカシャカほう",
+          "いかりのこな",
+          "トリックルーム",
+          "いのちのしずく",
+          "まもる",
+          "シャドーボール",
+          "ちからをすいとる",
+          "ふういん"
+        ],
+        "usage_rate": 0.129,
+        "tera_type": null,
+        "can_mega_evolve": false,
+        "notes": "使用率11位",
+        "source_url": "https://champs.pokedb.tokyo/pokemon/show/1013-00?season=2&rule=1"
+      },
+      {
+        "species": "ヤバソチャ",
+        "archetype_name": "汎用型",
+        "ability": "おもてなし",
+        "item": "ナモのみ",
+        "nature": "ずぶとい",
+        "evs": {
+          "hp": 256,
+          "defense": 112,
+          "sp_defense": 160
+        },
+        "moves": [
+          "シャカシャカほう",
+          "いかりのこな",
+          "トリックルーム",
+          "いのちのしずく",
+          "まもる",
+          "シャドーボール",
+          "ちからをすいとる",
+          "ふういん"
+        ],
+        "usage_rate": 0.124,
+        "tera_type": null,
+        "can_mega_evolve": false,
+        "notes": "使用率11位",
+        "source_url": "https://champs.pokedb.tokyo/pokemon/show/1013-00?season=2&rule=1"
+      },
+      {
+        "species": "ヤバソチャ",
+        "archetype_name": "汎用型",
+        "ability": "おもてなし",
+        "item": "オッカのみ",
+        "nature": "ずぶとい",
+        "evs": {
+          "hp": 256,
+          "defense": 112,
+          "sp_defense": 160
+        },
+        "moves": [
+          "シャカシャカほう",
+          "いかりのこな",
+          "トリックルーム",
+          "いのちのしずく",
+          "まもる",
+          "シャドーボール",
+          "ちからをすいとる",
+          "ふういん"
+        ],
+        "usage_rate": 0.039,
+        "tera_type": null,
+        "can_mega_evolve": false,
+        "notes": "使用率11位",
+        "source_url": "https://champs.pokedb.tokyo/pokemon/show/1013-00?season=2&rule=1"
+      }
+    ],
+    "プテラ": [
+      {
+        "species": "プテラ",
+        "archetype_name": "メガシンカ型",
+        "ability": "きんちょうかん",
+        "item": "プテラナイト",
+        "nature": "ようき",
+        "evs": {
+          "attack": 256,
+          "speed": 256
+        },
+        "moves": [
+          "いわなだれ",
+          "おいかぜ",
+          "ダブルウイング",
+          "まもる",
+          "ワイドガード",
+          "こおりのキバ",
+          "ちょうはつ",
+          "じしん"
+        ],
+        "usage_rate": 0.518,
+        "tera_type": null,
+        "can_mega_evolve": true,
+        "notes": "使用率12位",
+        "source_url": "https://champs.pokedb.tokyo/pokemon/show/0142-00?season=2&rule=1"
+      },
+      {
+        "species": "プテラ",
+        "archetype_name": "タスキ型",
+        "ability": "きんちょうかん",
+        "item": "きあいのタスキ",
+        "nature": "ようき",
+        "evs": {
+          "attack": 256,
+          "speed": 256
+        },
+        "moves": [
+          "いわなだれ",
+          "おいかぜ",
+          "ダブルウイング",
+          "まもる",
+          "ワイドガード",
+          "こおりのキバ",
+          "ちょうはつ",
+          "じしん"
+        ],
+        "usage_rate": 0.405,
+        "tera_type": null,
+        "can_mega_evolve": true,
+        "notes": "使用率12位",
+        "source_url": "https://champs.pokedb.tokyo/pokemon/show/0142-00?season=2&rule=1"
+      },
+      {
+        "species": "プテラ",
+        "archetype_name": "AS物理アタッカー型",
+        "ability": "きんちょうかん",
+        "item": "おうじゃのしるし",
+        "nature": "ようき",
+        "evs": {
+          "attack": 256,
+          "speed": 256
+        },
+        "moves": [
+          "いわなだれ",
+          "おいかぜ",
+          "ダブルウイング",
+          "まもる",
+          "ワイドガード",
+          "こおりのキバ",
+          "ちょうはつ",
+          "じしん"
+        ],
+        "usage_rate": 0.016,
+        "tera_type": null,
+        "can_mega_evolve": true,
+        "notes": "使用率12位",
+        "source_url": "https://champs.pokedb.tokyo/pokemon/show/0142-00?season=2&rule=1"
+      },
+      {
+        "species": "プテラ",
+        "archetype_name": "AS物理アタッカー型",
+        "ability": "きんちょうかん",
+        "item": "かたいいし",
+        "nature": "ようき",
+        "evs": {
+          "attack": 256,
+          "speed": 256
+        },
+        "moves": [
+          "いわなだれ",
+          "おいかぜ",
+          "ダブルウイング",
+          "まもる",
+          "ワイドガード",
+          "こおりのキバ",
+          "ちょうはつ",
+          "じしん"
+        ],
+        "usage_rate": 0.016,
+        "tera_type": null,
+        "can_mega_evolve": true,
+        "notes": "使用率12位",
+        "source_url": "https://champs.pokedb.tokyo/pokemon/show/0142-00?season=2&rule=1"
+      },
+      {
+        "species": "プテラ",
+        "archetype_name": "オボン型",
+        "ability": "きんちょうかん",
+        "item": "オボンのみ",
+        "nature": "ようき",
+        "evs": {
+          "attack": 256,
+          "speed": 256
+        },
+        "moves": [
+          "いわなだれ",
+          "おいかぜ",
+          "ダブルウイング",
+          "まもる",
+          "ワイドガード",
+          "こおりのキバ",
+          "ちょうはつ",
+          "じしん"
+        ],
+        "usage_rate": 0.012,
+        "tera_type": null,
+        "can_mega_evolve": true,
+        "notes": "使用率12位",
+        "source_url": "https://champs.pokedb.tokyo/pokemon/show/0142-00?season=2&rule=1"
+      }
+    ],
+    "キラフロル": [
+      {
+        "species": "キラフロル",
+        "archetype_name": "タスキ型",
+        "ability": "どくげしょう",
+        "item": "きあいのタスキ",
+        "nature": "ひかえめ",
+        "evs": {
+          "sp_attack": 256,
+          "speed": 256
+        },
+        "moves": [
+          "パワージェム",
+          "ヘドロばくだん",
+          "だいちのちから",
+          "ニードルガード",
+          "エナジーボール",
+          "ヘドロウェーブ",
+          "キラースピン",
+          "ステルスロック"
+        ],
+        "usage_rate": 0.723,
+        "tera_type": null,
+        "can_mega_evolve": true,
+        "notes": "使用率13位",
+        "source_url": "https://champs.pokedb.tokyo/pokemon/show/0970-00?season=2&rule=1"
+      },
+      {
+        "species": "キラフロル",
+        "archetype_name": "メガシンカ型",
+        "ability": "どくげしょう",
+        "item": "キラフロルナイト",
+        "nature": "ひかえめ",
+        "evs": {
+          "sp_attack": 256,
+          "speed": 256
+        },
+        "moves": [
+          "パワージェム",
+          "ヘドロばくだん",
+          "だいちのちから",
+          "ニードルガード",
+          "エナジーボール",
+          "ヘドロウェーブ",
+          "キラースピン",
+          "ステルスロック"
+        ],
+        "usage_rate": 0.237,
+        "tera_type": null,
+        "can_mega_evolve": true,
+        "notes": "使用率13位",
+        "source_url": "https://champs.pokedb.tokyo/pokemon/show/0970-00?season=2&rule=1"
+      },
+      {
+        "species": "キラフロル",
+        "archetype_name": "CS特殊アタッカー型",
+        "ability": "どくげしょう",
+        "item": "シュカのみ",
+        "nature": "ひかえめ",
+        "evs": {
+          "sp_attack": 256,
+          "speed": 256
+        },
+        "moves": [
+          "パワージェム",
+          "ヘドロばくだん",
+          "だいちのちから",
+          "ニードルガード",
+          "エナジーボール",
+          "ヘドロウェーブ",
+          "キラースピン",
+          "ステルスロック"
+        ],
+        "usage_rate": 0.011,
+        "tera_type": null,
+        "can_mega_evolve": true,
+        "notes": "使用率13位",
+        "source_url": "https://champs.pokedb.tokyo/pokemon/show/0970-00?season=2&rule=1"
+      },
+      {
+        "species": "キラフロル",
+        "archetype_name": "スカーフ型",
+        "ability": "どくげしょう",
+        "item": "こだわりスカーフ",
+        "nature": "ひかえめ",
+        "evs": {
+          "sp_attack": 256,
+          "speed": 256
+        },
+        "moves": [
+          "パワージェム",
+          "ヘドロばくだん",
+          "だいちのちから",
+          "ニードルガード",
+          "エナジーボール",
+          "ヘドロウェーブ",
+          "キラースピン",
+          "ステルスロック"
+        ],
+        "usage_rate": 0.008,
+        "tera_type": null,
+        "can_mega_evolve": true,
+        "notes": "使用率13位",
+        "source_url": "https://champs.pokedb.tokyo/pokemon/show/0970-00?season=2&rule=1"
+      },
+      {
+        "species": "キラフロル",
+        "archetype_name": "オボン型",
+        "ability": "どくげしょう",
+        "item": "オボンのみ",
+        "nature": "ひかえめ",
+        "evs": {
+          "sp_attack": 256,
+          "speed": 256
+        },
+        "moves": [
+          "パワージェム",
+          "ヘドロばくだん",
+          "だいちのちから",
+          "ニードルガード",
+          "エナジーボール",
+          "ヘドロウェーブ",
+          "キラースピン",
+          "ステルスロック"
+        ],
+        "usage_rate": 0.004,
+        "tera_type": null,
+        "can_mega_evolve": true,
+        "notes": "使用率13位",
+        "source_url": "https://champs.pokedb.tokyo/pokemon/show/0970-00?season=2&rule=1"
+      }
+    ],
+    "ペリッパー": [
+      {
+        "species": "ペリッパー",
+        "archetype_name": "タスキ型",
+        "ability": "あめふらし",
+        "item": "きあいのタスキ",
+        "nature": "ひかえめ",
+        "evs": {
+          "sp_attack": 256,
+          "speed": 256
+        },
+        "moves": [
+          "ぼうふう",
+          "おいかぜ",
+          "ウェザーボール",
+          "ワイドガード",
+          "まもる",
+          "だくりゅう",
+          "あまごい",
+          "れいとうビーム"
+        ],
+        "usage_rate": 0.434,
+        "tera_type": null,
+        "can_mega_evolve": false,
+        "notes": "使用率14位",
+        "source_url": "https://champs.pokedb.tokyo/pokemon/show/0279-00?season=2&rule=1"
+      },
+      {
+        "species": "ペリッパー",
+        "archetype_name": "オボン型",
+        "ability": "あめふらし",
+        "item": "オボンのみ",
+        "nature": "ひかえめ",
+        "evs": {
+          "sp_attack": 256,
+          "speed": 256
+        },
+        "moves": [
+          "ぼうふう",
+          "おいかぜ",
+          "ウェザーボール",
+          "ワイドガード",
+          "まもる",
+          "だくりゅう",
+          "あまごい",
+          "れいとうビーム"
+        ],
+        "usage_rate": 0.396,
+        "tera_type": null,
+        "can_mega_evolve": false,
+        "notes": "使用率14位",
+        "source_url": "https://champs.pokedb.tokyo/pokemon/show/0279-00?season=2&rule=1"
+      },
+      {
+        "species": "ペリッパー",
+        "archetype_name": "CS特殊アタッカー型",
+        "ability": "あめふらし",
+        "item": "しんぴのしずく",
+        "nature": "ひかえめ",
+        "evs": {
+          "sp_attack": 256,
+          "speed": 256
+        },
+        "moves": [
+          "ぼうふう",
+          "おいかぜ",
+          "ウェザーボール",
+          "ワイドガード",
+          "まもる",
+          "だくりゅう",
+          "あまごい",
+          "れいとうビーム"
+        ],
+        "usage_rate": 0.028,
+        "tera_type": null,
+        "can_mega_evolve": false,
+        "notes": "使用率14位",
+        "source_url": "https://champs.pokedb.tokyo/pokemon/show/0279-00?season=2&rule=1"
+      },
+      {
+        "species": "ペリッパー",
+        "archetype_name": "残飯型",
+        "ability": "あめふらし",
+        "item": "たべのこし",
+        "nature": "ひかえめ",
+        "evs": {
+          "sp_attack": 256,
+          "speed": 256
+        },
+        "moves": [
+          "ぼうふう",
+          "おいかぜ",
+          "ウェザーボール",
+          "ワイドガード",
+          "まもる",
+          "だくりゅう",
+          "あまごい",
+          "れいとうビーム"
+        ],
+        "usage_rate": 0.025,
+        "tera_type": null,
+        "can_mega_evolve": false,
+        "notes": "使用率14位",
+        "source_url": "https://champs.pokedb.tokyo/pokemon/show/0279-00?season=2&rule=1"
+      },
+      {
+        "species": "ペリッパー",
+        "archetype_name": "CS特殊アタッカー型",
+        "ability": "あめふらし",
+        "item": "せんせいのツメ",
+        "nature": "ひかえめ",
+        "evs": {
+          "sp_attack": 256,
+          "speed": 256
+        },
+        "moves": [
+          "ぼうふう",
+          "おいかぜ",
+          "ウェザーボール",
+          "ワイドガード",
+          "まもる",
+          "だくりゅう",
+          "あまごい",
+          "れいとうビーム"
+        ],
+        "usage_rate": 0.024,
+        "tera_type": null,
+        "can_mega_evolve": false,
+        "notes": "使用率14位",
+        "source_url": "https://champs.pokedb.tokyo/pokemon/show/0279-00?season=2&rule=1"
+      }
+    ],
+    "フラエッテ (えいえん)": [
+      {
+        "species": "フラエッテ (えいえん)",
+        "archetype_name": "メガシンカ型",
+        "ability": "フラワーベール",
+        "item": "フラエッテナイト",
+        "nature": "ひかえめ",
+        "evs": {
+          "sp_attack": 256,
+          "speed": 256
+        },
+        "moves": [
+          "まもる",
+          "マジカルシャイン",
+          "ムーンフォース",
+          "はめつのひかり",
+          "めいそう",
+          "ドレインキッス",
+          "サイコキネシス",
+          "エナジーボール"
+        ],
+        "usage_rate": 0.98,
+        "tera_type": null,
+        "can_mega_evolve": true,
+        "notes": "使用率15位",
+        "source_url": "https://champs.pokedb.tokyo/pokemon/show/0670-05?season=2&rule=1"
+      },
+      {
+        "species": "フラエッテ (えいえん)",
+        "archetype_name": "スカーフ型",
+        "ability": "フラワーベール",
+        "item": "こだわりスカーフ",
+        "nature": "ひかえめ",
+        "evs": {
+          "sp_attack": 256,
+          "speed": 256
+        },
+        "moves": [
+          "まもる",
+          "マジカルシャイン",
+          "ムーンフォース",
+          "はめつのひかり",
+          "めいそう",
+          "ドレインキッス",
+          "サイコキネシス",
+          "エナジーボール"
+        ],
+        "usage_rate": 0.007,
+        "tera_type": null,
+        "can_mega_evolve": true,
+        "notes": "使用率15位",
+        "source_url": "https://champs.pokedb.tokyo/pokemon/show/0670-05?season=2&rule=1"
+      },
+      {
+        "species": "フラエッテ (えいえん)",
+        "archetype_name": "ハネ型",
+        "ability": "フラワーベール",
+        "item": "ようせいのハネ",
+        "nature": "ひかえめ",
+        "evs": {
+          "sp_attack": 256,
+          "speed": 256
+        },
+        "moves": [
+          "まもる",
+          "マジカルシャイン",
+          "ムーンフォース",
+          "はめつのひかり",
+          "めいそう",
+          "ドレインキッス",
+          "サイコキネシス",
+          "エナジーボール"
+        ],
+        "usage_rate": 0.007,
+        "tera_type": null,
+        "can_mega_evolve": true,
+        "notes": "使用率15位",
+        "source_url": "https://champs.pokedb.tokyo/pokemon/show/0670-05?season=2&rule=1"
+      },
+      {
+        "species": "フラエッテ (えいえん)",
+        "archetype_name": "メガシンカ型",
+        "ability": "フラワーベール",
+        "item": "ユキメノコナイト",
+        "nature": "ひかえめ",
+        "evs": {
+          "sp_attack": 256,
+          "speed": 256
+        },
+        "moves": [
+          "まもる",
+          "マジカルシャイン",
+          "ムーンフォース",
+          "はめつのひかり",
+          "めいそう",
+          "ドレインキッス",
+          "サイコキネシス",
+          "エナジーボール"
+        ],
+        "usage_rate": 0.001,
+        "tera_type": null,
+        "can_mega_evolve": true,
+        "notes": "使用率15位",
+        "source_url": "https://champs.pokedb.tokyo/pokemon/show/0670-05?season=2&rule=1"
+      },
+      {
+        "species": "フラエッテ (えいえん)",
+        "archetype_name": "オボン型",
+        "ability": "フラワーベール",
+        "item": "オボンのみ",
+        "nature": "ひかえめ",
+        "evs": {
+          "sp_attack": 256,
+          "speed": 256
+        },
+        "moves": [
+          "まもる",
+          "マジカルシャイン",
+          "ムーンフォース",
+          "はめつのひかり",
+          "めいそう",
+          "ドレインキッス",
+          "サイコキネシス",
+          "エナジーボール"
+        ],
+        "usage_rate": 0.0,
+        "tera_type": null,
+        "can_mega_evolve": true,
+        "notes": "使用率15位",
+        "source_url": "https://champs.pokedb.tokyo/pokemon/show/0670-05?season=2&rule=1"
+      }
+    ],
+    "ヤミラミ": [
+      {
+        "species": "ヤミラミ",
+        "archetype_name": "ロゼル型",
+        "ability": "いたずらごころ",
+        "item": "ロゼルのみ",
+        "nature": "しんちょう",
+        "evs": {
+          "hp": 256,
+          "sp_defense": 200
+        },
+        "moves": [
+          "アンコール",
+          "ひかりのかべ",
+          "あまごい",
+          "リフレクター",
+          "かなしばり",
+          "おにび",
+          "ねこだまし",
+          "イカサマ"
+        ],
+        "usage_rate": 0.708,
+        "tera_type": null,
+        "can_mega_evolve": true,
+        "notes": "使用率16位",
+        "source_url": "https://champs.pokedb.tokyo/pokemon/show/0302-00?season=2&rule=1"
+      },
+      {
+        "species": "ヤミラミ",
+        "archetype_name": "オボン型",
+        "ability": "いたずらごころ",
+        "item": "オボンのみ",
+        "nature": "しんちょう",
+        "evs": {
+          "hp": 256,
+          "sp_defense": 200
+        },
+        "moves": [
+          "アンコール",
+          "ひかりのかべ",
+          "あまごい",
+          "リフレクター",
+          "かなしばり",
+          "おにび",
+          "ねこだまし",
+          "イカサマ"
+        ],
+        "usage_rate": 0.11,
+        "tera_type": null,
+        "can_mega_evolve": true,
+        "notes": "使用率16位",
+        "source_url": "https://champs.pokedb.tokyo/pokemon/show/0302-00?season=2&rule=1"
+      },
+      {
+        "species": "ヤミラミ",
+        "archetype_name": "タスキ型",
+        "ability": "いたずらごころ",
+        "item": "きあいのタスキ",
+        "nature": "しんちょう",
+        "evs": {
+          "hp": 256,
+          "sp_defense": 200
+        },
+        "moves": [
+          "アンコール",
+          "ひかりのかべ",
+          "あまごい",
+          "リフレクター",
+          "かなしばり",
+          "おにび",
+          "ねこだまし",
+          "イカサマ"
+        ],
+        "usage_rate": 0.053,
+        "tera_type": null,
+        "can_mega_evolve": true,
+        "notes": "使用率16位",
+        "source_url": "https://champs.pokedb.tokyo/pokemon/show/0302-00?season=2&rule=1"
+      },
+      {
+        "species": "ヤミラミ",
+        "archetype_name": "メンハ型",
+        "ability": "いたずらごころ",
+        "item": "メンタルハーブ",
+        "nature": "しんちょう",
+        "evs": {
+          "hp": 256,
+          "sp_defense": 200
+        },
+        "moves": [
+          "アンコール",
+          "ひかりのかべ",
+          "あまごい",
+          "リフレクター",
+          "かなしばり",
+          "おにび",
+          "ねこだまし",
+          "イカサマ"
+        ],
+        "usage_rate": 0.037,
+        "tera_type": null,
+        "can_mega_evolve": true,
+        "notes": "使用率16位",
+        "source_url": "https://champs.pokedb.tokyo/pokemon/show/0302-00?season=2&rule=1"
+      },
+      {
+        "species": "ヤミラミ",
+        "archetype_name": "残飯型",
+        "ability": "いたずらごころ",
+        "item": "たべのこし",
+        "nature": "しんちょう",
+        "evs": {
+          "hp": 256,
+          "sp_defense": 200
+        },
+        "moves": [
+          "アンコール",
+          "ひかりのかべ",
+          "あまごい",
+          "リフレクター",
+          "かなしばり",
+          "おにび",
+          "ねこだまし",
+          "イカサマ"
+        ],
+        "usage_rate": 0.034,
+        "tera_type": null,
+        "can_mega_evolve": true,
+        "notes": "使用率16位",
+        "source_url": "https://champs.pokedb.tokyo/pokemon/show/0302-00?season=2&rule=1"
+      }
+    ],
+    "カイリュー": [
+      {
+        "species": "カイリュー",
+        "archetype_name": "メガシンカ型",
+        "ability": "マルチスケイル",
+        "item": "カイリュナイト",
+        "nature": "ひかえめ",
+        "evs": {
+          "sp_attack": 256,
+          "speed": 256
+        },
+        "moves": [
+          "まもる",
+          "おいかぜ",
+          "しんそく",
+          "ぼうふう",
+          "りゅうのはどう",
+          "りゅうせいぐん",
+          "１０まんボルト",
+          "ドラゴンクロー"
+        ],
+        "usage_rate": 0.716,
+        "tera_type": null,
+        "can_mega_evolve": true,
+        "notes": "使用率17位",
+        "source_url": "https://champs.pokedb.tokyo/pokemon/show/0149-00?season=2&rule=1"
+      },
+      {
+        "species": "カイリュー",
+        "archetype_name": "CS特殊アタッカー型",
+        "ability": "マルチスケイル",
+        "item": "りゅうのキバ",
+        "nature": "ひかえめ",
+        "evs": {
+          "sp_attack": 256,
+          "speed": 256
+        },
+        "moves": [
+          "まもる",
+          "おいかぜ",
+          "しんそく",
+          "ぼうふう",
+          "りゅうのはどう",
+          "りゅうせいぐん",
+          "１０まんボルト",
+          "ドラゴンクロー"
+        ],
+        "usage_rate": 0.148,
+        "tera_type": null,
+        "can_mega_evolve": true,
+        "notes": "使用率17位",
+        "source_url": "https://champs.pokedb.tokyo/pokemon/show/0149-00?season=2&rule=1"
+      },
+      {
+        "species": "カイリュー",
+        "archetype_name": "残飯型",
+        "ability": "マルチスケイル",
+        "item": "たべのこし",
+        "nature": "ひかえめ",
+        "evs": {
+          "sp_attack": 256,
+          "speed": 256
+        },
+        "moves": [
+          "まもる",
+          "おいかぜ",
+          "しんそく",
+          "ぼうふう",
+          "りゅうのはどう",
+          "りゅうせいぐん",
+          "１０まんボルト",
+          "ドラゴンクロー"
+        ],
+        "usage_rate": 0.023,
+        "tera_type": null,
+        "can_mega_evolve": true,
+        "notes": "使用率17位",
+        "source_url": "https://champs.pokedb.tokyo/pokemon/show/0149-00?season=2&rule=1"
+      },
+      {
+        "species": "カイリュー",
+        "archetype_name": "ラム型",
+        "ability": "マルチスケイル",
+        "item": "ラムのみ",
+        "nature": "ひかえめ",
+        "evs": {
+          "sp_attack": 256,
+          "speed": 256
+        },
+        "moves": [
+          "まもる",
+          "おいかぜ",
+          "しんそく",
+          "ぼうふう",
+          "りゅうのはどう",
+          "りゅうせいぐん",
+          "１０まんボルト",
+          "ドラゴンクロー"
+        ],
+        "usage_rate": 0.02,
+        "tera_type": null,
+        "can_mega_evolve": true,
+        "notes": "使用率17位",
+        "source_url": "https://champs.pokedb.tokyo/pokemon/show/0149-00?season=2&rule=1"
+      },
+      {
+        "species": "カイリュー",
+        "archetype_name": "オボン型",
+        "ability": "マルチスケイル",
+        "item": "オボンのみ",
+        "nature": "ひかえめ",
+        "evs": {
+          "sp_attack": 256,
+          "speed": 256
+        },
+        "moves": [
+          "まもる",
+          "おいかぜ",
+          "しんそく",
+          "ぼうふう",
+          "りゅうのはどう",
+          "りゅうせいぐん",
+          "１０まんボルト",
+          "ドラゴンクロー"
+        ],
+        "usage_rate": 0.017,
+        "tera_type": null,
+        "can_mega_evolve": true,
+        "notes": "使用率17位",
+        "source_url": "https://champs.pokedb.tokyo/pokemon/show/0149-00?season=2&rule=1"
+      }
+    ],
+    "カメックス": [
+      {
+        "species": "カメックス",
+        "archetype_name": "メガシンカ型",
+        "ability": "あめうけざら",
+        "item": "カメックスナイト",
+        "nature": "ひかえめ",
+        "evs": {
+          "hp": 248,
+          "sp_attack": 256
+        },
+        "moves": [
+          "しおふき",
+          "あくのはどう",
+          "ねこだまし",
+          "はどうだん",
+          "からをやぶる",
+          "まもる",
+          "れいとうビーム",
+          "みずのはどう"
+        ],
+        "usage_rate": 0.948,
+        "tera_type": null,
+        "can_mega_evolve": true,
+        "notes": "使用率18位",
+        "source_url": "https://champs.pokedb.tokyo/pokemon/show/0009-00?season=2&rule=1"
+      },
+      {
+        "species": "カメックス",
+        "archetype_name": "白ハーブ型",
+        "ability": "あめうけざら",
+        "item": "しろいハーブ",
+        "nature": "ひかえめ",
+        "evs": {
+          "hp": 248,
+          "sp_attack": 256
+        },
+        "moves": [
+          "しおふき",
+          "あくのはどう",
+          "ねこだまし",
+          "はどうだん",
+          "からをやぶる",
+          "まもる",
+          "れいとうビーム",
+          "みずのはどう"
+        ],
+        "usage_rate": 0.012,
+        "tera_type": null,
+        "can_mega_evolve": true,
+        "notes": "使用率18位",
+        "source_url": "https://champs.pokedb.tokyo/pokemon/show/0009-00?season=2&rule=1"
+      },
+      {
+        "species": "カメックス",
+        "archetype_name": "特殊アタッカー型",
+        "ability": "あめうけざら",
+        "item": "しんぴのしずく",
+        "nature": "ひかえめ",
+        "evs": {
+          "hp": 248,
+          "sp_attack": 256
+        },
+        "moves": [
+          "しおふき",
+          "あくのはどう",
+          "ねこだまし",
+          "はどうだん",
+          "からをやぶる",
+          "まもる",
+          "れいとうビーム",
+          "みずのはどう"
+        ],
+        "usage_rate": 0.01,
+        "tera_type": null,
+        "can_mega_evolve": true,
+        "notes": "使用率18位",
+        "source_url": "https://champs.pokedb.tokyo/pokemon/show/0009-00?season=2&rule=1"
+      },
+      {
+        "species": "カメックス",
+        "archetype_name": "残飯型",
+        "ability": "あめうけざら",
+        "item": "たべのこし",
+        "nature": "ひかえめ",
+        "evs": {
+          "hp": 248,
+          "sp_attack": 256
+        },
+        "moves": [
+          "しおふき",
+          "あくのはどう",
+          "ねこだまし",
+          "はどうだん",
+          "からをやぶる",
+          "まもる",
+          "れいとうビーム",
+          "みずのはどう"
+        ],
+        "usage_rate": 0.008,
+        "tera_type": null,
+        "can_mega_evolve": true,
+        "notes": "使用率18位",
+        "source_url": "https://champs.pokedb.tokyo/pokemon/show/0009-00?season=2&rule=1"
+      },
+      {
+        "species": "カメックス",
+        "archetype_name": "オボン型",
+        "ability": "あめうけざら",
+        "item": "オボンのみ",
+        "nature": "ひかえめ",
+        "evs": {
+          "hp": 248,
+          "sp_attack": 256
+        },
+        "moves": [
+          "しおふき",
+          "あくのはどう",
+          "ねこだまし",
+          "はどうだん",
+          "からをやぶる",
+          "まもる",
+          "れいとうビーム",
+          "みずのはどう"
+        ],
+        "usage_rate": 0.006,
+        "tera_type": null,
+        "can_mega_evolve": true,
+        "notes": "使用率18位",
+        "source_url": "https://champs.pokedb.tokyo/pokemon/show/0009-00?season=2&rule=1"
+      }
+    ],
+    "バンギラス": [
+      {
+        "species": "バンギラス",
+        "archetype_name": "メガシンカ型",
+        "ability": "すなおこし",
+        "item": "バンギラスナイト",
+        "nature": "いじっぱり",
+        "evs": {
+          "attack": 256,
+          "speed": 256
+        },
+        "moves": [
+          "いわなだれ",
+          "はたきおとす",
+          "まもる",
+          "けたぐり",
+          "れいとうパンチ",
+          "りゅうのまい",
+          "１０まんばりき",
+          "かみくだく"
+        ],
+        "usage_rate": 0.726,
+        "tera_type": null,
+        "can_mega_evolve": true,
+        "notes": "使用率19位",
+        "source_url": "https://champs.pokedb.tokyo/pokemon/show/0248-00?season=2&rule=1"
+      },
+      {
+        "species": "バンギラス",
+        "archetype_name": "AS物理アタッカー型",
+        "ability": "すなおこし",
+        "item": "ヨプのみ",
+        "nature": "いじっぱり",
+        "evs": {
+          "attack": 256,
+          "speed": 256
+        },
+        "moves": [
+          "いわなだれ",
+          "はたきおとす",
+          "まもる",
+          "けたぐり",
+          "れいとうパンチ",
+          "りゅうのまい",
+          "１０まんばりき",
+          "かみくだく"
+        ],
+        "usage_rate": 0.07,
+        "tera_type": null,
+        "can_mega_evolve": true,
+        "notes": "使用率19位",
+        "source_url": "https://champs.pokedb.tokyo/pokemon/show/0248-00?season=2&rule=1"
+      },
+      {
+        "species": "バンギラス",
+        "archetype_name": "スカーフ型",
+        "ability": "すなおこし",
+        "item": "こだわりスカーフ",
+        "nature": "いじっぱり",
+        "evs": {
+          "attack": 256,
+          "speed": 256
+        },
+        "moves": [
+          "いわなだれ",
+          "はたきおとす",
+          "まもる",
+          "けたぐり",
+          "れいとうパンチ",
+          "りゅうのまい",
+          "１０まんばりき",
+          "かみくだく"
+        ],
+        "usage_rate": 0.061,
+        "tera_type": null,
+        "can_mega_evolve": true,
+        "notes": "使用率19位",
+        "source_url": "https://champs.pokedb.tokyo/pokemon/show/0248-00?season=2&rule=1"
+      },
+      {
+        "species": "バンギラス",
+        "archetype_name": "タスキ型",
+        "ability": "すなおこし",
+        "item": "きあいのタスキ",
+        "nature": "いじっぱり",
+        "evs": {
+          "attack": 256,
+          "speed": 256
+        },
+        "moves": [
+          "いわなだれ",
+          "はたきおとす",
+          "まもる",
+          "けたぐり",
+          "れいとうパンチ",
+          "りゅうのまい",
+          "１０まんばりき",
+          "かみくだく"
+        ],
+        "usage_rate": 0.057,
+        "tera_type": null,
+        "can_mega_evolve": true,
+        "notes": "使用率19位",
+        "source_url": "https://champs.pokedb.tokyo/pokemon/show/0248-00?season=2&rule=1"
+      },
+      {
+        "species": "バンギラス",
+        "archetype_name": "オボン型",
+        "ability": "すなおこし",
+        "item": "オボンのみ",
+        "nature": "いじっぱり",
+        "evs": {
+          "attack": 256,
+          "speed": 256
+        },
+        "moves": [
+          "いわなだれ",
+          "はたきおとす",
+          "まもる",
+          "けたぐり",
+          "れいとうパンチ",
+          "りゅうのまい",
+          "１０まんばりき",
+          "かみくだく"
+        ],
+        "usage_rate": 0.015,
+        "tera_type": null,
+        "can_mega_evolve": true,
+        "notes": "使用率19位",
+        "source_url": "https://champs.pokedb.tokyo/pokemon/show/0248-00?season=2&rule=1"
+      }
+    ],
+    "フシギバナ": [
+      {
+        "species": "フシギバナ",
+        "archetype_name": "メガシンカ型",
+        "ability": "ようりょくそ",
+        "item": "フシギバナイト",
+        "nature": "ひかえめ",
+        "evs": {
+          "sp_attack": 256,
+          "speed": 256
+        },
+        "moves": [
+          "ヘドロばくだん",
+          "まもる",
+          "だいちのちから",
+          "ギガドレイン",
+          "ねむりごな",
+          "やどりぎのタネ",
+          "エナジーボール",
+          "リーフストーム"
+        ],
+        "usage_rate": 0.661,
+        "tera_type": null,
+        "can_mega_evolve": true,
+        "notes": "使用率20位",
+        "source_url": "https://champs.pokedb.tokyo/pokemon/show/0003-00?season=2&rule=1"
+      },
+      {
+        "species": "フシギバナ",
+        "archetype_name": "タスキ型",
+        "ability": "ようりょくそ",
+        "item": "きあいのタスキ",
+        "nature": "ひかえめ",
+        "evs": {
+          "sp_attack": 256,
+          "speed": 256
+        },
+        "moves": [
+          "ヘドロばくだん",
+          "まもる",
+          "だいちのちから",
+          "ギガドレイン",
+          "ねむりごな",
+          "やどりぎのタネ",
+          "エナジーボール",
+          "リーフストーム"
+        ],
+        "usage_rate": 0.133,
+        "tera_type": null,
+        "can_mega_evolve": true,
+        "notes": "使用率20位",
+        "source_url": "https://champs.pokedb.tokyo/pokemon/show/0003-00?season=2&rule=1"
+      },
+      {
+        "species": "フシギバナ",
+        "archetype_name": "残飯型",
+        "ability": "ようりょくそ",
+        "item": "たべのこし",
+        "nature": "ひかえめ",
+        "evs": {
+          "sp_attack": 256,
+          "speed": 256
+        },
+        "moves": [
+          "ヘドロばくだん",
+          "まもる",
+          "だいちのちから",
+          "ギガドレイン",
+          "ねむりごな",
+          "やどりぎのタネ",
+          "エナジーボール",
+          "リーフストーム"
+        ],
+        "usage_rate": 0.055,
+        "tera_type": null,
+        "can_mega_evolve": true,
+        "notes": "使用率20位",
+        "source_url": "https://champs.pokedb.tokyo/pokemon/show/0003-00?season=2&rule=1"
+      },
+      {
+        "species": "フシギバナ",
+        "archetype_name": "オボン型",
+        "ability": "ようりょくそ",
+        "item": "オボンのみ",
+        "nature": "ひかえめ",
+        "evs": {
+          "sp_attack": 256,
+          "speed": 256
+        },
+        "moves": [
+          "ヘドロばくだん",
+          "まもる",
+          "だいちのちから",
+          "ギガドレイン",
+          "ねむりごな",
+          "やどりぎのタネ",
+          "エナジーボール",
+          "リーフストーム"
+        ],
+        "usage_rate": 0.041,
+        "tera_type": null,
+        "can_mega_evolve": true,
+        "notes": "使用率20位",
+        "source_url": "https://champs.pokedb.tokyo/pokemon/show/0003-00?season=2&rule=1"
+      },
+      {
+        "species": "フシギバナ",
+        "archetype_name": "CS特殊アタッカー型",
+        "ability": "ようりょくそ",
+        "item": "きせきのタネ",
+        "nature": "ひかえめ",
+        "evs": {
+          "sp_attack": 256,
+          "speed": 256
+        },
+        "moves": [
+          "ヘドロばくだん",
+          "まもる",
+          "だいちのちから",
+          "ギガドレイン",
+          "ねむりごな",
+          "やどりぎのタネ",
+          "エナジーボール",
+          "リーフストーム"
+        ],
+        "usage_rate": 0.036,
+        "tera_type": null,
+        "can_mega_evolve": true,
+        "notes": "使用率20位",
+        "source_url": "https://champs.pokedb.tokyo/pokemon/show/0003-00?season=2&rule=1"
+      }
+    ],
+    "ウォッシュロトム": [
+      {
+        "species": "ウォッシュロトム",
+        "archetype_name": "オボン型",
+        "ability": "ふゆう",
+        "item": "オボンのみ",
+        "nature": "ひかえめ",
+        "evs": {
+          "sp_attack": 256,
+          "speed": 256
+        },
+        "moves": [
+          "ハイドロポンプ",
+          "１０まんボルト",
+          "おにび",
+          "まもる",
+          "ボルトチェンジ",
+          "エレキネット",
+          "トリック",
+          "ほうでん"
+        ],
+        "usage_rate": 0.422,
+        "tera_type": null,
+        "can_mega_evolve": false,
+        "notes": "使用率21位",
+        "source_url": "https://champs.pokedb.tokyo/pokemon/show/0479-02?season=2&rule=1"
+      },
+      {
+        "species": "ウォッシュロトム",
+        "archetype_name": "スカーフ型",
+        "ability": "ふゆう",
+        "item": "こだわりスカーフ",
+        "nature": "ひかえめ",
+        "evs": {
+          "sp_attack": 256,
+          "speed": 256
+        },
+        "moves": [
+          "ハイドロポンプ",
+          "１０まんボルト",
+          "おにび",
+          "まもる",
+          "ボルトチェンジ",
+          "エレキネット",
+          "トリック",
+          "ほうでん"
+        ],
+        "usage_rate": 0.216,
+        "tera_type": null,
+        "can_mega_evolve": false,
+        "notes": "使用率21位",
+        "source_url": "https://champs.pokedb.tokyo/pokemon/show/0479-02?season=2&rule=1"
+      },
+      {
+        "species": "ウォッシュロトム",
+        "archetype_name": "残飯型",
+        "ability": "ふゆう",
+        "item": "たべのこし",
+        "nature": "ひかえめ",
+        "evs": {
+          "sp_attack": 256,
+          "speed": 256
+        },
+        "moves": [
+          "ハイドロポンプ",
+          "１０まんボルト",
+          "おにび",
+          "まもる",
+          "ボルトチェンジ",
+          "エレキネット",
+          "トリック",
+          "ほうでん"
+        ],
+        "usage_rate": 0.209,
+        "tera_type": null,
+        "can_mega_evolve": false,
+        "notes": "使用率21位",
+        "source_url": "https://champs.pokedb.tokyo/pokemon/show/0479-02?season=2&rule=1"
+      },
+      {
+        "species": "ウォッシュロトム",
+        "archetype_name": "CS特殊アタッカー型",
+        "ability": "ふゆう",
+        "item": "じしゃく",
+        "nature": "ひかえめ",
+        "evs": {
+          "sp_attack": 256,
+          "speed": 256
+        },
+        "moves": [
+          "ハイドロポンプ",
+          "１０まんボルト",
+          "おにび",
+          "まもる",
+          "ボルトチェンジ",
+          "エレキネット",
+          "トリック",
+          "ほうでん"
+        ],
+        "usage_rate": 0.097,
+        "tera_type": null,
+        "can_mega_evolve": false,
+        "notes": "使用率21位",
+        "source_url": "https://champs.pokedb.tokyo/pokemon/show/0479-02?season=2&rule=1"
+      },
+      {
+        "species": "ウォッシュロトム",
+        "archetype_name": "CS特殊アタッカー型",
+        "ability": "ふゆう",
+        "item": "リンドのみ",
+        "nature": "ひかえめ",
+        "evs": {
+          "sp_attack": 256,
+          "speed": 256
+        },
+        "moves": [
+          "ハイドロポンプ",
+          "１０まんボルト",
+          "おにび",
+          "まもる",
+          "ボルトチェンジ",
+          "エレキネット",
+          "トリック",
+          "ほうでん"
+        ],
+        "usage_rate": 0.015,
+        "tera_type": null,
+        "can_mega_evolve": false,
+        "notes": "使用率21位",
+        "source_url": "https://champs.pokedb.tokyo/pokemon/show/0479-02?season=2&rule=1"
+      }
+    ],
+    "コータス": [
+      {
+        "species": "コータス",
+        "archetype_name": "特殊アタッカー型",
+        "ability": "ひでり",
+        "item": "もくたん",
+        "nature": "れいせい",
+        "evs": {
+          "hp": 256,
+          "sp_attack": 256
+        },
+        "moves": [
+          "ふんか",
+          "まもる",
+          "ウェザーボール",
+          "ねっぷう",
+          "ソーラービーム",
+          "だいちのちから",
+          "てだすけ",
+          "かえんほうしゃ"
+        ],
+        "usage_rate": 0.913,
+        "tera_type": null,
+        "can_mega_evolve": false,
+        "notes": "使用率22位",
+        "source_url": "https://champs.pokedb.tokyo/pokemon/show/0324-00?season=2&rule=1"
+      },
+      {
+        "species": "コータス",
+        "archetype_name": "特殊アタッカー型",
+        "ability": "ひでり",
+        "item": "せんせいのツメ",
+        "nature": "れいせい",
+        "evs": {
+          "hp": 256,
+          "sp_attack": 256
+        },
+        "moves": [
+          "ふんか",
+          "まもる",
+          "ウェザーボール",
+          "ねっぷう",
+          "ソーラービーム",
+          "だいちのちから",
+          "てだすけ",
+          "かえんほうしゃ"
+        ],
+        "usage_rate": 0.029,
+        "tera_type": null,
+        "can_mega_evolve": false,
+        "notes": "使用率22位",
+        "source_url": "https://champs.pokedb.tokyo/pokemon/show/0324-00?season=2&rule=1"
+      },
+      {
+        "species": "コータス",
+        "archetype_name": "オボン型",
+        "ability": "ひでり",
+        "item": "オボンのみ",
+        "nature": "れいせい",
+        "evs": {
+          "hp": 256,
+          "sp_attack": 256
+        },
+        "moves": [
+          "ふんか",
+          "まもる",
+          "ウェザーボール",
+          "ねっぷう",
+          "ソーラービーム",
+          "だいちのちから",
+          "てだすけ",
+          "かえんほうしゃ"
+        ],
+        "usage_rate": 0.021,
+        "tera_type": null,
+        "can_mega_evolve": false,
+        "notes": "使用率22位",
+        "source_url": "https://champs.pokedb.tokyo/pokemon/show/0324-00?season=2&rule=1"
+      },
+      {
+        "species": "コータス",
+        "archetype_name": "残飯型",
+        "ability": "ひでり",
+        "item": "たべのこし",
+        "nature": "れいせい",
+        "evs": {
+          "hp": 256,
+          "sp_attack": 256
+        },
+        "moves": [
+          "ふんか",
+          "まもる",
+          "ウェザーボール",
+          "ねっぷう",
+          "ソーラービーム",
+          "だいちのちから",
+          "てだすけ",
+          "かえんほうしゃ"
+        ],
+        "usage_rate": 0.019,
+        "tera_type": null,
+        "can_mega_evolve": false,
+        "notes": "使用率22位",
+        "source_url": "https://champs.pokedb.tokyo/pokemon/show/0324-00?season=2&rule=1"
+      },
+      {
+        "species": "コータス",
+        "archetype_name": "タスキ型",
+        "ability": "ひでり",
+        "item": "きあいのタスキ",
+        "nature": "れいせい",
+        "evs": {
+          "hp": 256,
+          "sp_attack": 256
+        },
+        "moves": [
+          "ふんか",
+          "まもる",
+          "ウェザーボール",
+          "ねっぷう",
+          "ソーラービーム",
+          "だいちのちから",
+          "てだすけ",
+          "かえんほうしゃ"
+        ],
+        "usage_rate": 0.003,
+        "tera_type": null,
+        "can_mega_evolve": false,
+        "notes": "使用率22位",
+        "source_url": "https://champs.pokedb.tokyo/pokemon/show/0324-00?season=2&rule=1"
+      }
+    ],
+    "ガルーラ": [
+      {
+        "species": "ガルーラ",
+        "archetype_name": "メガシンカ型",
+        "ability": "きもったま",
+        "item": "ガルーラナイト",
+        "nature": "いじっぱり",
+        "evs": {
+          "hp": 248,
+          "attack": 256
+        },
+        "moves": [
+          "ねこだまし",
+          "すてみタックル",
+          "れいとうパンチ",
+          "とっておき",
+          "けたぐり",
+          "ふいうち",
+          "ドレインパンチ",
+          "アームハンマー"
+        ],
+        "usage_rate": 0.637,
+        "tera_type": null,
+        "can_mega_evolve": true,
+        "notes": "使用率23位",
+        "source_url": "https://champs.pokedb.tokyo/pokemon/show/0115-00?season=2&rule=1"
+      },
+      {
+        "species": "ガルーラ",
+        "archetype_name": "物理アタッカー型",
+        "ability": "きもったま",
+        "item": "シルクのスカーフ",
+        "nature": "いじっぱり",
+        "evs": {
+          "hp": 248,
+          "attack": 256
+        },
+        "moves": [
+          "ねこだまし",
+          "すてみタックル",
+          "れいとうパンチ",
+          "とっておき",
+          "けたぐり",
+          "ふいうち",
+          "ドレインパンチ",
+          "アームハンマー"
+        ],
+        "usage_rate": 0.312,
+        "tera_type": null,
+        "can_mega_evolve": true,
+        "notes": "使用率23位",
+        "source_url": "https://champs.pokedb.tokyo/pokemon/show/0115-00?season=2&rule=1"
+      },
+      {
+        "species": "ガルーラ",
+        "archetype_name": "物理アタッカー型",
+        "ability": "きもったま",
+        "item": "ヨプのみ",
+        "nature": "いじっぱり",
+        "evs": {
+          "hp": 248,
+          "attack": 256
+        },
+        "moves": [
+          "ねこだまし",
+          "すてみタックル",
+          "れいとうパンチ",
+          "とっておき",
+          "けたぐり",
+          "ふいうち",
+          "ドレインパンチ",
+          "アームハンマー"
+        ],
+        "usage_rate": 0.016,
+        "tera_type": null,
+        "can_mega_evolve": true,
+        "notes": "使用率23位",
+        "source_url": "https://champs.pokedb.tokyo/pokemon/show/0115-00?season=2&rule=1"
+      },
+      {
+        "species": "ガルーラ",
+        "archetype_name": "オボン型",
+        "ability": "きもったま",
+        "item": "オボンのみ",
+        "nature": "いじっぱり",
+        "evs": {
+          "hp": 248,
+          "attack": 256
+        },
+        "moves": [
+          "ねこだまし",
+          "すてみタックル",
+          "れいとうパンチ",
+          "とっておき",
+          "けたぐり",
+          "ふいうち",
+          "ドレインパンチ",
+          "アームハンマー"
+        ],
+        "usage_rate": 0.009,
+        "tera_type": null,
+        "can_mega_evolve": true,
+        "notes": "使用率23位",
+        "source_url": "https://champs.pokedb.tokyo/pokemon/show/0115-00?season=2&rule=1"
+      },
+      {
+        "species": "ガルーラ",
+        "archetype_name": "残飯型",
+        "ability": "きもったま",
+        "item": "たべのこし",
+        "nature": "いじっぱり",
+        "evs": {
+          "hp": 248,
+          "attack": 256
+        },
+        "moves": [
+          "ねこだまし",
+          "すてみタックル",
+          "れいとうパンチ",
+          "とっておき",
+          "けたぐり",
+          "ふいうち",
+          "ドレインパンチ",
+          "アームハンマー"
+        ],
+        "usage_rate": 0.006,
+        "tera_type": null,
+        "can_mega_evolve": true,
+        "notes": "使用率23位",
+        "source_url": "https://champs.pokedb.tokyo/pokemon/show/0115-00?season=2&rule=1"
+      }
+    ],
+    "ミロカロス": [
+      {
+        "species": "ミロカロス",
+        "archetype_name": "残飯型",
+        "ability": "かちき",
+        "item": "たべのこし",
+        "nature": "ずぶとい",
+        "evs": {
+          "hp": 256,
+          "defense": 256
+        },
+        "moves": [
+          "ねっとう",
+          "まもる",
+          "こごえるかぜ",
+          "じこさいせい",
+          "いのちのしずく",
+          "れいとうビーム",
+          "だくりゅう",
+          "さいみんじゅつ"
+        ],
+        "usage_rate": 0.736,
+        "tera_type": null,
+        "can_mega_evolve": false,
+        "notes": "使用率24位",
+        "source_url": "https://champs.pokedb.tokyo/pokemon/show/0350-00?season=2&rule=1"
+      },
+      {
+        "species": "ミロカロス",
+        "archetype_name": "オボン型",
+        "ability": "かちき",
+        "item": "オボンのみ",
+        "nature": "ずぶとい",
+        "evs": {
+          "hp": 256,
+          "defense": 256
+        },
+        "moves": [
+          "ねっとう",
+          "まもる",
+          "こごえるかぜ",
+          "じこさいせい",
+          "いのちのしずく",
+          "れいとうビーム",
+          "だくりゅう",
+          "さいみんじゅつ"
+        ],
+        "usage_rate": 0.174,
+        "tera_type": null,
+        "can_mega_evolve": false,
+        "notes": "使用率24位",
+        "source_url": "https://champs.pokedb.tokyo/pokemon/show/0350-00?season=2&rule=1"
+      },
+      {
+        "species": "ミロカロス",
+        "archetype_name": "HB物理受け型",
+        "ability": "かちき",
+        "item": "しんぴのしずく",
+        "nature": "ずぶとい",
+        "evs": {
+          "hp": 256,
+          "defense": 256
+        },
+        "moves": [
+          "ねっとう",
+          "まもる",
+          "こごえるかぜ",
+          "じこさいせい",
+          "いのちのしずく",
+          "れいとうビーム",
+          "だくりゅう",
+          "さいみんじゅつ"
+        ],
+        "usage_rate": 0.034,
+        "tera_type": null,
+        "can_mega_evolve": false,
+        "notes": "使用率24位",
+        "source_url": "https://champs.pokedb.tokyo/pokemon/show/0350-00?season=2&rule=1"
+      },
+      {
+        "species": "ミロカロス",
+        "archetype_name": "HB物理受け型",
+        "ability": "かちき",
+        "item": "せんせいのツメ",
+        "nature": "ずぶとい",
+        "evs": {
+          "hp": 256,
+          "defense": 256
+        },
+        "moves": [
+          "ねっとう",
+          "まもる",
+          "こごえるかぜ",
+          "じこさいせい",
+          "いのちのしずく",
+          "れいとうビーム",
+          "だくりゅう",
+          "さいみんじゅつ"
+        ],
+        "usage_rate": 0.01,
+        "tera_type": null,
+        "can_mega_evolve": false,
+        "notes": "使用率24位",
+        "source_url": "https://champs.pokedb.tokyo/pokemon/show/0350-00?season=2&rule=1"
+      },
+      {
+        "species": "ミロカロス",
+        "archetype_name": "HB物理受け型",
+        "ability": "かちき",
+        "item": "ひかりのこな",
+        "nature": "ずぶとい",
+        "evs": {
+          "hp": 256,
+          "defense": 256
+        },
+        "moves": [
+          "ねっとう",
+          "まもる",
+          "こごえるかぜ",
+          "じこさいせい",
+          "いのちのしずく",
+          "れいとうビーム",
+          "だくりゅう",
+          "さいみんじゅつ"
+        ],
+        "usage_rate": 0.007,
+        "tera_type": null,
+        "can_mega_evolve": false,
+        "notes": "使用率24位",
+        "source_url": "https://champs.pokedb.tokyo/pokemon/show/0350-00?season=2&rule=1"
+      }
+    ],
+    "ゲンガー": [
+      {
+        "species": "ゲンガー",
+        "archetype_name": "メガシンカ型",
+        "ability": "のろわれボディ",
+        "item": "ゲンガナイト",
+        "nature": "おくびょう",
+        "evs": {
+          "sp_attack": 256,
+          "speed": 256
+        },
+        "moves": [
+          "シャドーボール",
+          "まもる",
+          "ほろびのうた",
+          "かなしばり",
+          "ヘドロばくだん",
+          "サイコキネシス",
+          "こごえるかぜ",
+          "トリックルーム"
+        ],
+        "usage_rate": 0.812,
+        "tera_type": null,
+        "can_mega_evolve": true,
+        "notes": "使用率25位",
+        "source_url": "https://champs.pokedb.tokyo/pokemon/show/0094-00?season=2&rule=1"
+      },
+      {
+        "species": "ゲンガー",
+        "archetype_name": "タスキ型",
+        "ability": "のろわれボディ",
+        "item": "きあいのタスキ",
+        "nature": "おくびょう",
+        "evs": {
+          "sp_attack": 256,
+          "speed": 256
+        },
+        "moves": [
+          "シャドーボール",
+          "まもる",
+          "ほろびのうた",
+          "かなしばり",
+          "ヘドロばくだん",
+          "サイコキネシス",
+          "こごえるかぜ",
+          "トリックルーム"
+        ],
+        "usage_rate": 0.15,
+        "tera_type": null,
+        "can_mega_evolve": true,
+        "notes": "使用率25位",
+        "source_url": "https://champs.pokedb.tokyo/pokemon/show/0094-00?season=2&rule=1"
+      },
+      {
+        "species": "ゲンガー",
+        "archetype_name": "スカーフ型",
+        "ability": "のろわれボディ",
+        "item": "こだわりスカーフ",
+        "nature": "おくびょう",
+        "evs": {
+          "sp_attack": 256,
+          "speed": 256
+        },
+        "moves": [
+          "シャドーボール",
+          "まもる",
+          "ほろびのうた",
+          "かなしばり",
+          "ヘドロばくだん",
+          "サイコキネシス",
+          "こごえるかぜ",
+          "トリックルーム"
+        ],
+        "usage_rate": 0.017,
+        "tera_type": null,
+        "can_mega_evolve": true,
+        "notes": "使用率25位",
+        "source_url": "https://champs.pokedb.tokyo/pokemon/show/0094-00?season=2&rule=1"
+      },
+      {
+        "species": "ゲンガー",
+        "archetype_name": "CS特殊アタッカー型",
+        "ability": "のろわれボディ",
+        "item": "のろいのおふだ",
+        "nature": "おくびょう",
+        "evs": {
+          "sp_attack": 256,
+          "speed": 256
+        },
+        "moves": [
+          "シャドーボール",
+          "まもる",
+          "ほろびのうた",
+          "かなしばり",
+          "ヘドロばくだん",
+          "サイコキネシス",
+          "こごえるかぜ",
+          "トリックルーム"
+        ],
+        "usage_rate": 0.003,
+        "tera_type": null,
+        "can_mega_evolve": true,
+        "notes": "使用率25位",
+        "source_url": "https://champs.pokedb.tokyo/pokemon/show/0094-00?season=2&rule=1"
+      },
+      {
+        "species": "ゲンガー",
+        "archetype_name": "オボン型",
+        "ability": "のろわれボディ",
+        "item": "オボンのみ",
+        "nature": "おくびょう",
+        "evs": {
+          "sp_attack": 256,
+          "speed": 256
+        },
+        "moves": [
+          "シャドーボール",
+          "まもる",
+          "ほろびのうた",
+          "かなしばり",
+          "ヘドロばくだん",
+          "サイコキネシス",
+          "こごえるかぜ",
+          "トリックルーム"
+        ],
+        "usage_rate": 0.002,
+        "tera_type": null,
+        "can_mega_evolve": true,
+        "notes": "使用率25位",
+        "source_url": "https://champs.pokedb.tokyo/pokemon/show/0094-00?season=2&rule=1"
+      }
+    ],
+    "ファイアロー": [
+      {
+        "species": "ファイアロー",
+        "archetype_name": "AS物理アタッカー型",
+        "ability": "はやてのつばさ",
+        "item": "するどいくちばし",
+        "nature": "ようき",
+        "evs": {
+          "attack": 256,
+          "speed": 256
+        },
+        "moves": [
+          "おいかぜ",
+          "まもる",
+          "フレアドライブ",
+          "アクロバット",
+          "ダブルウイング",
+          "ブレイブバード",
+          "ファストガード",
+          "ちょうはつ"
+        ],
+        "usage_rate": 0.268,
+        "tera_type": null,
+        "can_mega_evolve": false,
+        "notes": "使用率26位",
+        "source_url": "https://champs.pokedb.tokyo/pokemon/show/0663-00?season=2&rule=1"
+      },
+      {
+        "species": "ファイアロー",
+        "archetype_name": "タスキ型",
+        "ability": "はやてのつばさ",
+        "item": "きあいのタスキ",
+        "nature": "ようき",
+        "evs": {
+          "attack": 256,
+          "speed": 256
+        },
+        "moves": [
+          "おいかぜ",
+          "まもる",
+          "フレアドライブ",
+          "アクロバット",
+          "ダブルウイング",
+          "ブレイブバード",
+          "ファストガード",
+          "ちょうはつ"
+        ],
+        "usage_rate": 0.18,
+        "tera_type": null,
+        "can_mega_evolve": false,
+        "notes": "使用率26位",
+        "source_url": "https://champs.pokedb.tokyo/pokemon/show/0663-00?season=2&rule=1"
+      },
+      {
+        "species": "ファイアロー",
+        "archetype_name": "AS物理アタッカー型",
+        "ability": "はやてのつばさ",
+        "item": "ヨロギのみ",
+        "nature": "ようき",
+        "evs": {
+          "attack": 256,
+          "speed": 256
+        },
+        "moves": [
+          "おいかぜ",
+          "まもる",
+          "フレアドライブ",
+          "アクロバット",
+          "ダブルウイング",
+          "ブレイブバード",
+          "ファストガード",
+          "ちょうはつ"
+        ],
+        "usage_rate": 0.018,
+        "tera_type": null,
+        "can_mega_evolve": false,
+        "notes": "使用率26位",
+        "source_url": "https://champs.pokedb.tokyo/pokemon/show/0663-00?season=2&rule=1"
+      },
+      {
+        "species": "ファイアロー",
+        "archetype_name": "メンハ型",
+        "ability": "はやてのつばさ",
+        "item": "メンタルハーブ",
+        "nature": "ようき",
+        "evs": {
+          "attack": 256,
+          "speed": 256
+        },
+        "moves": [
+          "おいかぜ",
+          "まもる",
+          "フレアドライブ",
+          "アクロバット",
+          "ダブルウイング",
+          "ブレイブバード",
+          "ファストガード",
+          "ちょうはつ"
+        ],
+        "usage_rate": 0.016,
+        "tera_type": null,
+        "can_mega_evolve": false,
+        "notes": "使用率26位",
+        "source_url": "https://champs.pokedb.tokyo/pokemon/show/0663-00?season=2&rule=1"
+      },
+      {
+        "species": "ファイアロー",
+        "archetype_name": "残飯型",
+        "ability": "はやてのつばさ",
+        "item": "たべのこし",
+        "nature": "ようき",
+        "evs": {
+          "attack": 256,
+          "speed": 256
+        },
+        "moves": [
+          "おいかぜ",
+          "まもる",
+          "フレアドライブ",
+          "アクロバット",
+          "ダブルウイング",
+          "ブレイブバード",
+          "ファストガード",
+          "ちょうはつ"
+        ],
+        "usage_rate": 0.011,
+        "tera_type": null,
+        "can_mega_evolve": false,
+        "notes": "使用率26位",
+        "source_url": "https://champs.pokedb.tokyo/pokemon/show/0663-00?season=2&rule=1"
+      }
+    ],
+    "ハッサム": [
+      {
+        "species": "ハッサム",
+        "archetype_name": "メガシンカ型",
+        "ability": "テクニシャン",
+        "item": "ハッサムナイト",
+        "nature": "いじっぱり",
+        "evs": {
+          "hp": 256,
+          "attack": 256
+        },
+        "moves": [
+          "バレットパンチ",
+          "まもる",
+          "むしくい",
+          "つるぎのまい",
+          "インファイト",
+          "ダブルウイング",
+          "はたきおとす",
+          "とんぼがえり"
+        ],
+        "usage_rate": 0.706,
+        "tera_type": null,
+        "can_mega_evolve": true,
+        "notes": "使用率27位",
+        "source_url": "https://champs.pokedb.tokyo/pokemon/show/0212-00?season=2&rule=1"
+      },
+      {
+        "species": "ハッサム",
+        "archetype_name": "物理アタッカー型",
+        "ability": "テクニシャン",
+        "item": "メタルコート",
+        "nature": "いじっぱり",
+        "evs": {
+          "hp": 256,
+          "attack": 256
+        },
+        "moves": [
+          "バレットパンチ",
+          "まもる",
+          "むしくい",
+          "つるぎのまい",
+          "インファイト",
+          "ダブルウイング",
+          "はたきおとす",
+          "とんぼがえり"
+        ],
+        "usage_rate": 0.141,
+        "tera_type": null,
+        "can_mega_evolve": true,
+        "notes": "使用率27位",
+        "source_url": "https://champs.pokedb.tokyo/pokemon/show/0212-00?season=2&rule=1"
+      },
+      {
+        "species": "ハッサム",
+        "archetype_name": "オボン型",
+        "ability": "テクニシャン",
+        "item": "オボンのみ",
+        "nature": "いじっぱり",
+        "evs": {
+          "hp": 256,
+          "attack": 256
+        },
+        "moves": [
+          "バレットパンチ",
+          "まもる",
+          "むしくい",
+          "つるぎのまい",
+          "インファイト",
+          "ダブルウイング",
+          "はたきおとす",
+          "とんぼがえり"
+        ],
+        "usage_rate": 0.055,
+        "tera_type": null,
+        "can_mega_evolve": true,
+        "notes": "使用率27位",
+        "source_url": "https://champs.pokedb.tokyo/pokemon/show/0212-00?season=2&rule=1"
+      },
+      {
+        "species": "ハッサム",
+        "archetype_name": "タスキ型",
+        "ability": "テクニシャン",
+        "item": "きあいのタスキ",
+        "nature": "いじっぱり",
+        "evs": {
+          "hp": 256,
+          "attack": 256
+        },
+        "moves": [
+          "バレットパンチ",
+          "まもる",
+          "むしくい",
+          "つるぎのまい",
+          "インファイト",
+          "ダブルウイング",
+          "はたきおとす",
+          "とんぼがえり"
+        ],
+        "usage_rate": 0.018,
+        "tera_type": null,
+        "can_mega_evolve": true,
+        "notes": "使用率27位",
+        "source_url": "https://champs.pokedb.tokyo/pokemon/show/0212-00?season=2&rule=1"
+      },
+      {
+        "species": "ハッサム",
+        "archetype_name": "ラム型",
+        "ability": "テクニシャン",
+        "item": "ラムのみ",
+        "nature": "いじっぱり",
+        "evs": {
+          "hp": 256,
+          "attack": 256
+        },
+        "moves": [
+          "バレットパンチ",
+          "まもる",
+          "むしくい",
+          "つるぎのまい",
+          "インファイト",
+          "ダブルウイング",
+          "はたきおとす",
+          "とんぼがえり"
+        ],
+        "usage_rate": 0.014,
+        "tera_type": null,
+        "can_mega_evolve": true,
+        "notes": "使用率27位",
+        "source_url": "https://champs.pokedb.tokyo/pokemon/show/0212-00?season=2&rule=1"
+      }
+    ],
+    "サーナイト": [
+      {
+        "species": "サーナイト",
+        "archetype_name": "メガシンカ型",
+        "ability": "トレース",
+        "item": "サーナイトナイト",
+        "nature": "ひかえめ",
+        "evs": {
+          "sp_attack": 256,
+          "speed": 256
+        },
+        "moves": [
+          "ハイパーボイス",
+          "まもる",
+          "サイコキネシス",
+          "トリックルーム",
+          "サイコショック",
+          "しんくうは",
+          "ムーンフォース",
+          "めいそう"
+        ],
+        "usage_rate": 0.905,
+        "tera_type": null,
+        "can_mega_evolve": true,
+        "notes": "使用率28位",
+        "source_url": "https://champs.pokedb.tokyo/pokemon/show/0282-00?season=2&rule=1"
+      },
+      {
+        "species": "サーナイト",
+        "archetype_name": "スカーフ型",
+        "ability": "トレース",
+        "item": "こだわりスカーフ",
+        "nature": "ひかえめ",
+        "evs": {
+          "sp_attack": 256,
+          "speed": 256
+        },
+        "moves": [
+          "ハイパーボイス",
+          "まもる",
+          "サイコキネシス",
+          "トリックルーム",
+          "サイコショック",
+          "しんくうは",
+          "ムーンフォース",
+          "めいそう"
+        ],
+        "usage_rate": 0.04,
+        "tera_type": null,
+        "can_mega_evolve": true,
+        "notes": "使用率28位",
+        "source_url": "https://champs.pokedb.tokyo/pokemon/show/0282-00?season=2&rule=1"
+      },
+      {
+        "species": "サーナイト",
+        "archetype_name": "ハネ型",
+        "ability": "トレース",
+        "item": "ようせいのハネ",
+        "nature": "ひかえめ",
+        "evs": {
+          "sp_attack": 256,
+          "speed": 256
+        },
+        "moves": [
+          "ハイパーボイス",
+          "まもる",
+          "サイコキネシス",
+          "トリックルーム",
+          "サイコショック",
+          "しんくうは",
+          "ムーンフォース",
+          "めいそう"
+        ],
+        "usage_rate": 0.012,
+        "tera_type": null,
+        "can_mega_evolve": true,
+        "notes": "使用率28位",
+        "source_url": "https://champs.pokedb.tokyo/pokemon/show/0282-00?season=2&rule=1"
+      },
+      {
+        "species": "サーナイト",
+        "archetype_name": "タスキ型",
+        "ability": "トレース",
+        "item": "きあいのタスキ",
+        "nature": "ひかえめ",
+        "evs": {
+          "sp_attack": 256,
+          "speed": 256
+        },
+        "moves": [
+          "ハイパーボイス",
+          "まもる",
+          "サイコキネシス",
+          "トリックルーム",
+          "サイコショック",
+          "しんくうは",
+          "ムーンフォース",
+          "めいそう"
+        ],
+        "usage_rate": 0.012,
+        "tera_type": null,
+        "can_mega_evolve": true,
+        "notes": "使用率28位",
+        "source_url": "https://champs.pokedb.tokyo/pokemon/show/0282-00?season=2&rule=1"
+      },
+      {
+        "species": "サーナイト",
+        "archetype_name": "オボン型",
+        "ability": "トレース",
+        "item": "オボンのみ",
+        "nature": "ひかえめ",
+        "evs": {
+          "sp_attack": 256,
+          "speed": 256
+        },
+        "moves": [
+          "ハイパーボイス",
+          "まもる",
+          "サイコキネシス",
+          "トリックルーム",
+          "サイコショック",
+          "しんくうは",
+          "ムーンフォース",
+          "めいそう"
+        ],
+        "usage_rate": 0.011,
+        "tera_type": null,
+        "can_mega_evolve": true,
+        "notes": "使用率28位",
+        "source_url": "https://champs.pokedb.tokyo/pokemon/show/0282-00?season=2&rule=1"
+      }
+    ],
+    "ニョロトノ": [
+      {
+        "species": "ニョロトノ",
+        "archetype_name": "オボン型",
+        "ability": "あめふらし",
+        "item": "オボンのみ",
+        "nature": "おだやか",
+        "evs": {
+          "hp": 256,
+          "defense": 88,
+          "sp_defense": 160,
+          "speed": 24
+        },
+        "moves": [
+          "ウェザーボール",
+          "まもる",
+          "ほろびのうた",
+          "アンコール",
+          "だくりゅう",
+          "れいとうビーム",
+          "こごえるかぜ",
+          "あまごい"
+        ],
+        "usage_rate": 0.681,
+        "tera_type": null,
+        "can_mega_evolve": false,
+        "notes": "使用率29位",
+        "source_url": "https://champs.pokedb.tokyo/pokemon/show/0186-00?season=2&rule=1"
+      },
+      {
+        "species": "ニョロトノ",
+        "archetype_name": "残飯型",
+        "ability": "あめふらし",
+        "item": "たべのこし",
+        "nature": "おだやか",
+        "evs": {
+          "hp": 256,
+          "defense": 88,
+          "sp_defense": 160,
+          "speed": 24
+        },
+        "moves": [
+          "ウェザーボール",
+          "まもる",
+          "ほろびのうた",
+          "アンコール",
+          "だくりゅう",
+          "れいとうビーム",
+          "こごえるかぜ",
+          "あまごい"
+        ],
+        "usage_rate": 0.101,
+        "tera_type": null,
+        "can_mega_evolve": false,
+        "notes": "使用率29位",
+        "source_url": "https://champs.pokedb.tokyo/pokemon/show/0186-00?season=2&rule=1"
+      },
+      {
+        "species": "ニョロトノ",
+        "archetype_name": "汎用型",
+        "ability": "あめふらし",
+        "item": "しんぴのしずく",
+        "nature": "おだやか",
+        "evs": {
+          "hp": 256,
+          "defense": 88,
+          "sp_defense": 160,
+          "speed": 24
+        },
+        "moves": [
+          "ウェザーボール",
+          "まもる",
+          "ほろびのうた",
+          "アンコール",
+          "だくりゅう",
+          "れいとうビーム",
+          "こごえるかぜ",
+          "あまごい"
+        ],
+        "usage_rate": 0.076,
+        "tera_type": null,
+        "can_mega_evolve": false,
+        "notes": "使用率29位",
+        "source_url": "https://champs.pokedb.tokyo/pokemon/show/0186-00?season=2&rule=1"
+      },
+      {
+        "species": "ニョロトノ",
+        "archetype_name": "汎用型",
+        "ability": "あめふらし",
+        "item": "ひかりのこな",
+        "nature": "おだやか",
+        "evs": {
+          "hp": 256,
+          "defense": 88,
+          "sp_defense": 160,
+          "speed": 24
+        },
+        "moves": [
+          "ウェザーボール",
+          "まもる",
+          "ほろびのうた",
+          "アンコール",
+          "だくりゅう",
+          "れいとうビーム",
+          "こごえるかぜ",
+          "あまごい"
+        ],
+        "usage_rate": 0.051,
+        "tera_type": null,
+        "can_mega_evolve": false,
+        "notes": "使用率29位",
+        "source_url": "https://champs.pokedb.tokyo/pokemon/show/0186-00?season=2&rule=1"
+      },
+      {
+        "species": "ニョロトノ",
+        "archetype_name": "汎用型",
+        "ability": "あめふらし",
+        "item": "せんせいのツメ",
+        "nature": "おだやか",
+        "evs": {
+          "hp": 256,
+          "defense": 88,
+          "sp_defense": 160,
+          "speed": 24
+        },
+        "moves": [
+          "ウェザーボール",
+          "まもる",
+          "ほろびのうた",
+          "アンコール",
+          "だくりゅう",
+          "れいとうビーム",
+          "こごえるかぜ",
+          "あまごい"
+        ],
+        "usage_rate": 0.022,
+        "tera_type": null,
+        "can_mega_evolve": false,
+        "notes": "使用率29位",
+        "source_url": "https://champs.pokedb.tokyo/pokemon/show/0186-00?season=2&rule=1"
+      }
+    ],
+    "ドリュウズ": [
+      {
+        "species": "ドリュウズ",
+        "archetype_name": "タスキ型",
+        "ability": "すなかき",
+        "item": "きあいのタスキ",
+        "nature": "いじっぱり",
+        "evs": {
+          "attack": 256,
+          "speed": 256
+        },
+        "moves": [
+          "アイアンヘッド",
+          "まもる",
+          "いわなだれ",
+          "じしん",
+          "１０まんばりき",
+          "つるぎのまい",
+          "ドリルライナー",
+          "がんせきふうじ"
+        ],
+        "usage_rate": 0.765,
+        "tera_type": null,
+        "can_mega_evolve": true,
+        "notes": "使用率30位",
+        "source_url": "https://champs.pokedb.tokyo/pokemon/show/0530-00?season=2&rule=1"
+      },
+      {
+        "species": "ドリュウズ",
+        "archetype_name": "メガシンカ型",
+        "ability": "すなかき",
+        "item": "ドリュウズナイト",
+        "nature": "いじっぱり",
+        "evs": {
+          "attack": 256,
+          "speed": 256
+        },
+        "moves": [
+          "アイアンヘッド",
+          "まもる",
+          "いわなだれ",
+          "じしん",
+          "１０まんばりき",
+          "つるぎのまい",
+          "ドリルライナー",
+          "がんせきふうじ"
+        ],
+        "usage_rate": 0.11,
+        "tera_type": null,
+        "can_mega_evolve": true,
+        "notes": "使用率30位",
+        "source_url": "https://champs.pokedb.tokyo/pokemon/show/0530-00?season=2&rule=1"
+      },
+      {
+        "species": "ドリュウズ",
+        "archetype_name": "スカーフ型",
+        "ability": "すなかき",
+        "item": "こだわりスカーフ",
+        "nature": "いじっぱり",
+        "evs": {
+          "attack": 256,
+          "speed": 256
+        },
+        "moves": [
+          "アイアンヘッド",
+          "まもる",
+          "いわなだれ",
+          "じしん",
+          "１０まんばりき",
+          "つるぎのまい",
+          "ドリルライナー",
+          "がんせきふうじ"
+        ],
+        "usage_rate": 0.041,
+        "tera_type": null,
+        "can_mega_evolve": true,
+        "notes": "使用率30位",
+        "source_url": "https://champs.pokedb.tokyo/pokemon/show/0530-00?season=2&rule=1"
+      },
+      {
+        "species": "ドリュウズ",
+        "archetype_name": "AS物理アタッカー型",
+        "ability": "すなかき",
+        "item": "やわらかいすな",
+        "nature": "いじっぱり",
+        "evs": {
+          "attack": 256,
+          "speed": 256
+        },
+        "moves": [
+          "アイアンヘッド",
+          "まもる",
+          "いわなだれ",
+          "じしん",
+          "１０まんばりき",
+          "つるぎのまい",
+          "ドリルライナー",
+          "がんせきふうじ"
+        ],
+        "usage_rate": 0.021,
+        "tera_type": null,
+        "can_mega_evolve": true,
+        "notes": "使用率30位",
+        "source_url": "https://champs.pokedb.tokyo/pokemon/show/0530-00?season=2&rule=1"
+      },
+      {
+        "species": "ドリュウズ",
+        "archetype_name": "AS物理アタッカー型",
+        "ability": "すなかき",
+        "item": "おうじゃのしるし",
+        "nature": "いじっぱり",
+        "evs": {
+          "attack": 256,
+          "speed": 256
+        },
+        "moves": [
+          "アイアンヘッド",
+          "まもる",
+          "いわなだれ",
+          "じしん",
+          "１０まんばりき",
+          "つるぎのまい",
+          "ドリルライナー",
+          "がんせきふうじ"
+        ],
+        "usage_rate": 0.011,
+        "tera_type": null,
+        "can_mega_evolve": true,
+        "notes": "使用率30位",
+        "source_url": "https://champs.pokedb.tokyo/pokemon/show/0530-00?season=2&rule=1"
+      }
+    ],
+    "アーマーガア": [
+      {
+        "species": "アーマーガア",
+        "archetype_name": "残飯型",
+        "ability": "ミラーアーマー",
+        "item": "たべのこし",
+        "nature": "わんぱく",
+        "evs": {
+          "hp": 256,
+          "defense": 256
+        },
+        "moves": [
+          "ブレイブバード",
+          "おいかぜ",
+          "はねやすめ",
+          "アイアンヘッド",
+          "ビルドアップ",
+          "ボディプレス",
+          "てっぺき",
+          "まもる"
+        ],
+        "usage_rate": 0.761,
+        "tera_type": null,
+        "can_mega_evolve": false,
+        "notes": "使用率31位",
+        "source_url": "https://champs.pokedb.tokyo/pokemon/show/0823-00?season=2&rule=1"
+      },
+      {
+        "species": "アーマーガア",
+        "archetype_name": "オボン型",
+        "ability": "ミラーアーマー",
+        "item": "オボンのみ",
+        "nature": "わんぱく",
+        "evs": {
+          "hp": 256,
+          "defense": 256
+        },
+        "moves": [
+          "ブレイブバード",
+          "おいかぜ",
+          "はねやすめ",
+          "アイアンヘッド",
+          "ビルドアップ",
+          "ボディプレス",
+          "てっぺき",
+          "まもる"
+        ],
+        "usage_rate": 0.109,
+        "tera_type": null,
+        "can_mega_evolve": false,
+        "notes": "使用率31位",
+        "source_url": "https://champs.pokedb.tokyo/pokemon/show/0823-00?season=2&rule=1"
+      },
+      {
+        "species": "アーマーガア",
+        "archetype_name": "HB物理受け型",
+        "ability": "ミラーアーマー",
+        "item": "オッカのみ",
+        "nature": "わんぱく",
+        "evs": {
+          "hp": 256,
+          "defense": 256
+        },
+        "moves": [
+          "ブレイブバード",
+          "おいかぜ",
+          "はねやすめ",
+          "アイアンヘッド",
+          "ビルドアップ",
+          "ボディプレス",
+          "てっぺき",
+          "まもる"
+        ],
+        "usage_rate": 0.05,
+        "tera_type": null,
+        "can_mega_evolve": false,
+        "notes": "使用率31位",
+        "source_url": "https://champs.pokedb.tokyo/pokemon/show/0823-00?season=2&rule=1"
+      },
+      {
+        "species": "アーマーガア",
+        "archetype_name": "HB物理受け型",
+        "ability": "ミラーアーマー",
+        "item": "メタルコート",
+        "nature": "わんぱく",
+        "evs": {
+          "hp": 256,
+          "defense": 256
+        },
+        "moves": [
+          "ブレイブバード",
+          "おいかぜ",
+          "はねやすめ",
+          "アイアンヘッド",
+          "ビルドアップ",
+          "ボディプレス",
+          "てっぺき",
+          "まもる"
+        ],
+        "usage_rate": 0.021,
+        "tera_type": null,
+        "can_mega_evolve": false,
+        "notes": "使用率31位",
+        "source_url": "https://champs.pokedb.tokyo/pokemon/show/0823-00?season=2&rule=1"
+      },
+      {
+        "species": "アーマーガア",
+        "archetype_name": "ラム型",
+        "ability": "ミラーアーマー",
+        "item": "ラムのみ",
+        "nature": "わんぱく",
+        "evs": {
+          "hp": 256,
+          "defense": 256
+        },
+        "moves": [
+          "ブレイブバード",
+          "おいかぜ",
+          "はねやすめ",
+          "アイアンヘッド",
+          "ビルドアップ",
+          "ボディプレス",
+          "てっぺき",
+          "まもる"
+        ],
+        "usage_rate": 0.011,
+        "tera_type": null,
+        "can_mega_evolve": false,
+        "notes": "使用率31位",
+        "source_url": "https://champs.pokedb.tokyo/pokemon/show/0823-00?season=2&rule=1"
+      }
+    ],
+    "ユキメノコ": [
+      {
+        "species": "ユキメノコ",
+        "archetype_name": "メガシンカ型",
+        "ability": "のろわれボディ",
+        "item": "ユキメノコナイト",
+        "nature": "おくびょう",
+        "evs": {
+          "sp_attack": 256,
+          "speed": 256
+        },
+        "moves": [
+          "ふぶき",
+          "シャドーボール",
+          "まもる",
+          "オーロラベール",
+          "１０まんボルト",
+          "ちょうはつ",
+          "みがわり",
+          "みちづれ"
+        ],
+        "usage_rate": 0.975,
+        "tera_type": null,
+        "can_mega_evolve": true,
+        "notes": "使用率32位",
+        "source_url": "https://champs.pokedb.tokyo/pokemon/show/0478-00?season=2&rule=1"
+      },
+      {
+        "species": "ユキメノコ",
+        "archetype_name": "タスキ型",
+        "ability": "のろわれボディ",
+        "item": "きあいのタスキ",
+        "nature": "おくびょう",
+        "evs": {
+          "sp_attack": 256,
+          "speed": 256
+        },
+        "moves": [
+          "ふぶき",
+          "シャドーボール",
+          "まもる",
+          "オーロラベール",
+          "１０まんボルト",
+          "ちょうはつ",
+          "みがわり",
+          "みちづれ"
+        ],
+        "usage_rate": 0.011,
+        "tera_type": null,
+        "can_mega_evolve": true,
+        "notes": "使用率32位",
+        "source_url": "https://champs.pokedb.tokyo/pokemon/show/0478-00?season=2&rule=1"
+      },
+      {
+        "species": "ユキメノコ",
+        "archetype_name": "CS特殊アタッカー型",
+        "ability": "のろわれボディ",
+        "item": "とけないこおり",
+        "nature": "おくびょう",
+        "evs": {
+          "sp_attack": 256,
+          "speed": 256
+        },
+        "moves": [
+          "ふぶき",
+          "シャドーボール",
+          "まもる",
+          "オーロラベール",
+          "１０まんボルト",
+          "ちょうはつ",
+          "みがわり",
+          "みちづれ"
+        ],
+        "usage_rate": 0.007,
+        "tera_type": null,
+        "can_mega_evolve": true,
+        "notes": "使用率32位",
+        "source_url": "https://champs.pokedb.tokyo/pokemon/show/0478-00?season=2&rule=1"
+      },
+      {
+        "species": "ユキメノコ",
+        "archetype_name": "スカーフ型",
+        "ability": "のろわれボディ",
+        "item": "こだわりスカーフ",
+        "nature": "おくびょう",
+        "evs": {
+          "sp_attack": 256,
+          "speed": 256
+        },
+        "moves": [
+          "ふぶき",
+          "シャドーボール",
+          "まもる",
+          "オーロラベール",
+          "１０まんボルト",
+          "ちょうはつ",
+          "みがわり",
+          "みちづれ"
+        ],
+        "usage_rate": 0.002,
+        "tera_type": null,
+        "can_mega_evolve": true,
+        "notes": "使用率32位",
+        "source_url": "https://champs.pokedb.tokyo/pokemon/show/0478-00?season=2&rule=1"
+      },
+      {
+        "species": "ユキメノコ",
+        "archetype_name": "CS特殊アタッカー型",
+        "ability": "のろわれボディ",
+        "item": "カシブのみ",
+        "nature": "おくびょう",
+        "evs": {
+          "sp_attack": 256,
+          "speed": 256
+        },
+        "moves": [
+          "ふぶき",
+          "シャドーボール",
+          "まもる",
+          "オーロラベール",
+          "１０まんボルト",
+          "ちょうはつ",
+          "みがわり",
+          "みちづれ"
+        ],
+        "usage_rate": 0.001,
+        "tera_type": null,
+        "can_mega_evolve": true,
+        "notes": "使用率32位",
+        "source_url": "https://champs.pokedb.tokyo/pokemon/show/0478-00?season=2&rule=1"
+      }
+    ],
+    "イッカネズミ": [
+      {
+        "species": "イッカネズミ",
+        "archetype_name": "汎用型",
+        "ability": "フレンドガード",
+        "item": "ヨプのみ",
+        "nature": "ようき",
+        "evs": {
+          "hp": 256,
+          "speed": 256
+        },
+        "moves": [
+          "このゆびとまれ",
+          "まもる",
+          "いかりのまえば",
+          "アンコール",
+          "ちょうはつ",
+          "フェイント",
+          "てだすけ",
+          "ネズミざん"
+        ],
+        "usage_rate": 0.455,
+        "tera_type": null,
+        "can_mega_evolve": false,
+        "notes": "使用率33位",
+        "source_url": "https://champs.pokedb.tokyo/pokemon/show/0925-00?season=2&rule=1"
+      },
+      {
+        "species": "イッカネズミ",
+        "archetype_name": "タスキ型",
+        "ability": "フレンドガード",
+        "item": "きあいのタスキ",
+        "nature": "ようき",
+        "evs": {
+          "hp": 256,
+          "speed": 256
+        },
+        "moves": [
+          "このゆびとまれ",
+          "まもる",
+          "いかりのまえば",
+          "アンコール",
+          "ちょうはつ",
+          "フェイント",
+          "てだすけ",
+          "ネズミざん"
+        ],
+        "usage_rate": 0.287,
+        "tera_type": null,
+        "can_mega_evolve": false,
+        "notes": "使用率33位",
+        "source_url": "https://champs.pokedb.tokyo/pokemon/show/0925-00?season=2&rule=1"
+      },
+      {
+        "species": "イッカネズミ",
+        "archetype_name": "オボン型",
+        "ability": "フレンドガード",
+        "item": "オボンのみ",
+        "nature": "ようき",
+        "evs": {
+          "hp": 256,
+          "speed": 256
+        },
+        "moves": [
+          "このゆびとまれ",
+          "まもる",
+          "いかりのまえば",
+          "アンコール",
+          "ちょうはつ",
+          "フェイント",
+          "てだすけ",
+          "ネズミざん"
+        ],
+        "usage_rate": 0.111,
+        "tera_type": null,
+        "can_mega_evolve": false,
+        "notes": "使用率33位",
+        "source_url": "https://champs.pokedb.tokyo/pokemon/show/0925-00?season=2&rule=1"
+      },
+      {
+        "species": "イッカネズミ",
+        "archetype_name": "汎用型",
+        "ability": "フレンドガード",
+        "item": "おうじゃのしるし",
+        "nature": "ようき",
+        "evs": {
+          "hp": 256,
+          "speed": 256
+        },
+        "moves": [
+          "このゆびとまれ",
+          "まもる",
+          "いかりのまえば",
+          "アンコール",
+          "ちょうはつ",
+          "フェイント",
+          "てだすけ",
+          "ネズミざん"
+        ],
+        "usage_rate": 0.047,
+        "tera_type": null,
+        "can_mega_evolve": false,
+        "notes": "使用率33位",
+        "source_url": "https://champs.pokedb.tokyo/pokemon/show/0925-00?season=2&rule=1"
+      },
+      {
+        "species": "イッカネズミ",
+        "archetype_name": "汎用型",
+        "ability": "フレンドガード",
+        "item": "シルクのスカーフ",
+        "nature": "ようき",
+        "evs": {
+          "hp": 256,
+          "speed": 256
+        },
+        "moves": [
+          "このゆびとまれ",
+          "まもる",
+          "いかりのまえば",
+          "アンコール",
+          "ちょうはつ",
+          "フェイント",
+          "てだすけ",
+          "ネズミざん"
+        ],
+        "usage_rate": 0.029,
+        "tera_type": null,
+        "can_mega_evolve": false,
+        "notes": "使用率33位",
+        "source_url": "https://champs.pokedb.tokyo/pokemon/show/0925-00?season=2&rule=1"
+      }
+    ],
+    "ジャラランガ": [
+      {
+        "species": "ジャラランガ",
+        "archetype_name": "残飯型",
+        "ability": "ぼうおん",
+        "item": "たべのこし",
+        "nature": "ひかえめ",
+        "evs": {
+          "sp_attack": 256,
+          "speed": 256
+        },
+        "moves": [
+          "スケイルノイズ",
+          "まもる",
+          "はどうだん",
+          "ソウルビート",
+          "しんくうは",
+          "ラスターカノン",
+          "かえんほうしゃ",
+          "てだすけ"
+        ],
+        "usage_rate": 0.652,
+        "tera_type": null,
+        "can_mega_evolve": false,
+        "notes": "使用率34位",
+        "source_url": "https://champs.pokedb.tokyo/pokemon/show/0784-00?season=2&rule=1"
+      },
+      {
+        "species": "ジャラランガ",
+        "archetype_name": "CS特殊アタッカー型",
+        "ability": "ぼうおん",
+        "item": "りゅうのキバ",
+        "nature": "ひかえめ",
+        "evs": {
+          "sp_attack": 256,
+          "speed": 256
+        },
+        "moves": [
+          "スケイルノイズ",
+          "まもる",
+          "はどうだん",
+          "ソウルビート",
+          "しんくうは",
+          "ラスターカノン",
+          "かえんほうしゃ",
+          "てだすけ"
+        ],
+        "usage_rate": 0.158,
+        "tera_type": null,
+        "can_mega_evolve": false,
+        "notes": "使用率34位",
+        "source_url": "https://champs.pokedb.tokyo/pokemon/show/0784-00?season=2&rule=1"
+      },
+      {
+        "species": "ジャラランガ",
+        "archetype_name": "オボン型",
+        "ability": "ぼうおん",
+        "item": "オボンのみ",
+        "nature": "ひかえめ",
+        "evs": {
+          "sp_attack": 256,
+          "speed": 256
+        },
+        "moves": [
+          "スケイルノイズ",
+          "まもる",
+          "はどうだん",
+          "ソウルビート",
+          "しんくうは",
+          "ラスターカノン",
+          "かえんほうしゃ",
+          "てだすけ"
+        ],
+        "usage_rate": 0.079,
+        "tera_type": null,
+        "can_mega_evolve": false,
+        "notes": "使用率34位",
+        "source_url": "https://champs.pokedb.tokyo/pokemon/show/0784-00?season=2&rule=1"
+      },
+      {
+        "species": "ジャラランガ",
+        "archetype_name": "CS特殊アタッカー型",
+        "ability": "ぼうおん",
+        "item": "ハバンのみ",
+        "nature": "ひかえめ",
+        "evs": {
+          "sp_attack": 256,
+          "speed": 256
+        },
+        "moves": [
+          "スケイルノイズ",
+          "まもる",
+          "はどうだん",
+          "ソウルビート",
+          "しんくうは",
+          "ラスターカノン",
+          "かえんほうしゃ",
+          "てだすけ"
+        ],
+        "usage_rate": 0.034,
+        "tera_type": null,
+        "can_mega_evolve": false,
+        "notes": "使用率34位",
+        "source_url": "https://champs.pokedb.tokyo/pokemon/show/0784-00?season=2&rule=1"
+      },
+      {
+        "species": "ジャラランガ",
+        "archetype_name": "ロゼル型",
+        "ability": "ぼうおん",
+        "item": "ロゼルのみ",
+        "nature": "ひかえめ",
+        "evs": {
+          "sp_attack": 256,
+          "speed": 256
+        },
+        "moves": [
+          "スケイルノイズ",
+          "まもる",
+          "はどうだん",
+          "ソウルビート",
+          "しんくうは",
+          "ラスターカノン",
+          "かえんほうしゃ",
+          "てだすけ"
+        ],
+        "usage_rate": 0.014,
+        "tera_type": null,
+        "can_mega_evolve": false,
+        "notes": "使用率34位",
+        "source_url": "https://champs.pokedb.tokyo/pokemon/show/0784-00?season=2&rule=1"
+      }
+    ],
+    "キュウコン (アローラ)": [
+      {
+        "species": "キュウコン (アローラ)",
+        "archetype_name": "CS特殊アタッカー型",
+        "ability": "ゆきふらし",
+        "item": "とけないこおり",
+        "nature": "おくびょう",
+        "evs": {
+          "sp_attack": 256,
+          "speed": 256
+        },
+        "moves": [
+          "ふぶき",
+          "まもる",
+          "フリーズドライ",
+          "オーロラベール",
+          "ムーンフォース",
+          "アンコール",
+          "こごえるかぜ",
+          "かなしばり"
+        ],
+        "usage_rate": 0.414,
+        "tera_type": null,
+        "can_mega_evolve": false,
+        "notes": "使用率35位",
+        "source_url": "https://champs.pokedb.tokyo/pokemon/show/0038-01?season=2&rule=1"
+      },
+      {
+        "species": "キュウコン (アローラ)",
+        "archetype_name": "タスキ型",
+        "ability": "ゆきふらし",
+        "item": "きあいのタスキ",
+        "nature": "おくびょう",
+        "evs": {
+          "sp_attack": 256,
+          "speed": 256
+        },
+        "moves": [
+          "ふぶき",
+          "まもる",
+          "フリーズドライ",
+          "オーロラベール",
+          "ムーンフォース",
+          "アンコール",
+          "こごえるかぜ",
+          "かなしばり"
+        ],
+        "usage_rate": 0.294,
+        "tera_type": null,
+        "can_mega_evolve": false,
+        "notes": "使用率35位",
+        "source_url": "https://champs.pokedb.tokyo/pokemon/show/0038-01?season=2&rule=1"
+      },
+      {
+        "species": "キュウコン (アローラ)",
+        "archetype_name": "スカーフ型",
+        "ability": "ゆきふらし",
+        "item": "こだわりスカーフ",
+        "nature": "おくびょう",
+        "evs": {
+          "sp_attack": 256,
+          "speed": 256
+        },
+        "moves": [
+          "ふぶき",
+          "まもる",
+          "フリーズドライ",
+          "オーロラベール",
+          "ムーンフォース",
+          "アンコール",
+          "こごえるかぜ",
+          "かなしばり"
+        ],
+        "usage_rate": 0.168,
+        "tera_type": null,
+        "can_mega_evolve": false,
+        "notes": "使用率35位",
+        "source_url": "https://champs.pokedb.tokyo/pokemon/show/0038-01?season=2&rule=1"
+      },
+      {
+        "species": "キュウコン (アローラ)",
+        "archetype_name": "オボン型",
+        "ability": "ゆきふらし",
+        "item": "オボンのみ",
+        "nature": "おくびょう",
+        "evs": {
+          "sp_attack": 256,
+          "speed": 256
+        },
+        "moves": [
+          "ふぶき",
+          "まもる",
+          "フリーズドライ",
+          "オーロラベール",
+          "ムーンフォース",
+          "アンコール",
+          "こごえるかぜ",
+          "かなしばり"
+        ],
+        "usage_rate": 0.027,
+        "tera_type": null,
+        "can_mega_evolve": false,
+        "notes": "使用率35位",
+        "source_url": "https://champs.pokedb.tokyo/pokemon/show/0038-01?season=2&rule=1"
+      },
+      {
+        "species": "キュウコン (アローラ)",
+        "archetype_name": "CS特殊アタッカー型",
+        "ability": "ゆきふらし",
+        "item": "リリバのみ",
+        "nature": "おくびょう",
+        "evs": {
+          "sp_attack": 256,
+          "speed": 256
+        },
+        "moves": [
+          "ふぶき",
+          "まもる",
+          "フリーズドライ",
+          "オーロラベール",
+          "ムーンフォース",
+          "アンコール",
+          "こごえるかぜ",
+          "かなしばり"
+        ],
+        "usage_rate": 0.018,
+        "tera_type": null,
+        "can_mega_evolve": false,
+        "notes": "使用率35位",
+        "source_url": "https://champs.pokedb.tokyo/pokemon/show/0038-01?season=2&rule=1"
+      }
+    ],
+    "ギルガルド": [
+      {
+        "species": "ギルガルド",
+        "archetype_name": "物理アタッカー型",
+        "ability": "バトルスイッチ",
+        "item": "のろいのおふだ",
+        "nature": "いじっぱり",
+        "evs": {
+          "hp": 256,
+          "attack": 256
+        },
+        "moves": [
+          "かげうち",
+          "キングシールド",
+          "ポルターガイスト",
+          "アイアンヘッド",
+          "せいなるつるぎ",
+          "ワイドガード",
+          "インファイト",
+          "シャドーボール"
+        ],
+        "usage_rate": 0.367,
+        "tera_type": null,
+        "can_mega_evolve": false,
+        "notes": "使用率36位",
+        "source_url": "https://champs.pokedb.tokyo/pokemon/show/0681-00?season=2&rule=1"
+      },
+      {
+        "species": "ギルガルド",
+        "archetype_name": "タスキ型",
+        "ability": "バトルスイッチ",
+        "item": "きあいのタスキ",
+        "nature": "いじっぱり",
+        "evs": {
+          "hp": 256,
+          "attack": 256
+        },
+        "moves": [
+          "かげうち",
+          "キングシールド",
+          "ポルターガイスト",
+          "アイアンヘッド",
+          "せいなるつるぎ",
+          "ワイドガード",
+          "インファイト",
+          "シャドーボール"
+        ],
+        "usage_rate": 0.3,
+        "tera_type": null,
+        "can_mega_evolve": false,
+        "notes": "使用率36位",
+        "source_url": "https://champs.pokedb.tokyo/pokemon/show/0681-00?season=2&rule=1"
+      },
+      {
+        "species": "ギルガルド",
+        "archetype_name": "残飯型",
+        "ability": "バトルスイッチ",
+        "item": "たべのこし",
+        "nature": "いじっぱり",
+        "evs": {
+          "hp": 256,
+          "attack": 256
+        },
+        "moves": [
+          "かげうち",
+          "キングシールド",
+          "ポルターガイスト",
+          "アイアンヘッド",
+          "せいなるつるぎ",
+          "ワイドガード",
+          "インファイト",
+          "シャドーボール"
+        ],
+        "usage_rate": 0.103,
+        "tera_type": null,
+        "can_mega_evolve": false,
+        "notes": "使用率36位",
+        "source_url": "https://champs.pokedb.tokyo/pokemon/show/0681-00?season=2&rule=1"
+      },
+      {
+        "species": "ギルガルド",
+        "archetype_name": "物理アタッカー型",
+        "ability": "バトルスイッチ",
+        "item": "ナモのみ",
+        "nature": "いじっぱり",
+        "evs": {
+          "hp": 256,
+          "attack": 256
+        },
+        "moves": [
+          "かげうち",
+          "キングシールド",
+          "ポルターガイスト",
+          "アイアンヘッド",
+          "せいなるつるぎ",
+          "ワイドガード",
+          "インファイト",
+          "シャドーボール"
+        ],
+        "usage_rate": 0.073,
+        "tera_type": null,
+        "can_mega_evolve": false,
+        "notes": "使用率36位",
+        "source_url": "https://champs.pokedb.tokyo/pokemon/show/0681-00?season=2&rule=1"
+      },
+      {
+        "species": "ギルガルド",
+        "archetype_name": "オボン型",
+        "ability": "バトルスイッチ",
+        "item": "オボンのみ",
+        "nature": "いじっぱり",
+        "evs": {
+          "hp": 256,
+          "attack": 256
+        },
+        "moves": [
+          "かげうち",
+          "キングシールド",
+          "ポルターガイスト",
+          "アイアンヘッド",
+          "せいなるつるぎ",
+          "ワイドガード",
+          "インファイト",
+          "シャドーボール"
+        ],
+        "usage_rate": 0.039,
+        "tera_type": null,
+        "can_mega_evolve": false,
+        "notes": "使用率36位",
+        "source_url": "https://champs.pokedb.tokyo/pokemon/show/0681-00?season=2&rule=1"
+      }
+    ],
+    "スコヴィラン": [
+      {
+        "species": "スコヴィラン",
+        "archetype_name": "メガシンカ型",
+        "ability": "ムラっけ",
+        "item": "スコヴィラナイト",
+        "nature": "おだやか",
+        "evs": {
+          "hp": 256,
+          "defense": 152,
+          "sp_defense": 120
+        },
+        "moves": [
+          "いかりのこな",
+          "まもる",
+          "やどりぎのタネ",
+          "オーバーヒート",
+          "ギガドレイン",
+          "かえんほうしゃ",
+          "リーフストーム",
+          "いかりのまえば"
+        ],
+        "usage_rate": 0.981,
+        "tera_type": null,
+        "can_mega_evolve": true,
+        "notes": "使用率37位",
+        "source_url": "https://champs.pokedb.tokyo/pokemon/show/0952-00?season=2&rule=1"
+      },
+      {
+        "species": "スコヴィラン",
+        "archetype_name": "タスキ型",
+        "ability": "ムラっけ",
+        "item": "きあいのタスキ",
+        "nature": "おだやか",
+        "evs": {
+          "hp": 256,
+          "defense": 152,
+          "sp_defense": 120
+        },
+        "moves": [
+          "いかりのこな",
+          "まもる",
+          "やどりぎのタネ",
+          "オーバーヒート",
+          "ギガドレイン",
+          "かえんほうしゃ",
+          "リーフストーム",
+          "いかりのまえば"
+        ],
+        "usage_rate": 0.005,
+        "tera_type": null,
+        "can_mega_evolve": true,
+        "notes": "使用率37位",
+        "source_url": "https://champs.pokedb.tokyo/pokemon/show/0952-00?season=2&rule=1"
+      },
+      {
+        "species": "スコヴィラン",
+        "archetype_name": "残飯型",
+        "ability": "ムラっけ",
+        "item": "たべのこし",
+        "nature": "おだやか",
+        "evs": {
+          "hp": 256,
+          "defense": 152,
+          "sp_defense": 120
+        },
+        "moves": [
+          "いかりのこな",
+          "まもる",
+          "やどりぎのタネ",
+          "オーバーヒート",
+          "ギガドレイン",
+          "かえんほうしゃ",
+          "リーフストーム",
+          "いかりのまえば"
+        ],
+        "usage_rate": 0.003,
+        "tera_type": null,
+        "can_mega_evolve": true,
+        "notes": "使用率37位",
+        "source_url": "https://champs.pokedb.tokyo/pokemon/show/0952-00?season=2&rule=1"
+      },
+      {
+        "species": "スコヴィラン",
+        "archetype_name": "汎用型",
+        "ability": "ムラっけ",
+        "item": "ヨロギのみ",
+        "nature": "おだやか",
+        "evs": {
+          "hp": 256,
+          "defense": 152,
+          "sp_defense": 120
+        },
+        "moves": [
+          "いかりのこな",
+          "まもる",
+          "やどりぎのタネ",
+          "オーバーヒート",
+          "ギガドレイン",
+          "かえんほうしゃ",
+          "リーフストーム",
+          "いかりのまえば"
+        ],
+        "usage_rate": 0.002,
+        "tera_type": null,
+        "can_mega_evolve": true,
+        "notes": "使用率37位",
+        "source_url": "https://champs.pokedb.tokyo/pokemon/show/0952-00?season=2&rule=1"
+      },
+      {
+        "species": "スコヴィラン",
+        "archetype_name": "スカーフ型",
+        "ability": "ムラっけ",
+        "item": "こだわりスカーフ",
+        "nature": "おだやか",
+        "evs": {
+          "hp": 256,
+          "defense": 152,
+          "sp_defense": 120
+        },
+        "moves": [
+          "いかりのこな",
+          "まもる",
+          "やどりぎのタネ",
+          "オーバーヒート",
+          "ギガドレイン",
+          "かえんほうしゃ",
+          "リーフストーム",
+          "いかりのまえば"
+        ],
+        "usage_rate": 0.002,
+        "tera_type": null,
+        "can_mega_evolve": true,
+        "notes": "使用率37位",
+        "source_url": "https://champs.pokedb.tokyo/pokemon/show/0952-00?season=2&rule=1"
+      }
+    ],
+    "ビビヨン": [
+      {
+        "species": "ビビヨン",
+        "archetype_name": "スカーフ型",
+        "ability": "ふくがん",
+        "item": "こだわりスカーフ",
+        "nature": "おくびょう",
+        "evs": {
+          "defense": 192,
+          "sp_attack": 40,
+          "sp_defense": 40,
+          "speed": 256
+        },
+        "moves": [
+          "ねむりごな",
+          "ぼうふう",
+          "いかりのこな",
+          "あまごい",
+          "おいかぜ",
+          "まもる",
+          "かふんだんご",
+          "むしのさざめき"
+        ],
+        "usage_rate": 0.678,
+        "tera_type": null,
+        "can_mega_evolve": false,
+        "notes": "使用率38位",
+        "source_url": "https://champs.pokedb.tokyo/pokemon/show/0666-18?season=2&rule=1"
+      },
+      {
+        "species": "ビビヨン",
+        "archetype_name": "タスキ型",
+        "ability": "ふくがん",
+        "item": "きあいのタスキ",
+        "nature": "おくびょう",
+        "evs": {
+          "defense": 192,
+          "sp_attack": 40,
+          "sp_defense": 40,
+          "speed": 256
+        },
+        "moves": [
+          "ねむりごな",
+          "ぼうふう",
+          "いかりのこな",
+          "あまごい",
+          "おいかぜ",
+          "まもる",
+          "かふんだんご",
+          "むしのさざめき"
+        ],
+        "usage_rate": 0.301,
+        "tera_type": null,
+        "can_mega_evolve": false,
+        "notes": "使用率38位",
+        "source_url": "https://champs.pokedb.tokyo/pokemon/show/0666-18?season=2&rule=1"
+      },
+      {
+        "species": "ビビヨン",
+        "archetype_name": "汎用型",
+        "ability": "ふくがん",
+        "item": "ひかりのこな",
+        "nature": "おくびょう",
+        "evs": {
+          "defense": 192,
+          "sp_attack": 40,
+          "sp_defense": 40,
+          "speed": 256
+        },
+        "moves": [
+          "ねむりごな",
+          "ぼうふう",
+          "いかりのこな",
+          "あまごい",
+          "おいかぜ",
+          "まもる",
+          "かふんだんご",
+          "むしのさざめき"
+        ],
+        "usage_rate": 0.003,
+        "tera_type": null,
+        "can_mega_evolve": false,
+        "notes": "使用率38位",
+        "source_url": "https://champs.pokedb.tokyo/pokemon/show/0666-18?season=2&rule=1"
+      },
+      {
+        "species": "ビビヨン",
+        "archetype_name": "オボン型",
+        "ability": "ふくがん",
+        "item": "オボンのみ",
+        "nature": "おくびょう",
+        "evs": {
+          "defense": 192,
+          "sp_attack": 40,
+          "sp_defense": 40,
+          "speed": 256
+        },
+        "moves": [
+          "ねむりごな",
+          "ぼうふう",
+          "いかりのこな",
+          "あまごい",
+          "おいかぜ",
+          "まもる",
+          "かふんだんご",
+          "むしのさざめき"
+        ],
+        "usage_rate": 0.003,
+        "tera_type": null,
+        "can_mega_evolve": false,
+        "notes": "使用率38位",
+        "source_url": "https://champs.pokedb.tokyo/pokemon/show/0666-18?season=2&rule=1"
+      },
+      {
+        "species": "ビビヨン",
+        "archetype_name": "汎用型",
+        "ability": "ふくがん",
+        "item": "せんせいのツメ",
+        "nature": "おくびょう",
+        "evs": {
+          "defense": 192,
+          "sp_attack": 40,
+          "sp_defense": 40,
+          "speed": 256
+        },
+        "moves": [
+          "ねむりごな",
+          "ぼうふう",
+          "いかりのこな",
+          "あまごい",
+          "おいかぜ",
+          "まもる",
+          "かふんだんご",
+          "むしのさざめき"
+        ],
+        "usage_rate": 0.003,
+        "tera_type": null,
+        "can_mega_evolve": false,
+        "notes": "使用率38位",
+        "source_url": "https://champs.pokedb.tokyo/pokemon/show/0666-18?season=2&rule=1"
+      }
+    ],
+    "エルレイド": [
+      {
+        "species": "エルレイド",
+        "archetype_name": "タスキ型",
+        "ability": "きれあじ",
+        "item": "きあいのタスキ",
+        "nature": "いじっぱり",
+        "evs": {
+          "attack": 256,
+          "speed": 256
+        },
+        "moves": [
+          "せいなるつるぎ",
+          "サイコカッター",
+          "リーフブレード",
+          "まもる",
+          "ワイドガード",
+          "トリックルーム",
+          "つじぎり",
+          "トリプルアクセル"
+        ],
+        "usage_rate": 0.47,
+        "tera_type": null,
+        "can_mega_evolve": true,
+        "notes": "使用率39位",
+        "source_url": "https://champs.pokedb.tokyo/pokemon/show/0475-00?season=2&rule=1"
+      },
+      {
+        "species": "エルレイド",
+        "archetype_name": "メガシンカ型",
+        "ability": "きれあじ",
+        "item": "エルレイドナイト",
+        "nature": "いじっぱり",
+        "evs": {
+          "attack": 256,
+          "speed": 256
+        },
+        "moves": [
+          "せいなるつるぎ",
+          "サイコカッター",
+          "リーフブレード",
+          "まもる",
+          "ワイドガード",
+          "トリックルーム",
+          "つじぎり",
+          "トリプルアクセル"
+        ],
+        "usage_rate": 0.162,
+        "tera_type": null,
+        "can_mega_evolve": true,
+        "notes": "使用率39位",
+        "source_url": "https://champs.pokedb.tokyo/pokemon/show/0475-00?season=2&rule=1"
+      },
+      {
+        "species": "エルレイド",
+        "archetype_name": "スカーフ型",
+        "ability": "きれあじ",
+        "item": "こだわりスカーフ",
+        "nature": "いじっぱり",
+        "evs": {
+          "attack": 256,
+          "speed": 256
+        },
+        "moves": [
+          "せいなるつるぎ",
+          "サイコカッター",
+          "リーフブレード",
+          "まもる",
+          "ワイドガード",
+          "トリックルーム",
+          "つじぎり",
+          "トリプルアクセル"
+        ],
+        "usage_rate": 0.112,
+        "tera_type": null,
+        "can_mega_evolve": true,
+        "notes": "使用率39位",
+        "source_url": "https://champs.pokedb.tokyo/pokemon/show/0475-00?season=2&rule=1"
+      },
+      {
+        "species": "エルレイド",
+        "archetype_name": "AS物理アタッカー型",
+        "ability": "きれあじ",
+        "item": "ピントレンズ",
+        "nature": "いじっぱり",
+        "evs": {
+          "attack": 256,
+          "speed": 256
+        },
+        "moves": [
+          "せいなるつるぎ",
+          "サイコカッター",
+          "リーフブレード",
+          "まもる",
+          "ワイドガード",
+          "トリックルーム",
+          "つじぎり",
+          "トリプルアクセル"
+        ],
+        "usage_rate": 0.069,
+        "tera_type": null,
+        "can_mega_evolve": true,
+        "notes": "使用率39位",
+        "source_url": "https://champs.pokedb.tokyo/pokemon/show/0475-00?season=2&rule=1"
+      },
+      {
+        "species": "エルレイド",
+        "archetype_name": "AS物理アタッカー型",
+        "ability": "きれあじ",
+        "item": "くろおび",
+        "nature": "いじっぱり",
+        "evs": {
+          "attack": 256,
+          "speed": 256
+        },
+        "moves": [
+          "せいなるつるぎ",
+          "サイコカッター",
+          "リーフブレード",
+          "まもる",
+          "ワイドガード",
+          "トリックルーム",
+          "つじぎり",
+          "トリプルアクセル"
+        ],
+        "usage_rate": 0.05,
+        "tera_type": null,
+        "can_mega_evolve": true,
+        "notes": "使用率39位",
+        "source_url": "https://champs.pokedb.tokyo/pokemon/show/0475-00?season=2&rule=1"
+      }
+    ],
+    "アシレーヌ": [
+      {
+        "species": "アシレーヌ",
+        "archetype_name": "特殊アタッカー型",
+        "ability": "うるおいボイス",
+        "item": "しんぴのしずく",
+        "nature": "ひかえめ",
+        "evs": {
+          "hp": 256,
+          "sp_attack": 256
+        },
+        "moves": [
+          "ハイパーボイス",
+          "まもる",
+          "ムーンフォース",
+          "めいそう",
+          "サイコキネシス",
+          "マジカルシャイン",
+          "れいとうビーム",
+          "アクアジェット"
+        ],
+        "usage_rate": 0.275,
+        "tera_type": null,
+        "can_mega_evolve": false,
+        "notes": "使用率40位",
+        "source_url": "https://champs.pokedb.tokyo/pokemon/show/0730-00?season=2&rule=1"
+      },
+      {
+        "species": "アシレーヌ",
+        "archetype_name": "残飯型",
+        "ability": "うるおいボイス",
+        "item": "たべのこし",
+        "nature": "ひかえめ",
+        "evs": {
+          "hp": 256,
+          "sp_attack": 256
+        },
+        "moves": [
+          "ハイパーボイス",
+          "まもる",
+          "ムーンフォース",
+          "めいそう",
+          "サイコキネシス",
+          "マジカルシャイン",
+          "れいとうビーム",
+          "アクアジェット"
+        ],
+        "usage_rate": 0.256,
+        "tera_type": null,
+        "can_mega_evolve": false,
+        "notes": "使用率40位",
+        "source_url": "https://champs.pokedb.tokyo/pokemon/show/0730-00?season=2&rule=1"
+      },
+      {
+        "species": "アシレーヌ",
+        "archetype_name": "オボン型",
+        "ability": "うるおいボイス",
+        "item": "オボンのみ",
+        "nature": "ひかえめ",
+        "evs": {
+          "hp": 256,
+          "sp_attack": 256
+        },
+        "moves": [
+          "ハイパーボイス",
+          "まもる",
+          "ムーンフォース",
+          "めいそう",
+          "サイコキネシス",
+          "マジカルシャイン",
+          "れいとうビーム",
+          "アクアジェット"
+        ],
+        "usage_rate": 0.223,
+        "tera_type": null,
+        "can_mega_evolve": false,
+        "notes": "使用率40位",
+        "source_url": "https://champs.pokedb.tokyo/pokemon/show/0730-00?season=2&rule=1"
+      },
+      {
+        "species": "アシレーヌ",
+        "archetype_name": "特殊アタッカー型",
+        "ability": "うるおいボイス",
+        "item": "ビアーのみ",
+        "nature": "ひかえめ",
+        "evs": {
+          "hp": 256,
+          "sp_attack": 256
+        },
+        "moves": [
+          "ハイパーボイス",
+          "まもる",
+          "ムーンフォース",
+          "めいそう",
+          "サイコキネシス",
+          "マジカルシャイン",
+          "れいとうビーム",
+          "アクアジェット"
+        ],
+        "usage_rate": 0.122,
+        "tera_type": null,
+        "can_mega_evolve": false,
+        "notes": "使用率40位",
+        "source_url": "https://champs.pokedb.tokyo/pokemon/show/0730-00?season=2&rule=1"
+      },
+      {
+        "species": "アシレーヌ",
+        "archetype_name": "ハネ型",
+        "ability": "うるおいボイス",
+        "item": "ようせいのハネ",
+        "nature": "ひかえめ",
+        "evs": {
+          "hp": 256,
+          "sp_attack": 256
+        },
+        "moves": [
+          "ハイパーボイス",
+          "まもる",
+          "ムーンフォース",
+          "めいそう",
+          "サイコキネシス",
+          "マジカルシャイン",
+          "れいとうビーム",
+          "アクアジェット"
+        ],
+        "usage_rate": 0.043,
+        "tera_type": null,
+        "can_mega_evolve": false,
+        "notes": "使用率40位",
+        "source_url": "https://champs.pokedb.tokyo/pokemon/show/0730-00?season=2&rule=1"
+      }
+    ],
+    "アマージョ": [
+      {
+        "species": "アマージョ",
+        "archetype_name": "スカーフ型",
+        "ability": "じょおうのいげん",
+        "item": "こだわりスカーフ",
+        "nature": "いじっぱり",
+        "evs": {
+          "attack": 256,
+          "speed": 256
+        },
+        "moves": [
+          "トリプルアクセル",
+          "トロピカルキック",
+          "まもる",
+          "けたぐり",
+          "パワーウィップ",
+          "とんぼがえり",
+          "しねんのずつき",
+          "ちょうはつ"
+        ],
+        "usage_rate": 0.222,
+        "tera_type": null,
+        "can_mega_evolve": false,
+        "notes": "使用率41位",
+        "source_url": "https://champs.pokedb.tokyo/pokemon/show/0763-00?season=2&rule=1"
+      },
+      {
+        "species": "アマージョ",
+        "archetype_name": "オボン型",
+        "ability": "じょおうのいげん",
+        "item": "オボンのみ",
+        "nature": "いじっぱり",
+        "evs": {
+          "attack": 256,
+          "speed": 256
+        },
+        "moves": [
+          "トリプルアクセル",
+          "トロピカルキック",
+          "まもる",
+          "けたぐり",
+          "パワーウィップ",
+          "とんぼがえり",
+          "しねんのずつき",
+          "ちょうはつ"
+        ],
+        "usage_rate": 0.218,
+        "tera_type": null,
+        "can_mega_evolve": false,
+        "notes": "使用率41位",
+        "source_url": "https://champs.pokedb.tokyo/pokemon/show/0763-00?season=2&rule=1"
+      },
+      {
+        "species": "アマージョ",
+        "archetype_name": "AS物理アタッカー型",
+        "ability": "じょおうのいげん",
+        "item": "きせきのタネ",
+        "nature": "いじっぱり",
+        "evs": {
+          "attack": 256,
+          "speed": 256
+        },
+        "moves": [
+          "トリプルアクセル",
+          "トロピカルキック",
+          "まもる",
+          "けたぐり",
+          "パワーウィップ",
+          "とんぼがえり",
+          "しねんのずつき",
+          "ちょうはつ"
+        ],
+        "usage_rate": 0.178,
+        "tera_type": null,
+        "can_mega_evolve": false,
+        "notes": "使用率41位",
+        "source_url": "https://champs.pokedb.tokyo/pokemon/show/0763-00?season=2&rule=1"
+      },
+      {
+        "species": "アマージョ",
+        "archetype_name": "タスキ型",
+        "ability": "じょおうのいげん",
+        "item": "きあいのタスキ",
+        "nature": "いじっぱり",
+        "evs": {
+          "attack": 256,
+          "speed": 256
+        },
+        "moves": [
+          "トリプルアクセル",
+          "トロピカルキック",
+          "まもる",
+          "けたぐり",
+          "パワーウィップ",
+          "とんぼがえり",
+          "しねんのずつき",
+          "ちょうはつ"
+        ],
+        "usage_rate": 0.104,
+        "tera_type": null,
+        "can_mega_evolve": false,
+        "notes": "使用率41位",
+        "source_url": "https://champs.pokedb.tokyo/pokemon/show/0763-00?season=2&rule=1"
+      },
+      {
+        "species": "アマージョ",
+        "archetype_name": "AS物理アタッカー型",
+        "ability": "じょおうのいげん",
+        "item": "オッカのみ",
+        "nature": "いじっぱり",
+        "evs": {
+          "attack": 256,
+          "speed": 256
+        },
+        "moves": [
+          "トリプルアクセル",
+          "トロピカルキック",
+          "まもる",
+          "けたぐり",
+          "パワーウィップ",
+          "とんぼがえり",
+          "しねんのずつき",
+          "ちょうはつ"
+        ],
+        "usage_rate": 0.045,
+        "tera_type": null,
+        "can_mega_evolve": false,
+        "notes": "使用率41位",
+        "source_url": "https://champs.pokedb.tokyo/pokemon/show/0763-00?season=2&rule=1"
+      }
+    ],
+    "ミミロップ": [
+      {
+        "species": "ミミロップ",
+        "archetype_name": "メガシンカ型",
+        "ability": "じゅうなん",
+        "item": "ミミロップナイト",
+        "nature": "ようき",
+        "evs": {
+          "attack": 256,
+          "speed": 256
+        },
+        "moves": [
+          "ねこだまし",
+          "インファイト",
+          "アンコール",
+          "トリプルアクセル",
+          "ギガインパクト",
+          "まもる",
+          "おさきにどうぞ",
+          "とんぼがえり"
+        ],
+        "usage_rate": 0.985,
+        "tera_type": null,
+        "can_mega_evolve": true,
+        "notes": "使用率42位",
+        "source_url": "https://champs.pokedb.tokyo/pokemon/show/0428-00?season=2&rule=1"
+      },
+      {
+        "species": "ミミロップ",
+        "archetype_name": "タスキ型",
+        "ability": "じゅうなん",
+        "item": "きあいのタスキ",
+        "nature": "ようき",
+        "evs": {
+          "attack": 256,
+          "speed": 256
+        },
+        "moves": [
+          "ねこだまし",
+          "インファイト",
+          "アンコール",
+          "トリプルアクセル",
+          "ギガインパクト",
+          "まもる",
+          "おさきにどうぞ",
+          "とんぼがえり"
+        ],
+        "usage_rate": 0.002,
+        "tera_type": null,
+        "can_mega_evolve": true,
+        "notes": "使用率42位",
+        "source_url": "https://champs.pokedb.tokyo/pokemon/show/0428-00?season=2&rule=1"
+      },
+      {
+        "species": "ミミロップ",
+        "archetype_name": "AS物理アタッカー型",
+        "ability": "じゅうなん",
+        "item": "とけないこおり",
+        "nature": "ようき",
+        "evs": {
+          "attack": 256,
+          "speed": 256
+        },
+        "moves": [
+          "ねこだまし",
+          "インファイト",
+          "アンコール",
+          "トリプルアクセル",
+          "ギガインパクト",
+          "まもる",
+          "おさきにどうぞ",
+          "とんぼがえり"
+        ],
+        "usage_rate": 0.002,
+        "tera_type": null,
+        "can_mega_evolve": true,
+        "notes": "使用率42位",
+        "source_url": "https://champs.pokedb.tokyo/pokemon/show/0428-00?season=2&rule=1"
+      },
+      {
+        "species": "ミミロップ",
+        "archetype_name": "AS物理アタッカー型",
+        "ability": "じゅうなん",
+        "item": "ヨプのみ",
+        "nature": "ようき",
+        "evs": {
+          "attack": 256,
+          "speed": 256
+        },
+        "moves": [
+          "ねこだまし",
+          "インファイト",
+          "アンコール",
+          "トリプルアクセル",
+          "ギガインパクト",
+          "まもる",
+          "おさきにどうぞ",
+          "とんぼがえり"
+        ],
+        "usage_rate": 0.001,
+        "tera_type": null,
+        "can_mega_evolve": true,
+        "notes": "使用率42位",
+        "source_url": "https://champs.pokedb.tokyo/pokemon/show/0428-00?season=2&rule=1"
+      },
+      {
+        "species": "ミミロップ",
+        "archetype_name": "オボン型",
+        "ability": "じゅうなん",
+        "item": "オボンのみ",
+        "nature": "ようき",
+        "evs": {
+          "attack": 256,
+          "speed": 256
+        },
+        "moves": [
+          "ねこだまし",
+          "インファイト",
+          "アンコール",
+          "トリプルアクセル",
+          "ギガインパクト",
+          "まもる",
+          "おさきにどうぞ",
+          "とんぼがえり"
+        ],
+        "usage_rate": 0.001,
+        "tera_type": null,
+        "can_mega_evolve": true,
+        "notes": "使用率42位",
+        "source_url": "https://champs.pokedb.tokyo/pokemon/show/0428-00?season=2&rule=1"
+      }
+    ],
+    "サザンドラ": [
+      {
+        "species": "サザンドラ",
+        "archetype_name": "スカーフ型",
+        "ability": "ふゆう",
+        "item": "こだわりスカーフ",
+        "nature": "ひかえめ",
+        "evs": {
+          "sp_attack": 256,
+          "speed": 256
+        },
+        "moves": [
+          "あくのはどう",
+          "りゅうせいぐん",
+          "バークアウト",
+          "ねっぷう",
+          "まもる",
+          "だいちのちから",
+          "かえんほうしゃ",
+          "おいかぜ"
+        ],
+        "usage_rate": 0.574,
+        "tera_type": null,
+        "can_mega_evolve": false,
+        "notes": "使用率43位",
+        "source_url": "https://champs.pokedb.tokyo/pokemon/show/0635-00?season=2&rule=1"
+      },
+      {
+        "species": "サザンドラ",
+        "archetype_name": "CS特殊アタッカー型",
+        "ability": "ふゆう",
+        "item": "ハバンのみ",
+        "nature": "ひかえめ",
+        "evs": {
+          "sp_attack": 256,
+          "speed": 256
+        },
+        "moves": [
+          "あくのはどう",
+          "りゅうせいぐん",
+          "バークアウト",
+          "ねっぷう",
+          "まもる",
+          "だいちのちから",
+          "かえんほうしゃ",
+          "おいかぜ"
+        ],
+        "usage_rate": 0.089,
+        "tera_type": null,
+        "can_mega_evolve": false,
+        "notes": "使用率43位",
+        "source_url": "https://champs.pokedb.tokyo/pokemon/show/0635-00?season=2&rule=1"
+      },
+      {
+        "species": "サザンドラ",
+        "archetype_name": "タスキ型",
+        "ability": "ふゆう",
+        "item": "きあいのタスキ",
+        "nature": "ひかえめ",
+        "evs": {
+          "sp_attack": 256,
+          "speed": 256
+        },
+        "moves": [
+          "あくのはどう",
+          "りゅうせいぐん",
+          "バークアウト",
+          "ねっぷう",
+          "まもる",
+          "だいちのちから",
+          "かえんほうしゃ",
+          "おいかぜ"
+        ],
+        "usage_rate": 0.075,
+        "tera_type": null,
+        "can_mega_evolve": false,
+        "notes": "使用率43位",
+        "source_url": "https://champs.pokedb.tokyo/pokemon/show/0635-00?season=2&rule=1"
+      },
+      {
+        "species": "サザンドラ",
+        "archetype_name": "CS特殊アタッカー型",
+        "ability": "ふゆう",
+        "item": "ヨプのみ",
+        "nature": "ひかえめ",
+        "evs": {
+          "sp_attack": 256,
+          "speed": 256
+        },
+        "moves": [
+          "あくのはどう",
+          "りゅうせいぐん",
+          "バークアウト",
+          "ねっぷう",
+          "まもる",
+          "だいちのちから",
+          "かえんほうしゃ",
+          "おいかぜ"
+        ],
+        "usage_rate": 0.049,
+        "tera_type": null,
+        "can_mega_evolve": false,
+        "notes": "使用率43位",
+        "source_url": "https://champs.pokedb.tokyo/pokemon/show/0635-00?season=2&rule=1"
+      },
+      {
+        "species": "サザンドラ",
+        "archetype_name": "CS特殊アタッカー型",
+        "ability": "ふゆう",
+        "item": "くろいメガネ",
+        "nature": "ひかえめ",
+        "evs": {
+          "sp_attack": 256,
+          "speed": 256
+        },
+        "moves": [
+          "あくのはどう",
+          "りゅうせいぐん",
+          "バークアウト",
+          "ねっぷう",
+          "まもる",
+          "だいちのちから",
+          "かえんほうしゃ",
+          "おいかぜ"
+        ],
+        "usage_rate": 0.036,
+        "tera_type": null,
+        "can_mega_evolve": false,
+        "notes": "使用率43位",
+        "source_url": "https://champs.pokedb.tokyo/pokemon/show/0635-00?season=2&rule=1"
+      }
+    ],
+    "バクフーン (ヒスイ)": [
+      {
+        "species": "バクフーン (ヒスイ)",
+        "archetype_name": "スカーフ型",
+        "ability": "おみとおし",
+        "item": "こだわりスカーフ",
+        "nature": "ひかえめ",
+        "evs": {
+          "sp_attack": 256,
+          "speed": 256
+        },
+        "moves": [
+          "ふんか",
+          "シャドーボール",
+          "ねっぷう",
+          "まもる",
+          "もえつきる",
+          "オーバーヒート",
+          "ひゃっきやこう",
+          "じんつうりき"
+        ],
+        "usage_rate": 0.569,
+        "tera_type": null,
+        "can_mega_evolve": false,
+        "notes": "使用率44位",
+        "source_url": "https://champs.pokedb.tokyo/pokemon/show/0157-01?season=2&rule=1"
+      },
+      {
+        "species": "バクフーン (ヒスイ)",
+        "archetype_name": "CS特殊アタッカー型",
+        "ability": "おみとおし",
+        "item": "もくたん",
+        "nature": "ひかえめ",
+        "evs": {
+          "sp_attack": 256,
+          "speed": 256
+        },
+        "moves": [
+          "ふんか",
+          "シャドーボール",
+          "ねっぷう",
+          "まもる",
+          "もえつきる",
+          "オーバーヒート",
+          "ひゃっきやこう",
+          "じんつうりき"
+        ],
+        "usage_rate": 0.352,
+        "tera_type": null,
+        "can_mega_evolve": false,
+        "notes": "使用率44位",
+        "source_url": "https://champs.pokedb.tokyo/pokemon/show/0157-01?season=2&rule=1"
+      },
+      {
+        "species": "バクフーン (ヒスイ)",
+        "archetype_name": "タスキ型",
+        "ability": "おみとおし",
+        "item": "きあいのタスキ",
+        "nature": "ひかえめ",
+        "evs": {
+          "sp_attack": 256,
+          "speed": 256
+        },
+        "moves": [
+          "ふんか",
+          "シャドーボール",
+          "ねっぷう",
+          "まもる",
+          "もえつきる",
+          "オーバーヒート",
+          "ひゃっきやこう",
+          "じんつうりき"
+        ],
+        "usage_rate": 0.041,
+        "tera_type": null,
+        "can_mega_evolve": false,
+        "notes": "使用率44位",
+        "source_url": "https://champs.pokedb.tokyo/pokemon/show/0157-01?season=2&rule=1"
+      },
+      {
+        "species": "バクフーン (ヒスイ)",
+        "archetype_name": "CS特殊アタッカー型",
+        "ability": "おみとおし",
+        "item": "ナモのみ",
+        "nature": "ひかえめ",
+        "evs": {
+          "sp_attack": 256,
+          "speed": 256
+        },
+        "moves": [
+          "ふんか",
+          "シャドーボール",
+          "ねっぷう",
+          "まもる",
+          "もえつきる",
+          "オーバーヒート",
+          "ひゃっきやこう",
+          "じんつうりき"
+        ],
+        "usage_rate": 0.01,
+        "tera_type": null,
+        "can_mega_evolve": false,
+        "notes": "使用率44位",
+        "source_url": "https://champs.pokedb.tokyo/pokemon/show/0157-01?season=2&rule=1"
+      },
+      {
+        "species": "バクフーン (ヒスイ)",
+        "archetype_name": "CS特殊アタッカー型",
+        "ability": "おみとおし",
+        "item": "おうじゃのしるし",
+        "nature": "ひかえめ",
+        "evs": {
+          "sp_attack": 256,
+          "speed": 256
+        },
+        "moves": [
+          "ふんか",
+          "シャドーボール",
+          "ねっぷう",
+          "まもる",
+          "もえつきる",
+          "オーバーヒート",
+          "ひゃっきやこう",
+          "じんつうりき"
+        ],
+        "usage_rate": 0.005,
+        "tera_type": null,
+        "can_mega_evolve": false,
+        "notes": "使用率44位",
+        "source_url": "https://champs.pokedb.tokyo/pokemon/show/0157-01?season=2&rule=1"
+      }
+    ],
+    "メガニウム": [
+      {
+        "species": "メガニウム",
+        "archetype_name": "メガシンカ型",
+        "ability": "しんりょく",
+        "item": "メガニウムナイト",
+        "nature": "ひかえめ",
+        "evs": {
+          "hp": 248,
+          "sp_attack": 256
+        },
+        "moves": [
+          "ソーラービーム",
+          "マジカルシャイン",
+          "ウェザーボール",
+          "まもる",
+          "だいちのちから",
+          "こうごうせい",
+          "ギガドレイン",
+          "げんしのちから"
+        ],
+        "usage_rate": 0.983,
+        "tera_type": null,
+        "can_mega_evolve": true,
+        "notes": "使用率45位",
+        "source_url": "https://champs.pokedb.tokyo/pokemon/show/0154-00?season=2&rule=1"
+      },
+      {
+        "species": "メガニウム",
+        "archetype_name": "オボン型",
+        "ability": "しんりょく",
+        "item": "オボンのみ",
+        "nature": "ひかえめ",
+        "evs": {
+          "hp": 248,
+          "sp_attack": 256
+        },
+        "moves": [
+          "ソーラービーム",
+          "マジカルシャイン",
+          "ウェザーボール",
+          "まもる",
+          "だいちのちから",
+          "こうごうせい",
+          "ギガドレイン",
+          "げんしのちから"
+        ],
+        "usage_rate": 0.001,
+        "tera_type": null,
+        "can_mega_evolve": true,
+        "notes": "使用率45位",
+        "source_url": "https://champs.pokedb.tokyo/pokemon/show/0154-00?season=2&rule=1"
+      },
+      {
+        "species": "メガニウム",
+        "archetype_name": "残飯型",
+        "ability": "しんりょく",
+        "item": "たべのこし",
+        "nature": "ひかえめ",
+        "evs": {
+          "hp": 248,
+          "sp_attack": 256
+        },
+        "moves": [
+          "ソーラービーム",
+          "マジカルシャイン",
+          "ウェザーボール",
+          "まもる",
+          "だいちのちから",
+          "こうごうせい",
+          "ギガドレイン",
+          "げんしのちから"
+        ],
+        "usage_rate": 0.001,
+        "tera_type": null,
+        "can_mega_evolve": true,
+        "notes": "使用率45位",
+        "source_url": "https://champs.pokedb.tokyo/pokemon/show/0154-00?season=2&rule=1"
+      },
+      {
+        "species": "メガニウム",
+        "archetype_name": "特殊アタッカー型",
+        "ability": "しんりょく",
+        "item": "せんせいのツメ",
+        "nature": "ひかえめ",
+        "evs": {
+          "hp": 248,
+          "sp_attack": 256
+        },
+        "moves": [
+          "ソーラービーム",
+          "マジカルシャイン",
+          "ウェザーボール",
+          "まもる",
+          "だいちのちから",
+          "こうごうせい",
+          "ギガドレイン",
+          "げんしのちから"
+        ],
+        "usage_rate": 0.0,
+        "tera_type": null,
+        "can_mega_evolve": true,
+        "notes": "使用率45位",
+        "source_url": "https://champs.pokedb.tokyo/pokemon/show/0154-00?season=2&rule=1"
+      },
+      {
+        "species": "メガニウム",
+        "archetype_name": "特殊アタッカー型",
+        "ability": "しんりょく",
+        "item": "オッカのみ",
+        "nature": "ひかえめ",
+        "evs": {
+          "hp": 248,
+          "sp_attack": 256
+        },
+        "moves": [
+          "ソーラービーム",
+          "マジカルシャイン",
+          "ウェザーボール",
+          "まもる",
+          "だいちのちから",
+          "こうごうせい",
+          "ギガドレイン",
+          "げんしのちから"
+        ],
+        "usage_rate": 0.0,
+        "tera_type": null,
+        "can_mega_evolve": true,
+        "notes": "使用率45位",
+        "source_url": "https://champs.pokedb.tokyo/pokemon/show/0154-00?season=2&rule=1"
+      }
+    ],
+    "ソウブレイズ": [
+      {
+        "species": "ソウブレイズ",
+        "archetype_name": "タスキ型",
+        "ability": "もらいび",
+        "item": "きあいのタスキ",
+        "nature": "いじっぱり",
+        "evs": {
+          "attack": 256,
+          "speed": 256
+        },
+        "moves": [
+          "むねんのつるぎ",
+          "かげうち",
+          "まもる",
+          "つるぎのまい",
+          "ポルターガイスト",
+          "ビルドアップ",
+          "インファイト",
+          "ゴーストダイブ"
+        ],
+        "usage_rate": 0.315,
+        "tera_type": null,
+        "can_mega_evolve": false,
+        "notes": "使用率46位",
+        "source_url": "https://champs.pokedb.tokyo/pokemon/show/0937-00?season=2&rule=1"
+      },
+      {
+        "species": "ソウブレイズ",
+        "archetype_name": "AS物理アタッカー型",
+        "ability": "もらいび",
+        "item": "ナモのみ",
+        "nature": "いじっぱり",
+        "evs": {
+          "attack": 256,
+          "speed": 256
+        },
+        "moves": [
+          "むねんのつるぎ",
+          "かげうち",
+          "まもる",
+          "つるぎのまい",
+          "ポルターガイスト",
+          "ビルドアップ",
+          "インファイト",
+          "ゴーストダイブ"
+        ],
+        "usage_rate": 0.207,
+        "tera_type": null,
+        "can_mega_evolve": false,
+        "notes": "使用率46位",
+        "source_url": "https://champs.pokedb.tokyo/pokemon/show/0937-00?season=2&rule=1"
+      },
+      {
+        "species": "ソウブレイズ",
+        "archetype_name": "残飯型",
+        "ability": "もらいび",
+        "item": "たべのこし",
+        "nature": "いじっぱり",
+        "evs": {
+          "attack": 256,
+          "speed": 256
+        },
+        "moves": [
+          "むねんのつるぎ",
+          "かげうち",
+          "まもる",
+          "つるぎのまい",
+          "ポルターガイスト",
+          "ビルドアップ",
+          "インファイト",
+          "ゴーストダイブ"
+        ],
+        "usage_rate": 0.172,
+        "tera_type": null,
+        "can_mega_evolve": false,
+        "notes": "使用率46位",
+        "source_url": "https://champs.pokedb.tokyo/pokemon/show/0937-00?season=2&rule=1"
+      },
+      {
+        "species": "ソウブレイズ",
+        "archetype_name": "オボン型",
+        "ability": "もらいび",
+        "item": "オボンのみ",
+        "nature": "いじっぱり",
+        "evs": {
+          "attack": 256,
+          "speed": 256
+        },
+        "moves": [
+          "むねんのつるぎ",
+          "かげうち",
+          "まもる",
+          "つるぎのまい",
+          "ポルターガイスト",
+          "ビルドアップ",
+          "インファイト",
+          "ゴーストダイブ"
+        ],
+        "usage_rate": 0.096,
+        "tera_type": null,
+        "can_mega_evolve": false,
+        "notes": "使用率46位",
+        "source_url": "https://champs.pokedb.tokyo/pokemon/show/0937-00?season=2&rule=1"
+      },
+      {
+        "species": "ソウブレイズ",
+        "archetype_name": "AS物理アタッカー型",
+        "ability": "もらいび",
+        "item": "もくたん",
+        "nature": "いじっぱり",
+        "evs": {
+          "attack": 256,
+          "speed": 256
+        },
+        "moves": [
+          "むねんのつるぎ",
+          "かげうち",
+          "まもる",
+          "つるぎのまい",
+          "ポルターガイスト",
+          "ビルドアップ",
+          "インファイト",
+          "ゴーストダイブ"
+        ],
+        "usage_rate": 0.055,
+        "tera_type": null,
+        "can_mega_evolve": false,
+        "notes": "使用率46位",
+        "source_url": "https://champs.pokedb.tokyo/pokemon/show/0937-00?season=2&rule=1"
+      }
+    ],
+    "マスカーニャ": [
+      {
+        "species": "マスカーニャ",
+        "archetype_name": "スカーフ型",
+        "ability": "へんげんじざい",
+        "item": "こだわりスカーフ",
+        "nature": "いじっぱり",
+        "evs": {
+          "attack": 256,
+          "speed": 256
+        },
+        "moves": [
+          "トリックフラワー",
+          "トリプルアクセル",
+          "はたきおとす",
+          "とんぼがえり",
+          "けたぐり",
+          "まもる",
+          "ふいうち",
+          "じゃれつく"
+        ],
+        "usage_rate": 0.587,
+        "tera_type": null,
+        "can_mega_evolve": false,
+        "notes": "使用率47位",
+        "source_url": "https://champs.pokedb.tokyo/pokemon/show/0908-00?season=2&rule=1"
+      },
+      {
+        "species": "マスカーニャ",
+        "archetype_name": "タスキ型",
+        "ability": "へんげんじざい",
+        "item": "きあいのタスキ",
+        "nature": "いじっぱり",
+        "evs": {
+          "attack": 256,
+          "speed": 256
+        },
+        "moves": [
+          "トリックフラワー",
+          "トリプルアクセル",
+          "はたきおとす",
+          "とんぼがえり",
+          "けたぐり",
+          "まもる",
+          "ふいうち",
+          "じゃれつく"
+        ],
+        "usage_rate": 0.218,
+        "tera_type": null,
+        "can_mega_evolve": false,
+        "notes": "使用率47位",
+        "source_url": "https://champs.pokedb.tokyo/pokemon/show/0908-00?season=2&rule=1"
+      },
+      {
+        "species": "マスカーニャ",
+        "archetype_name": "AS物理アタッカー型",
+        "ability": "へんげんじざい",
+        "item": "くろいメガネ",
+        "nature": "いじっぱり",
+        "evs": {
+          "attack": 256,
+          "speed": 256
+        },
+        "moves": [
+          "トリックフラワー",
+          "トリプルアクセル",
+          "はたきおとす",
+          "とんぼがえり",
+          "けたぐり",
+          "まもる",
+          "ふいうち",
+          "じゃれつく"
+        ],
+        "usage_rate": 0.03,
+        "tera_type": null,
+        "can_mega_evolve": false,
+        "notes": "使用率47位",
+        "source_url": "https://champs.pokedb.tokyo/pokemon/show/0908-00?season=2&rule=1"
+      },
+      {
+        "species": "マスカーニャ",
+        "archetype_name": "オボン型",
+        "ability": "へんげんじざい",
+        "item": "オボンのみ",
+        "nature": "いじっぱり",
+        "evs": {
+          "attack": 256,
+          "speed": 256
+        },
+        "moves": [
+          "トリックフラワー",
+          "トリプルアクセル",
+          "はたきおとす",
+          "とんぼがえり",
+          "けたぐり",
+          "まもる",
+          "ふいうち",
+          "じゃれつく"
+        ],
+        "usage_rate": 0.026,
+        "tera_type": null,
+        "can_mega_evolve": false,
+        "notes": "使用率47位",
+        "source_url": "https://champs.pokedb.tokyo/pokemon/show/0908-00?season=2&rule=1"
+      },
+      {
+        "species": "マスカーニャ",
+        "archetype_name": "AS物理アタッカー型",
+        "ability": "へんげんじざい",
+        "item": "きせきのタネ",
+        "nature": "いじっぱり",
+        "evs": {
+          "attack": 256,
+          "speed": 256
+        },
+        "moves": [
+          "トリックフラワー",
+          "トリプルアクセル",
+          "はたきおとす",
+          "とんぼがえり",
+          "けたぐり",
+          "まもる",
+          "ふいうち",
+          "じゃれつく"
+        ],
+        "usage_rate": 0.026,
+        "tera_type": null,
+        "can_mega_evolve": false,
+        "notes": "使用率47位",
+        "source_url": "https://champs.pokedb.tokyo/pokemon/show/0908-00?season=2&rule=1"
+      }
+    ],
+    "バクーダ": [
+      {
+        "species": "バクーダ",
+        "archetype_name": "メガシンカ型",
+        "ability": "ハードロック",
+        "item": "バクーダナイト",
+        "nature": "れいせい",
+        "evs": {
+          "hp": 256,
+          "sp_attack": 256
+        },
+        "moves": [
+          "だいちのちから",
+          "まもる",
+          "ねっぷう",
+          "げんしのちから",
+          "ふんか",
+          "かえんほうしゃ",
+          "いわなだれ",
+          "ラスターカノン"
+        ],
+        "usage_rate": 0.966,
+        "tera_type": null,
+        "can_mega_evolve": true,
+        "notes": "使用率48位",
+        "source_url": "https://champs.pokedb.tokyo/pokemon/show/0323-00?season=2&rule=1"
+      },
+      {
+        "species": "バクーダ",
+        "archetype_name": "スカーフ型",
+        "ability": "ハードロック",
+        "item": "こだわりスカーフ",
+        "nature": "れいせい",
+        "evs": {
+          "hp": 256,
+          "sp_attack": 256
+        },
+        "moves": [
+          "だいちのちから",
+          "まもる",
+          "ねっぷう",
+          "げんしのちから",
+          "ふんか",
+          "かえんほうしゃ",
+          "いわなだれ",
+          "ラスターカノン"
+        ],
+        "usage_rate": 0.017,
+        "tera_type": null,
+        "can_mega_evolve": true,
+        "notes": "使用率48位",
+        "source_url": "https://champs.pokedb.tokyo/pokemon/show/0323-00?season=2&rule=1"
+      },
+      {
+        "species": "バクーダ",
+        "archetype_name": "特殊アタッカー型",
+        "ability": "ハードロック",
+        "item": "もくたん",
+        "nature": "れいせい",
+        "evs": {
+          "hp": 256,
+          "sp_attack": 256
+        },
+        "moves": [
+          "だいちのちから",
+          "まもる",
+          "ねっぷう",
+          "げんしのちから",
+          "ふんか",
+          "かえんほうしゃ",
+          "いわなだれ",
+          "ラスターカノン"
+        ],
+        "usage_rate": 0.007,
+        "tera_type": null,
+        "can_mega_evolve": true,
+        "notes": "使用率48位",
+        "source_url": "https://champs.pokedb.tokyo/pokemon/show/0323-00?season=2&rule=1"
+      },
+      {
+        "species": "バクーダ",
+        "archetype_name": "特殊アタッカー型",
+        "ability": "ハードロック",
+        "item": "やわらかいすな",
+        "nature": "れいせい",
+        "evs": {
+          "hp": 256,
+          "sp_attack": 256
+        },
+        "moves": [
+          "だいちのちから",
+          "まもる",
+          "ねっぷう",
+          "げんしのちから",
+          "ふんか",
+          "かえんほうしゃ",
+          "いわなだれ",
+          "ラスターカノン"
+        ],
+        "usage_rate": 0.002,
+        "tera_type": null,
+        "can_mega_evolve": true,
+        "notes": "使用率48位",
+        "source_url": "https://champs.pokedb.tokyo/pokemon/show/0323-00?season=2&rule=1"
+      },
+      {
+        "species": "バクーダ",
+        "archetype_name": "特殊アタッカー型",
+        "ability": "ハードロック",
+        "item": "イトケのみ",
+        "nature": "れいせい",
+        "evs": {
+          "hp": 256,
+          "sp_attack": 256
+        },
+        "moves": [
+          "だいちのちから",
+          "まもる",
+          "ねっぷう",
+          "げんしのちから",
+          "ふんか",
+          "かえんほうしゃ",
+          "いわなだれ",
+          "ラスターカノン"
+        ],
+        "usage_rate": 0.001,
+        "tera_type": null,
+        "can_mega_evolve": true,
+        "notes": "使用率48位",
+        "source_url": "https://champs.pokedb.tokyo/pokemon/show/0323-00?season=2&rule=1"
+      }
+    ],
+    "ゾロアーク (ヒスイ)": [
+      {
+        "species": "ゾロアーク (ヒスイ)",
+        "archetype_name": "スカーフ型",
+        "ability": "イリュージョン",
+        "item": "こだわりスカーフ",
+        "nature": "おくびょう",
+        "evs": {
+          "sp_attack": 256,
+          "speed": 256
+        },
+        "moves": [
+          "こごえるかぜ",
+          "シャドーボール",
+          "ハイパーボイス",
+          "うらみつらみ",
+          "サイコキネシス",
+          "ちょうはつ",
+          "かえんほうしゃ",
+          "まもる"
+        ],
+        "usage_rate": 0.363,
+        "tera_type": null,
+        "can_mega_evolve": false,
+        "notes": "使用率49位",
+        "source_url": "https://champs.pokedb.tokyo/pokemon/show/0571-01?season=2&rule=1"
+      },
+      {
+        "species": "ゾロアーク (ヒスイ)",
+        "archetype_name": "タスキ型",
+        "ability": "イリュージョン",
+        "item": "きあいのタスキ",
+        "nature": "おくびょう",
+        "evs": {
+          "sp_attack": 256,
+          "speed": 256
+        },
+        "moves": [
+          "こごえるかぜ",
+          "シャドーボール",
+          "ハイパーボイス",
+          "うらみつらみ",
+          "サイコキネシス",
+          "ちょうはつ",
+          "かえんほうしゃ",
+          "まもる"
+        ],
+        "usage_rate": 0.345,
+        "tera_type": null,
+        "can_mega_evolve": false,
+        "notes": "使用率49位",
+        "source_url": "https://champs.pokedb.tokyo/pokemon/show/0571-01?season=2&rule=1"
+      },
+      {
+        "species": "ゾロアーク (ヒスイ)",
+        "archetype_name": "CS特殊アタッカー型",
+        "ability": "イリュージョン",
+        "item": "ナモのみ",
+        "nature": "おくびょう",
+        "evs": {
+          "sp_attack": 256,
+          "speed": 256
+        },
+        "moves": [
+          "こごえるかぜ",
+          "シャドーボール",
+          "ハイパーボイス",
+          "うらみつらみ",
+          "サイコキネシス",
+          "ちょうはつ",
+          "かえんほうしゃ",
+          "まもる"
+        ],
+        "usage_rate": 0.085,
+        "tera_type": null,
+        "can_mega_evolve": false,
+        "notes": "使用率49位",
+        "source_url": "https://champs.pokedb.tokyo/pokemon/show/0571-01?season=2&rule=1"
+      },
+      {
+        "species": "ゾロアーク (ヒスイ)",
+        "archetype_name": "CS特殊アタッカー型",
+        "ability": "イリュージョン",
+        "item": "シルクのスカーフ",
+        "nature": "おくびょう",
+        "evs": {
+          "sp_attack": 256,
+          "speed": 256
+        },
+        "moves": [
+          "こごえるかぜ",
+          "シャドーボール",
+          "ハイパーボイス",
+          "うらみつらみ",
+          "サイコキネシス",
+          "ちょうはつ",
+          "かえんほうしゃ",
+          "まもる"
+        ],
+        "usage_rate": 0.065,
+        "tera_type": null,
+        "can_mega_evolve": false,
+        "notes": "使用率49位",
+        "source_url": "https://champs.pokedb.tokyo/pokemon/show/0571-01?season=2&rule=1"
+      },
+      {
+        "species": "ゾロアーク (ヒスイ)",
+        "archetype_name": "CS特殊アタッカー型",
+        "ability": "イリュージョン",
+        "item": "のろいのおふだ",
+        "nature": "おくびょう",
+        "evs": {
+          "sp_attack": 256,
+          "speed": 256
+        },
+        "moves": [
+          "こごえるかぜ",
+          "シャドーボール",
+          "ハイパーボイス",
+          "うらみつらみ",
+          "サイコキネシス",
+          "ちょうはつ",
+          "かえんほうしゃ",
+          "まもる"
+        ],
+        "usage_rate": 0.046,
+        "tera_type": null,
+        "can_mega_evolve": false,
+        "notes": "使用率49位",
+        "source_url": "https://champs.pokedb.tokyo/pokemon/show/0571-01?season=2&rule=1"
+      }
+    ],
+    "マフォクシー": [
+      {
+        "species": "マフォクシー",
+        "archetype_name": "メガシンカ型",
+        "ability": "もうか",
+        "item": "マフォクシナイト",
+        "nature": "おくびょう",
+        "evs": {
+          "sp_attack": 256,
+          "speed": 256
+        },
+        "moves": [
+          "ねっぷう",
+          "まもる",
+          "サイコキネシス",
+          "アンコール",
+          "みがわり",
+          "めいそう",
+          "わるだくみ",
+          "マジカルシャイン"
+        ],
+        "usage_rate": 0.954,
+        "tera_type": null,
+        "can_mega_evolve": true,
+        "notes": "使用率50位",
+        "source_url": "https://champs.pokedb.tokyo/pokemon/show/0655-00?season=2&rule=1"
+      },
+      {
+        "species": "マフォクシー",
+        "archetype_name": "タスキ型",
+        "ability": "もうか",
+        "item": "きあいのタスキ",
+        "nature": "おくびょう",
+        "evs": {
+          "sp_attack": 256,
+          "speed": 256
+        },
+        "moves": [
+          "ねっぷう",
+          "まもる",
+          "サイコキネシス",
+          "アンコール",
+          "みがわり",
+          "めいそう",
+          "わるだくみ",
+          "マジカルシャイン"
+        ],
+        "usage_rate": 0.007,
+        "tera_type": null,
+        "can_mega_evolve": true,
+        "notes": "使用率50位",
+        "source_url": "https://champs.pokedb.tokyo/pokemon/show/0655-00?season=2&rule=1"
+      },
+      {
+        "species": "マフォクシー",
+        "archetype_name": "オボン型",
+        "ability": "もうか",
+        "item": "オボンのみ",
+        "nature": "おくびょう",
+        "evs": {
+          "sp_attack": 256,
+          "speed": 256
+        },
+        "moves": [
+          "ねっぷう",
+          "まもる",
+          "サイコキネシス",
+          "アンコール",
+          "みがわり",
+          "めいそう",
+          "わるだくみ",
+          "マジカルシャイン"
+        ],
+        "usage_rate": 0.004,
+        "tera_type": null,
+        "can_mega_evolve": true,
+        "notes": "使用率50位",
+        "source_url": "https://champs.pokedb.tokyo/pokemon/show/0655-00?season=2&rule=1"
+      },
+      {
+        "species": "マフォクシー",
+        "archetype_name": "CS特殊アタッカー型",
+        "ability": "もうか",
+        "item": "もくたん",
+        "nature": "おくびょう",
+        "evs": {
+          "sp_attack": 256,
+          "speed": 256
+        },
+        "moves": [
+          "ねっぷう",
+          "まもる",
+          "サイコキネシス",
+          "アンコール",
+          "みがわり",
+          "めいそう",
+          "わるだくみ",
+          "マジカルシャイン"
+        ],
+        "usage_rate": 0.004,
+        "tera_type": null,
+        "can_mega_evolve": true,
+        "notes": "使用率50位",
+        "source_url": "https://champs.pokedb.tokyo/pokemon/show/0655-00?season=2&rule=1"
+      },
+      {
+        "species": "マフォクシー",
+        "archetype_name": "スカーフ型",
+        "ability": "もうか",
+        "item": "こだわりスカーフ",
+        "nature": "おくびょう",
+        "evs": {
+          "sp_attack": 256,
+          "speed": 256
+        },
+        "moves": [
+          "ねっぷう",
+          "まもる",
+          "サイコキネシス",
+          "アンコール",
+          "みがわり",
+          "めいそう",
+          "わるだくみ",
+          "マジカルシャイン"
+        ],
+        "usage_rate": 0.004,
+        "tera_type": null,
+        "can_mega_evolve": true,
+        "notes": "使用率50位",
+        "source_url": "https://champs.pokedb.tokyo/pokemon/show/0655-00?season=2&rule=1"
       }
     ]
   }

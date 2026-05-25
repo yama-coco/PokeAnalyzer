@@ -2,6 +2,8 @@
 
 from __future__ import annotations
 
+from unittest.mock import patch
+
 import pytest
 from fastapi.testclient import TestClient
 
@@ -13,12 +15,13 @@ client = TestClient(app)
 
 @pytest.fixture(autouse=True)
 def _reset_meta_database():
-    """各テスト前にメタデータベースをリセットする。"""
+    """各テスト前にメタデータベースをリセットし、save() を無効化する。"""
     original = dict(meta_database.templates)
     original_updated = meta_database.last_updated
     meta_database.templates.clear()
     meta_database.last_updated = ""
-    yield
+    with patch.object(meta_database, "save"):
+        yield
     meta_database.templates.clear()
     meta_database.templates.update(original)
     meta_database.last_updated = original_updated
