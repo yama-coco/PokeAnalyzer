@@ -129,7 +129,166 @@ OBS Studio で映像解析を行う場合:
    POST http://localhost:8000/api/obs/connect
    ```
 
-### 4.6 ディレクトリ構成
+### 4.6 デスクトップアプリ (Electron)
+
+PAL-C はブラウザ上での利用に加え、Electron によるスタンドアロンのデスクトップアプリケーションとしても利用可能です。デスクトップアプリでは起動時にバックエンドサーバーが自動起動されるため、手動でサーバーを立ち上げる必要がありません。
+
+#### 4.6.1 前提条件
+
+| ツール | バージョン | 用途 |
+| ------ | ---------- | ---- |
+| Node.js | 18+ | Electron / React ビルド |
+| Python | 3.10+ | バックエンド (子プロセスとして自動起動) |
+| uv | 最新 | Python パッケージ管理 (バックエンド起動に必要) |
+
+> **注意:** Electron アプリ起動時にバックエンドが子プロセスとして `uv run uvicorn` で起動されるため、`uv` コマンドがシステム PATH に存在する必要があります。
+
+#### 4.6.2 開発モード
+
+開発中は Hot Module Replacement (HMR) が有効な状態で Electron ウィンドウが起動します。
+
+```bash
+cd frontend
+
+# 依存関係インストール (初回のみ)
+npm install
+
+# Electron 用 TypeScript をビルド
+npm run electron:build
+
+# 開発モードで起動 (Vite + Electron 同時起動)
+npm run electron:dev
+```
+
+**動作の流れ:**
+1. Vite 開発サーバーが `http://localhost:5173` で起動
+2. `wait-on` が Vite の起動を待機
+3. バックエンドが子プロセスとして `localhost:8000` で自動起動
+4. Electron ウィンドウが開き、Vite dev server を読み込み
+5. DevTools が自動で開く (開発モードのみ)
+
+**ソースコードを変更すると:**
+- フロントエンド (React): HMR により即座に反映
+- Electron メインプロセス (`electron/main.ts`): `npm run electron:build` を再実行後、アプリを再起動
+
+#### 4.6.3 プレビューモード (本番ビルド確認)
+
+本番環境と同じビルド成果物を Electron で表示して確認します。
+
+```bash
+cd frontend
+
+# React アプリをビルド + Electron TypeScript をビルド + Electron で起動
+npm run electron:preview
+```
+
+**動作の流れ:**
+1. `npm run build`: Vite が React アプリを `dist/` にビルド (ELECTRON=true で相対パス)
+2. `npm run electron:build`: TypeScript が `electron/` を `dist-electron/` にコンパイル
+3. Electron が `dist/index.html` を `file://` プロトコルで読み込み
+4. バックエンドが子プロセスとして自動起動
+
+#### 4.6.4 配布パッケージのビルド
+
+各プラットフォーム向けのインストーラーを生成します。
+
+```bash
+cd frontend
+
+# 全プラットフォーム向けビルド (実行中の OS 向けが生成される)
+npm run dist
+
+# Windows 向け (.exe / NSIS インストーラー)
+npm run dist:win
+
+# macOS 向け (.dmg)
+npm run dist:mac
+
+# Linux 向け (.AppImage)
+npm run dist:linux
+```
+
+**ビルド成果物:** `frontend/release/` ディレクトリに出力されます。
+
+| プラットフォーム | 形式 | 出力例 |
+| ---------------- | ---- | ------ |
+| Windows | NSIS | `release/PAL-C Setup x.x.x.exe` |
+| macOS | DMG | `release/PAL-C-x.x.x.dmg` |
+| Linux | AppImage | `release/PAL-C-x.x.x.AppImage` |
+
+> **注意:** クロスプラットフォームビルドには制限があります。Windows 向けは Windows 上で、macOS 向けは macOS 上でビルドすることを推奨します。
+
+#### 4.6.5 パッケージ構成
+
+配布パッケージには以下が含まれます:
+
+```
+PAL-C/
+├── dist/              # ビルド済みフロントエンド (HTML/CSS/JS)
+├── dist-electron/     # コンパイル済み Electron コード
+│   ├── main.js        # メインプロセス
+│   └── preload.js     # プリロードスクリプト
+└── resources/
+    └── backend/       # バックエンドコード (extraResources)
+        ├── app/       # FastAPI アプリケーション
+        ├── models/    # 学習モデル
+        ├── data/      # データファイル
+        └── pyproject.toml
+```
+
+#### 4.6.6 アーキテクチャ
+
+```
+┌─────────────────────────────────────────────────┐
+│                 Electron Main Process            │
+│  (frontend/electron/main.ts → dist-electron/)   │
+├─────────────────────────────────────────────────┤
+│                                                 │
+│  ┌───────────────┐    ┌───────────────────────┐ │
+│  │ BrowserWindow │    │ Backend (子プロセス)   │ │
+│  │  (Renderer)   │◄──►│ uvicorn :8000         │ │
+│  │  React App    │    │ FastAPI + Vision      │ │
+│  └───────────────┘    └───────────────────────┘ │
+│         │                                       │
+│         │ contextBridge (preload.ts)            │
+│         │  - platform: string                   │
+│         │  - isElectron: boolean                │
+│                                                 │
+└─────────────────────────────────────────────────┘
+```
+
+**セキュリティ:**
+- `nodeIntegration: false` — レンダラープロセスから Node.js API へのアクセスを遮断
+- `contextIsolation: true` — メインプロセスとレンダラーのコンテキストを分離
+- `contextBridge` — 必要最小限の API のみをレンダラーに公開
+
+#### 4.6.7 トラブルシューティング
+
+| 問題 | 原因 | 解決方法 |
+| ---- | ---- | -------- |
+| `uv: command not found` | uv が PATH にない | `curl -LsSf https://astral.sh/uv/install.sh \| sh` でインストール |
+| バックエンドが起動しない | Python 依存関係未インストール | `cd backend && uv sync` を実行 |
+| 画面が白いまま | Vite dev server 未起動 (開発モード) | `npm run electron:dev` を使用する |
+| `ELECTRON=true` が効かない | 環境変数が渡されていない | `npm run build` 内で自動設定済み。手動ビルド時は `ELECTRON=true npx vite build` |
+| ウィンドウが開かない | Electron バイナリ未ダウンロード | `npm install` を再実行 |
+| ビルドに失敗する | 依存関係の問題 | `rm -rf node_modules && npm install` |
+| macOS で「開発元を確認できない」| コード署名なし | `システム設定` → `セキュリティ` → `このまま開く` |
+
+#### 4.6.8 npm スクリプト一覧
+
+| スクリプト | 説明 |
+| ---------- | ---- |
+| `npm run electron:build` | Electron TypeScript を `dist-electron/` にコンパイル |
+| `npm run electron:dev` | 開発モード起動 (Vite + Electron 並行) |
+| `npm run electron:preview` | 本番ビルドを Electron で確認 |
+| `npm run dist` | 配布パッケージ作成 (現在のOS向け) |
+| `npm run dist:win` | Windows 向けパッケージ作成 |
+| `npm run dist:mac` | macOS 向けパッケージ作成 |
+| `npm run dist:linux` | Linux 向けパッケージ作成 |
+
+---
+
+### 4.7 ディレクトリ構成
 
 ```
 PokeAnalyzer/
@@ -158,14 +317,19 @@ PokeAnalyzer/
 │   │       ├── ocr_engine.py          # PaddleOCR テキスト抽出
 │   │       ├── yolo_detector.py       # YOLOv10 検出基盤
 │   │       └── obs_connector.py       # OBS WebSocket クライアント
-│   ├── tests/                   # 248 テスト
+│   ├── tests/                   # 416 テスト
 │   └── pyproject.toml
 ├── frontend/
+│   ├── electron/
+│   │   ├── main.ts              # Electron メインプロセス
+│   │   └── preload.ts           # contextBridge プリロード
 │   ├── src/
-│   │   ├── pages/               # 7 ページコンポーネント
+│   │   ├── pages/               # 8 ページコンポーネント
 │   │   ├── api/                 # API クライアント
 │   │   ├── components/          # 共通コンポーネント
 │   │   └── types/               # TypeScript 型定義
+│   ├── electron-builder.yml     # 配布パッケージビルド設定
+│   ├── tsconfig.electron.json   # Electron 用 TypeScript 設定
 │   ├── package.json
 │   └── vite.config.ts
 └── README.md
