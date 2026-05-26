@@ -12,10 +12,11 @@
     "electron:build": "tsc -p tsconfig.electron.json",
     "electron:dev": "concurrently \"vite\" \"wait-on http://localhost:5173 && NODE_ENV=development electron dist-electron/main.js\"",
     "electron:preview": "npm run build && npm run electron:build && electron dist-electron/main.js",
-    "dist": "npm run build && npm run electron:build && electron-builder",
-    "dist:win": "npm run build && npm run electron:build && electron-builder --win",
-    "dist:mac": "npm run build && npm run electron:build && electron-builder --mac",
-    "dist:linux": "npm run build && npm run electron:build && electron-builder --linux"
+    "download:uv": "node scripts/download-uv.mjs",
+    "dist": "npm run build && npm run electron:build && npm run download:uv && electron-builder",
+    "dist:win": "npm run build && npm run electron:build && npm run download:uv && electron-builder --win",
+    "dist:mac": "npm run build && npm run electron:build && npm run download:uv && electron-builder --mac",
+    "dist:linux": "npm run build && npm run electron:build && npm run download:uv && electron-builder --linux"
   },
   "dependencies": {
     "lucide-react": "^1.14.0",

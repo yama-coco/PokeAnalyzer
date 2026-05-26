@@ -16,19 +16,35 @@ function getBackendPath(): string {
   return path.join(__dirname, "../../backend");
 }
 
+function getUvPath(): string {
+  if (app.isPackaged) {
+    const binaryName = process.platform === "win32" ? "uv.exe" : "uv";
+    return path.join(process.resourcesPath, "uv", binaryName);
+  }
+  return "uv";
+}
+
 function startBackend(): void {
   const backendPath = getBackendPath();
+  const uvPath = getUvPath();
+  const uvDataDir = path.join(app.getPath("userData"), "uv");
+
   backendProcess = spawn(
-    "uv",
+    uvPath,
     ["run", "uvicorn", "app.main:app", "--port", "8000"],
     {
       cwd: backendPath,
       stdio: "pipe",
-    }
+      env: {
+        ...process.env,
+        UV_CACHE_DIR: path.join(uvDataDir, "cache"),
+        UV_PYTHON_INSTALL_DIR: path.join(uvDataDir, "python"),
+      },
+    },
   );
   backendProcess.stdout?.on("data", (data) => console.log(`[backend] ${data}`));
   backendProcess.stderr?.on("data", (data) =>
-    console.error(`[backend] ${data}`)
+    console.error(`[backend] ${data}`),
   );
   backendProcess.on("error", (err) => {
     console.error(`[backend] Failed to start: ${err.message}`);
