@@ -13,6 +13,8 @@ extraResources:
       - models/**/*
       - data/**/*
       - pyproject.toml
+  - from: build/uv
+    to: uv
 win:
   target: nsis
   icon: public/icon.ico
