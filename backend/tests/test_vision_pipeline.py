@@ -286,13 +286,9 @@ class TestVisionPipelineSceneDispatch:
         pipeline = VisionPipeline(vision_eng=engine, obs_conn=mock_obs)
         pipeline._previous_scene = SceneState.IDLE
 
-        with patch(
-            "app.services.vision_pipeline.battle_state_manager"
-        ) as mock_bsm:
+        with patch("app.services.vision_pipeline.battle_state_manager") as mock_bsm:
             await pipeline._dispatch_scene_events()
-            mock_bsm.start_match.assert_called_once_with(
-                enemy_team=["ガブリアス", "バンギラス"]
-            )
+            mock_bsm.start_match.assert_called_once_with(enemy_team=["ガブリアス", "バンギラス"])
 
     @pytest.mark.asyncio
     async def test_dispatch_battle_start(self):
@@ -317,15 +313,9 @@ class TestVisionPipelineSceneDispatch:
         pipeline._previous_scene = SceneState.SELECTION
 
         with (
-            patch(
-                "app.services.vision_pipeline.battle_state_manager"
-            ) as mock_bsm,
-            patch(
-                "app.services.vision_pipeline.turn_logger"
-            ) as mock_tl,
-            patch(
-                "app.services.vision_pipeline.hp_tracker"
-            ) as mock_hp,
+            patch("app.services.vision_pipeline.battle_state_manager") as mock_bsm,
+            patch("app.services.vision_pipeline.turn_logger") as mock_tl,
+            patch("app.services.vision_pipeline.hp_tracker") as mock_hp,
         ):
             mock_bsm.match.phase = BattlePhase.TEAM_PREVIEW
             mock_bsm.match.match_id = "test_match"
@@ -355,9 +345,7 @@ class TestVisionPipelineSceneDispatch:
         pipeline = VisionPipeline(vision_eng=engine, obs_conn=mock_obs)
         pipeline._previous_scene = SceneState.BATTLE
 
-        with patch(
-            "app.services.vision_pipeline.battle_state_manager"
-        ) as mock_bsm:
+        with patch("app.services.vision_pipeline.battle_state_manager") as mock_bsm:
             await pipeline._dispatch_scene_events()
             mock_bsm.end_match.assert_called_once_with(result="win")
 
@@ -382,9 +370,7 @@ class TestVisionPipelineSceneDispatch:
         pipeline = VisionPipeline(vision_eng=engine, obs_conn=mock_obs)
         pipeline._previous_scene = SceneState.BATTLE
 
-        with patch(
-            "app.services.vision_pipeline.battle_state_manager"
-        ) as mock_bsm:
+        with patch("app.services.vision_pipeline.battle_state_manager") as mock_bsm:
             await pipeline._dispatch_scene_events()
             mock_bsm.end_match.assert_called_once_with(result="loss")
 
@@ -411,15 +397,9 @@ class TestVisionPipelineSceneDispatch:
         pipeline._previous_scene = SceneState.RESULT
 
         with (
-            patch(
-                "app.services.vision_pipeline.battle_state_manager"
-            ) as mock_bsm,
-            patch(
-                "app.services.vision_pipeline.turn_logger"
-            ) as mock_tl,
-            patch(
-                "app.services.vision_pipeline.hp_tracker"
-            ) as mock_hp,
+            patch("app.services.vision_pipeline.battle_state_manager") as mock_bsm,
+            patch("app.services.vision_pipeline.turn_logger") as mock_tl,
+            patch("app.services.vision_pipeline.hp_tracker") as mock_hp,
         ):
             mock_bsm.match.phase = BattlePhase.FINISHED
             await pipeline._dispatch_scene_events()
@@ -445,9 +425,7 @@ class TestVisionPipelineSceneDispatch:
         pipeline = VisionPipeline(vision_eng=engine, obs_conn=mock_obs)
         pipeline._previous_scene = SceneState.IDLE
 
-        with patch(
-            "app.services.vision_pipeline.battle_state_manager"
-        ) as mock_bsm:
+        with patch("app.services.vision_pipeline.battle_state_manager") as mock_bsm:
             await pipeline._dispatch_scene_events()
             mock_bsm.start_match.assert_not_called()
             mock_bsm.start_battle.assert_not_called()
