@@ -68,6 +68,43 @@ The `/meta` page has 3 tabs accessible via buttons at the top:
 - Test: Enter "ペリッパー" → should detect "雨パ" (rain team)
 - Test: Enter only unknown Pokemon → should show "スタン" archetype
 
+## Electron Build Verification (Phase 9+)
+
+Electron wrapping adds infrastructure but no new UI pages. Testing focuses on build artifacts:
+
+### TypeScript Compilation
+```bash
+cd /home/ubuntu/repos/PokeAnalyzer/frontend
+npx tsc -p tsconfig.electron.json --noEmit
+```
+Should exit 0 with no errors.
+
+### Vite Base Path Switching
+```bash
+# Electron mode: relative paths for file:// protocol
+ELECTRON=true npx vite build
+grep -o 'src="[^"]*"' dist/index.html  # Should show ./assets/...
+grep -o 'href="[^"]*"' dist/index.html  # Should show ./assets/...
+
+# Normal mode: absolute paths for HTTP server
+npx vite build
+grep -o 'src="[^"]*"' dist/index.html  # Should show /assets/...
+```
+
+### Build Artifacts Check
+```bash
+ls dist-electron/  # Should contain main.js and preload.js
+grep '../dist/index.html' dist-electron/main.js  # Production load path
+grep 'process.resourcesPath' dist-electron/main.js  # Packaged app path
+grep 'contextIsolation: true' dist-electron/main.js  # Security check
+```
+
+### Environment Limitations
+- Electron GUI **cannot** be tested in headless CI environments (no X11/Wayland)
+- `npm run electron:dev` and `npm run dist` require a display server
+- Test browser mode regression instead: all pages should still work via `npm run dev`
+- The page title should be "PAL-C - PokeAnalysis Live for Champions" (verify via `document.title`)
+
 ## Match Lifecycle for Testing
 
 1. **Start match**: Dashboard → "新しい試合" → enter ally/enemy team names (comma-separated) → "開始"
@@ -83,6 +120,7 @@ The `/meta` page has 3 tabs accessible via buttons at the top:
 - **HUD overlay route**: Navigating to `/hud` might cause browser issues if the page renders an empty transparent overlay. Test via `/hud-settings` preview iframe instead.
 - **WebSocket connection**: Header shows "未接続" (disconnected) — this is expected unless the vision engine WebSocket server is running.
 - **Meta data corruption**: If `meta_templates.json` contains only "テストポケモン" (1 species, ~563 bytes), pytest has overwritten it. Re-run `python scripts/scrape_pokedb.py` to regenerate.
+- **Pre-existing lint errors**: 3 lint errors exist on main branch (useBattleState.ts, useWebSocket.ts, PartyPage.tsx). These are not caused by new changes.
 
 ## Speed Calculator Test Scenario
 
@@ -111,7 +149,5 @@ For verifying damage calc correctness:
 - React Router handles client-side routing — direct URL navigation works with Vite dev server
 - Sidebar has 8 navigation links (added メタ型検索 in Phase 8)
 - If the browser tool becomes unresponsive during testing, API endpoints can be verified via curl as a fallback
-
-## Devin Secrets Needed
-
-None -- all testing can be done without external credentials.
+- The calculate button on /speed page is labeled "素早さ順を計算" and has devinid=36 (may change)
+- Page title is "PAL-C - PokeAnalysis Live for Champions" (updated in Phase 9)
